@@ -21,6 +21,6 @@
 7.**apt-get**-The apt-get command will help you installing the software you need to run in your Linux. It is a powerful command-line tool which can perform installation, upgrade, and even removing your software.
 		$ sudo apt-get update
 
-for more information with examples visit the link[Basic Commands-Terminal](http://www.linuxandubuntu.com/home/10-basic-linux-commands-that-every-linux-newbies-should-remember)
+for more information with examples visit the link [Basic Commands-Terminal](http://www.linuxandubuntu.com/home/10-basic-linux-commands-that-every-linux-newbies-should-remember)
 
 
