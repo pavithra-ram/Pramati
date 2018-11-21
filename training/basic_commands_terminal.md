@@ -1,4 +1,4 @@
-#BASIC COMMANDS FOR USING TERMINAL
+# BASIC COMMANDS FOR USING TERMINAL
 
 		1.**sudo**-You can use sudo before each command that requires root permissions.
                 $ sudo su
