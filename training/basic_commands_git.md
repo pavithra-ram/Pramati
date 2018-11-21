@@ -6,7 +6,7 @@ TO INSTALL GIT : sudo apt-get install git
 
 		1.git init-This command is used to create a new GIT repository. 
 
-		2.git add-The git add command can be used in order to add files to the index. For 			example, git add temp.txt
+		2.git add-The git add command can be used in order to add files to the index. For example, git add temp.txt
 
 		3.git commit-The git commit command is used to commit the changes to the head. 
 		example,git commit –m “Message to go with the commit here”
