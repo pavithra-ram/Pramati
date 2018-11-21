@@ -1,6 +1,6 @@
 # BASIC COMMANDS FOR USING TERMINAL
 
-		1.**sudo**-You can use sudo before each command that requires root permissions.
+		1.** sudo **-You can use sudo before each command that requires root permissions.
                 $ sudo su
 
 		2.**ls (list)**-With ls command the terminal will show you all the files and folders of the directory you are working in.
