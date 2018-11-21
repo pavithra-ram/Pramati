@@ -1,8 +1,8 @@
-#BASIC COMMANDS FOR GIT:
+# BASIC COMMANDS FOR GIT:
 
 TO INSTALL GIT : sudo apt-get install git
 
-## OTHER COMMANDS FOR USING GIT:
+## OTHER BASIC COMMANDS FOR USING GIT:
 
 		1.git init-This command is used to create a new GIT repository. 
 
