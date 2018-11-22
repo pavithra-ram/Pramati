@@ -1,7 +1,5 @@
-
 # ALL HTML TAGS WITH USES : (FOR QUICK REFERENCE) : 
-
-## JUST RUN THE CODE IN "W3SCHOOLS TRYIT EDITOR" (so that u can have an easy and clear understanding about the tags) : 
+##JUST RUN THE CODE IN "W3SCHOOLS TRYIT EDITOR" (so that u can have an easy and clear understanding about the tags):     
 
 <!DOCTYPE html>
 <html>
@@ -29,6 +27,8 @@
 <hr>
 <p><u>HTML image tag</u></p>
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+
 <hr>
 <p><u>HTML button tag</u></p>
 <button>Click me</button>
@@ -41,8 +41,7 @@
   <li>Tea</li>
   <li>Milk</li>
 </ul>
-
-<ol>
+ <ol>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
@@ -73,12 +72,9 @@ This is a paragraph.
 The text inside a pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 <pre>
   My Bonnie lies over the ocean.
-
-  My Bonnie lies over the sea.
-
-  My Bonnie lies over the ocean.
-
-  Oh, bring back my Bonnie to me.
+   My Bonnie lies over the sea.
+   My Bonnie lies over the ocean.
+   Oh, bring back my Bonnie to me.
 </pre>
 
 
@@ -86,12 +82,9 @@ The text inside a pre element is displayed in a fixed-width font (usually Courie
 <p><u>HTML  properties </u></p>
 <p><pre>
 Use the style attribute for styling HTML elements
-
-The HTML style attribute has the following syntax within (<>):
-
-tagname style="property:value;"
-
-Use "background-color" for background color
+ The HTML style attribute has the following syntax within (<>):
+ tagname style="property:value;"
+ Use "background-color" for background color
 Use "color" for text colors
 Use "font-family" for text fonts
 Use "font-size" for text sizes
@@ -166,7 +159,5 @@ USA
 <p>This is a comment but proceed with inside (<>).</p>
 <p>!-- This is a comment --</p>
 
-
 </body>
 </html>
-
