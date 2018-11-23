@@ -56,7 +56,7 @@ A [link][example].
 
   [example]: http://example.com
 
-![Image](Image_icon.png "icon")
+
 
 > Markdown uses email-style > characters for blockquoting.
 
