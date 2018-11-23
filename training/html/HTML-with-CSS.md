@@ -32,10 +32,10 @@ CSS saves a lot of work. It can control the layout of **multiple web pages all a
 
 # QUICK REFERENCE :
 
-      **MARGIN**
-  
-      **Border**
+**MARGIN**
+ 
+**Border**
 
-      **Padding**
+**Padding**
 
 
