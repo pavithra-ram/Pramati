@@ -1,4 +1,4 @@
-#RGB Colors
+# RGB Colors
 
 RGB color values are **supported in all browsers**.
 
