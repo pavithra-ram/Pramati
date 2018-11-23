@@ -19,10 +19,10 @@ why html is very important ?
 Both of these will work in your stackoverflow posts. **Markdown can't do everything HTML can**, but both are mark-up languages. Markdown is a play on words because it is markup. ... Markup is a general term for content formatting - such as HTML - but markdown is a library that generates HTML markup.
 
 # Text using Markdown syntax :
-  ===========================
+ 
   
 Heading
-=======
+
 
 ## Sub-heading
 
