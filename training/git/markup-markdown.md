@@ -5,7 +5,7 @@ what is markup ?
 
 	Markup languages are designed for the processing, definition and presentation of text. The language specifies code for formatting, both the layout and style, within a text file. The code used to specify the formatting are called tags. HTMLis a an example of a widely known and used markup language.
 
-		 **TEXT --> TEXT + DESIRED FORMAT**
+ **TEXT --> TEXT + DESIRED FORMAT**
 why html is very important ?
          
  	Although HTML editors are supposed to do the necessary HTML coding, you have to remember that that they are not perfect and can make mistakes. This is the main reason why you have to learn HTML. You have to make adjustments when the HTML editors put in unnecessary codes and do your own HTML coding in case they crash. Sometimes, you may also face situations where the editor does not provide what you seek. When this happens, you can work to reach your desired solutions if you know HTML.
