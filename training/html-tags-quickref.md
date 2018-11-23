@@ -1,12 +1,11 @@
 
 # ALL HTML TAGS WITH USES:(FOR QUICK REFERENCE): 
 
-## JUST RUN THE CODE IN "W3SCHOOLS TRYIT EDITOR" (so that u can have an easy and clear understanding about the tags): 
+ 
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>my first html</title>
 </head>
 <body>
 <p><u>Basic heading and para tag</u></p>
