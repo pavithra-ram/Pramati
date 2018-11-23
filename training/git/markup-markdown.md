@@ -1,6 +1,6 @@
 
 # Markup and Markdown :
-  ===================
+ 
 
 #### what is markup ?
 
