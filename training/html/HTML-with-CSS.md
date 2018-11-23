@@ -2,7 +2,7 @@
 
 ### Basic knowledge 
 
-CSS stands for **Cascading Style Sheets**.
+CSS stands for  **Cascading Style Sheets**.
 
 CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
 
@@ -18,16 +18,15 @@ CSS saves a lot of work. It can control the layout of **multiple web pages all a
 
 ## CSS Border:
  
-	The CSS border property defines a **border around an HTML element** -- a box around the text (up & down)
+The CSS border property defines a **border around an HTML element** --> a box around the text (up & down)
 
 ## CSS Padding:
 
-	The CSS padding property defines a padding **(space) between the text and the border**
+The CSS padding property defines a padding **(space) between the text and the border**
 
 ## CSS Margin :
 
-	The CSS margin property defines a margin (space) outside the border -- **space between window and border**
-
+ The CSS margin property defines a margin (space) outside the border -- **space between window and border**
 
 
 # QUICK REFERENCE :
