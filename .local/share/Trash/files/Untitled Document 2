@@ -1,0 +1,121 @@
+ALL HTML TAGS WITH USES : (FOR QUICK REFERENCE) :
+JUST RUN THE CODE IN "W3SCHOOLS TRYIT EDITOR" (so that u can have an easy and clear understanding about the tags) :
+<title>my first html</title>
+Basic heading and para tag
+
+This is a Heading
+This is a paragraph.
+
+Varying heading sizes
+
+This is heading 1
+This is heading 2
+This is heading 3
+HTML link tag
+
+This is a link
+HTML image tag
+
+W3Schools.com
+
+HTML button tag
+
+Click me
+HTML list tag
+
+Coffee
+Tea
+Milk
+Coffee
+Tea
+Milk
+HTML style tag for red coloured line
+
+I am a paragraph
+
+HTML Title attribute
+
+The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:
+
+This is a paragraph.
+
+HTML font-size attribute
+
+Font-size in pixels
+
+HTML pre tag
+
+The text inside a pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+  My Bonnie lies over the ocean.
+My Bonnie lies over the sea.
+
+
+My Bonnie lies over the ocean.
+
+
+Oh, bring back my Bonnie to me.
+
+HTML properties
+
+Use the style attribute for styling HTML elements
+The HTML style attribute has the following syntax within (<>):
+
+
+tagname style="property:value;"
+
+
+Use "background-color" for background color
+Use "color" for text colors
+Use "font-family" for text fonts
+Use "font-size" for text sizes
+Use "text-align" for text alignment
+
+HTML Formatting elements
+
+Formatting elements were designed to display special types of text:
+b - Bold text
+strong - Important text
+i - Italic text
+em - Emphasized text
+mark - Marked text
+small - Small text
+del - Deleted text
+ins - Inserted text
+sub - Subscript text
+sup - Superscript text
+HTML Blockquote
+
+HTML blockquote for Quotations. The element defines a section that is quoted from another source. Browsers usually indent blockquote elements.
+
+Here is a quote from WWF's website:
+
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+HTML Abbreviations
+
+The WHO was founded in 1948.
+
+HTML Address tag
+
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+HTML Cite tag
+
+The HTML cite element defines the title of a work.
+
+Browsers usually display cite elements in italic.
+
+The Scream
+
+The Scream by Edvard Munch. Painted in 1893.
+
+HTML Bidirectional tag
+
+This text will be written from right to left
+HTML Comment tag
+
+This is a comment but proceed with inside (<>).
+
+!-- This is a comment --

@@ -1,0 +1,184 @@
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): Indicator-Appmenu-WARNING **: Already have a menu for window ID 60817409 with path /com/canonical/menu/3A00001 from :1.58, unregistering that one
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800038
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800038
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/380003A
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800072
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800078
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800080
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/3800084
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/5400006
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/380009D
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+** (unity-panel-service:1832): CRITICAL **: bamf_view_peek_children: assertion 'BAMF_IS_VIEW (view)' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+** (unity-panel-service:1832): CRITICAL **: bamf_view_peek_children: assertion 'BAMF_IS_VIEW (view)' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+** (unity-panel-service:1832): CRITICAL **: bamf_view_peek_children: assertion 'BAMF_IS_VIEW (view)' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+** (unity-panel-service:1832): CRITICAL **: bamf_view_peek_children: assertion 'BAMF_IS_VIEW (view)' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get application for xid 58720384: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+** (unity-panel-service:1832): CRITICAL **: bamf_view_peek_children: assertion 'BAMF_IS_VIEW (view)' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/38000FD
+
+(unity-panel-service:1832): GLib-GIO-CRITICAL **: g_dbus_proxy_call_sync_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (unity-panel-service:1832): WARNING **: Failed to get active window: 
+
+(unity-panel-service:1832): GLib-CRITICAL **: g_error_free: assertion 'error != NULL' failed
+
+(unity-panel-service:1832): LIBDBUSMENU-GLIB-WARNING **: Getting layout failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'com.canonical.dbusmenu' on object at path /com/canonical/menu/38000FE

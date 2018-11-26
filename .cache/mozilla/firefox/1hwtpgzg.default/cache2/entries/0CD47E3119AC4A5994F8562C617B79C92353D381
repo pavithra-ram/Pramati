@@ -1,0 +1,940 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content="9 Popular JavaScript Frameworks Used in 2018 | Raygun Blog" />
+        <meta property="og:site_name" content="Raygun Blog" />
+        <meta property="og:url" content="https://raygun.com/blog/popular-javascript-frameworks/" />
+        <link rel="icon" href="/favicon.ico">
+
+        
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2018-07-20T09:17:09&#43;13:00" />
+        <meta property="og:article:tag" content="JavaScript" />
+        
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://raygun.com/blog/popular-javascript-frameworks/" />
+        <meta property="og:title" content="9 Popular JavaScript Frameworks Used in 2018" />
+        <meta property="og:description" content="Choosing a JavaScript framework can be challenging. There are many gaining popularity-here&#39;s a selection" />
+        <meta property="og:image" content="https://raygun.com/blog/images/popular-javascript-frameworks/feature.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:domain" value="raygun.com" />
+        <meta name="twitter:title" content="9 Popular JavaScript Frameworks Used in 2018" />
+        <meta name="twitter:description" content="Choosing a JavaScript framework can be challenging. There are many gaining popularity-here&#39;s a selection" />
+        <meta name="twitter:image" content="https://raygun.com/blog/images/popular-javascript-frameworks/feature.jpg" />
+        <meta name="twitter:url" content="https://raygun.com/blog/popular-javascript-frameworks/" />
+        <meta name="twitter:creator" content="@raygunio" />
+        <meta name="twitter:label1" value="Error, crash and performance monitoring" />
+        <meta name="twitter:data1" value="Built for software teams" />
+        <meta name="twitter:label2" value="Monitor it all, in one place" />
+        <meta name="twitter:data2" value="Visit Raygun.com" />
+
+        <meta name="twitter:url" content="https://raygun.com/blog/popular-javascript-frameworks/" />
+    
+
+        <title> 9 Popular JavaScript Frameworks Used in 2018 &middot;  Raygun Blog</title>
+
+        <link rel="preload" href="https://raygun.com/blog/js/main.js?cb=1540499472" as="script" />
+        <link rel="stylesheet" href="https://raygun.com/blog/css/main.css?cb=1540499472" />
+
+    
+        <meta name="description" content="Choosing a JavaScript framework can be challenging. There are many gaining popularity-here&#39;s a selection" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        
+        
+
+    
+        <link href="https://raygun.com/blog/index.xml" rel="alternate" type="application/rss+xml" title="Raygun Blog" />
+    
+
+    
+    
+        <link rel="canonical" href="https://raygun.com/blog/popular-javascript-frameworks/" />
+    
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://raygun.com/blog/popular-javascript-frameworks/"
+        },
+        "headline": "9 Popular JavaScript Frameworks Used in 2018",
+        "description": "Choosing a JavaScript framework can be challenging. There are many gaining popularity-here&#39;s a selection",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://raygun.com/blog/",
+          "name": "Raygun Blog",
+          "url": "https://raygun.com/blog/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        
+        "image": {
+          "@type": "ImageObject",
+          "url": "",
+          "height": 80,
+          "width": 80
+        },
+        "datePublished": "2018-07-20",
+        "dateModified": "2018-07-20",
+        "wordCount": 2071,
+        "keywords": ["JavaScript"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "https:\/\/raygun.com\/blog\/"
+      };
+    </script>
+
+    
+  <script type="text/javascript">
+    !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+    (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+    f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+    h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+    e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/prerelease/raygun.min.js","rg4js");
+    
+    rg4js('apiKey', 'ZJ4wHTIN\/Y34YZm\x2b\/C\x2bYsw==');
+    rg4js('enableCrashReporting', true);
+    rg4js('enablePulse', true);
+  </script>
+
+
+ 
+  
+    <script>(function (w, d, s, l, i) {w[l] = w[l] || []; w[l].push({'gtm.start':new Date().getTime(), event: 'gtm.js'}); var f = d.getElementsByTagName(s)[0],j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;j.src ='//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);})(window, document, 'script', 'dataLayer', 'GTM-K9F87H');
+    </script> 
+   
+
+    </head>
+    <body class="home-template">
+      <div id="wrapper">
+        <div id="ajax-container">
+
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="https://raygun.com">
+      <span class="raygun-logo">
+        <svg class="raygun-logo" width="173" height="32" viewBox="0 0 173 32" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#FEFEFE" fill-rule="evenodd">
+    <path d="M61.39 11.046c0 2.297-1.705 3.688-4.28 3.688h-2.25s-.464 0-.464-.464v-6.24s0-.464.295-.482c.296-.018 1.166-.087 2.349-.087 2.714 0 4.35.835 4.35 3.584m4.907-.314c0-4.767-3.132-7.064-9.535-7.064-2.644 0-5.185.139-6.671.272 0 0-.462.041-.462.506v23.221s0 .464.464.464h3.839s.465 0 .465-.464v-8.78s0-.465.464-.465h2.168s.464 0 .659.422l4.099 8.865s.195.422.659.422h4.326s.465 0 .258-.416l-5.016-10.129s-.206-.416-.206-.451c0 0 0-.035.444-.173 2.131-.663 4.045-3.029 4.045-6.231M172.431 28.132s.464 0 .464-.464v-23.43s0-.465-.464-.465h-3.665s-.464 0-.464.465v8.919s0 .464.011.928l.152 6.345s.011.464-.024.464c0 0-.035 0-.227-.422-2.418-5.319-5.723-11.061-8.629-16.292 0 0-.226-.406-.69-.406h-4.57s-.464 0-.464.465v23.43s0 .464.464.464h3.63s.464 0 .464-.464v-9.302l-.008-.928-.122-6.31s-.009-.464.043-.464c0 0 .052 0 .25.421 1.647 3.512 4.257 8.14 8.906 16.641 0 0 .223.407.687.407h4.256zm-32.37.348c6.577 0 9.639-3.654 9.639-10.822v-13.421s0-.464-.464-.464h-3.943s-.465 0-.465.464v14.395c0 3.932-1.6 5.95-4.663 5.95-2.923 0-4.558-2.192-4.558-5.95v-14.395s0-.464-.464-.464h-3.943s-.464 0-.464.464v14.151c0 6.89 3.41 10.092 9.326 10.092M102.48 3.773s-.464 0-.642.429l-2.258 5.452-1.949 5.359h-.035s-.035 0-.196-.435l-1.822-4.923-2.226-5.451s-.175-.43-.64-.43h-4.604s-.464 0-.259.416l6.967 14.13s.205.416.205.881v8.467s0 .464.465.464h4.152s.464 0 .464-.464v-8.467s0-.464.207-.88l7.033-14.131s.207-.416-.257-.416h-4.604zm20.314 14.251s-.464 0-.464.464v5.178s0 .464-.261.551c-.261.087-1.131.226-2.21.226-4.524 0-7.377-3.132-7.377-8.456 0-5.498 3.027-8.421 7.586-8.421 2.366 0 4.698.383 6.229 1.009l.154-3.503s.02-.464-.407-.646c-.965-.41-3.331-.932-6.045-.932-7.899 0-12.562 5.15-12.562 12.632 0 7.203 4.001 12.284 12.144 12.284 2.854 0 5.811-.627 7.081-1.093 0 0 .435-.16.435-.625v-8.205s0-.464-.464-.464h-3.839zm-46.767.011l1.172-4.582 1.439-5.71h.103s.103.015.211.467l1.262 5.251 1.215 4.573h4.888l-4.205-13.856s-.135-.46-.599-.46h-5.336s-.464.015-.599.46l-4.186 13.856h4.634zm11.445 3.792h-5.03l1.542 5.785.076.242s.076.242.541.242h4.326s.464.021.329-.422l-1.783-5.846zm-17.227 0l-1.774 5.846s-.134.422.33.422h4.165s.464.021.58-.428l1.506-5.84h-4.806zm-42.568 4.057l-.004-.053c-.148-1.962-.26-3.941-.336-5.922-.511.05-1.022.104-1.535.133-1.685 1.786-4.036 2.804-6.497 2.804-3.32 0-6.4-1.881-7.928-4.815l-.593-.212.266.664-1.171-.166c-.365-.052-.717-.085-1.068-.116.903 1.765 2.347 3.335 4.186 4.603 1.139 1.242 1.84 2.889 1.84 4.708 0 1.144-.279 2.22-.767 3.173l-.006.011c-.091.184-.077.573.217.707.852.37 1.791.577 2.779.577.445 0 .88-.046 1.303-.126l-.002-.01c-.095-.46-.148-.936-.148-1.424 0-1.821.697-3.477 1.836-4.722.959.191 2.529.352 2.31.332.026.984.261 1.915.652 2.758l.616-.615c-.179-.559-.277-1.153-.277-1.771l.008-.304-.033-.002c.362.017.726.026 1.094.026 1.115 0 2.203-.084 3.257-.237m-8.371-20.902c2.461 0 4.813 1.018 6.498 2.804.513.029 1.024.083 1.535.133.075-1.976.186-3.948.335-5.903l.004-.053c-1.054-.153-2.142-.237-3.257-.237-7.863 0-14.451 3.988-16.203 9.351 1.036-.471 2.087-.905 3.16-1.279 1.528-2.934 4.608-4.815 7.928-4.815m21.778 9.009c0-1.289-1.045-2.334-2.333-2.334-1.289 0-2.334 1.045-2.334 2.334 0 1.288 1.044 2.333 2.334 2.333 1.288 0 2.333-1.045 2.333-2.333m-24.987-12.37c.849 0 1.682.061 2.502.166.69-.183 1.4-.334 2.126-.451-2.431-.864-5.046-1.338-7.774-1.338-2.332 0-4.585.341-6.71.982l1.034 2.747c2.649-1.347 5.646-2.106 8.821-2.106m11.813 12.298c0 3.99.152 7.944.448 11.858.711-.126 1.403-.285 2.075-.476.273-3.758.412-7.554.412-11.382 0-3.827-.139-7.621-.412-11.377-.672-.191-1.365-.35-2.076-.476-.297 3.912-.448 7.865-.448 11.853m-11.054-11.598c-.252-.01-.505-.015-.757-.015-3.637 0-7.136 1.029-10.167 2.982l2.789 3.139c1.697-2.681 4.585-4.831 8.135-6.106m19.058 12.659c-.109-.311-.18-.64-.18-.988s.071-.677.18-.988c-1.629-.028-3.137-.531-4.403-1.373.011.763.021 1.527.021 2.288 0 .809-.01 1.621-.022 2.433 1.267-.843 2.776-1.344 4.405-1.372m-8.689-1.061c0-1.77.035-3.548.095-5.325-.607-.06-1.216-.11-1.831-.14-1.511-1.71-3.72-2.788-6.181-2.788-3.28 0-6.112 1.914-7.441 4.687-2.661.903-5.185 2.103-7.534 3.559 1.014.629 2.062 1.21 3.139 1.74-2.699.619-5.219 1.707-7.469 3.176 2.236-.895 4.675-1.392 7.232-1.392.932 0 1.847.074 2.744.201-.286-.715-.492-1.47-.607-2.254.165.479.365.941.597 1.385.624.251 1.258.486 1.898.704 1.329 2.772 4.161 4.687 7.441 4.687 2.461 0 4.67-1.079 6.181-2.789.615-.03 1.225-.08 1.831-.14-.06-1.773-.095-3.547-.095-5.312m-7.918 6.999c-3.87 0-7.007-3.137-7.007-7.006s3.137-7.006 7.007-7.006c3.869 0 7.006 3.136 7.006 7.006 0 3.869-3.136 7.006-7.006 7.006"></path>
+    <path class="raygun-logo-bolt" d="M21.5456928 13.4077217l-2.0391885-.3571014.8997102-4.34689856-3.5983768 5.47802896 2.0990145.3575652-1.0193623 4.5848116"></path>
+  </g>
+</svg>
+      </span>
+    </a>
+
+    <button class="navbar-toggler js-navbar-toggler" type="button" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="trial-button-container">
+      <a id="trial-button" class="trial-button btn btn-success px-4 py-2 nav-link" href="https://app.raygun.com/signup">Free trial</a>
+    </div>
+
+    <div id="mobile-menu" class="collapse navbar-collapse">
+      <div class="navbar-overlay js-navbar-toggler" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Close navigation">
+        <a href="#" class="navbar-toggle-close">×</a>
+      </div>
+      <ul id="secondary-menu" class="navbar-nav ml-lg-auto">
+        <li id="mobile-nav-cta" class="nav-item nav-item--cta order-lg-12 ml-lg-2">
+          <a id="trial-button-menu" class="trial-button btn btn-success px-4 py-2 nav-link" href="https://app.raygun.com/signup">Free trial</a>
+
+          <a id="mobile-signin-link" href="https://app.raygun.com/signin">Sign in</a>
+        </li>
+         
+        <li class="nav-item nav-item--product-and-pricing">
+          <a class="nav-link" href="https://raygun.com/platform/">Products &amp; Pricing</a>
+        </li>
+        
+        <li class="nav-item nav-item--docs">
+          <a class="nav-link" href="https://raygun.com/docs/">Docs</a>
+        </li>
+        
+        <li class="nav-item nav-item--company">
+          <a class="nav-link" href="https://raygun.com/about/">Company</a>
+        </li>
+        
+        <li class="nav-item nav-item--contact">
+          <a class="nav-link" href="https://raygun.com/about/contact">Talk to us</a>
+        </li>
+        
+        <li class="nav-item nav-item--signin">
+          <a class="nav-link" href="https://app.raygun.com/signin/">Sign in</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<main class="content" role="main">
+	<article class="post single">
+		<header id="header" class="category-header header">
+		<div class="container">
+			<div class="category-nav">
+				
+<ul class="category-list-nav list-unstyled">
+   
+  
+  <li class="category-list-nav__item nav-item--most-recent">
+    <a class="category-list-nav-link" href="/blog/">Most recent</a>
+  </li>
+  
+  <li class="category-list-nav__item nav-item--product">
+    <a class="category-list-nav-link" href="/blog/categories/product-updates/">Product</a>
+  </li>
+  
+  <li class="category-list-nav__item nav-item--developer-tips">
+    <a class="category-list-nav-link" href="/blog/categories/web-development">Developer tips</a>
+  </li>
+  
+  <li class="category-list-nav__item nav-item--resources">
+    <a class="category-list-nav-link" href="/blog/categories/resource">Resources</a>
+  </li>
+  
+</ul>
+
+			</div>
+		</div>
+		</header>
+
+		<div id="single-post">
+
+			<div class="inner">
+				<header class="post-header">
+					<h1 class="entry-title">9 Popular JavaScript Frameworks Used in 2018</h1>
+					<div class="post-meta">
+						<div class="entry-summary">
+							
+							<span class="author-avatar">
+								<img class="avatar" src="https://www.gravatar.com/avatar/6cdfc5ea464ed325a8c551ac0384b8c0.png?s=32" alt="Author Jeff Smith's avatar." width="32" height="32" />
+							</span>
+							
+							
+							<span class="post-author">By Jeff Smith</span>
+							
+							<span class="post-date"> | Posted Jul 20, 2018</span>
+							<span class="reading-time"><span class="estimated-reading-time">| 10 min.</span> (<span class="word-count">2071</span> words)</span></span>
+						</div>
+						
+						<div class="featured-image">
+							
+							
+							
+
+							<img src="https://raygun.com/blog/images/popular-javascript-frameworks/feature.jpg" alt="Feature image for 9 Popular JavaScript Frameworks Used in 2018" title="9 Popular JavaScript Frameworks Used in 2018" />
+						</div>
+						
+					</div>
+
+				</header>
+			</div>
+
+			<section class="post-content single-post-content">
+				
+
+<p>Choosing from amongst even the most popular JavaScript frameworks for a new project can be a challenging process. There seems to be a new handful gaining popularity every year or so, and the previous ones don’t seem to lose steam either!</p>
+
+<p>Nonetheless, it is essential to find the correct platform for your app to be built around. Popularity may not be an indicator of what is best for your project, but taking a look at the most popular selections may give you some ideas for something that fits your project requirements. So, without further ado, we will go ahead and take a look at the most popular JavaScript frameworks of 2018!</p>
+
+<h2 id="react-js">React.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/react.png" alt="React.js JavaScript frameworks" /></p>
+
+<p><a href="https://reactjs.org/">React</a> is a framework that was originally created, and is maintained, by Facebook. This provides a huge weight on the scales when choosing it for a project. It gives React a sense of stability that many new frameworks lack.</p>
+
+<h3 id="points-to-consider">Points to consider:</h3>
+
+<ul>
+<li>Facebook maintains the project</li>
+<li>The high volume of adoption and continued growth mean it will be easier to find competent React developers as well as help and outside components</li>
+<li>The adoption of JSX allows for the structuring of components that will then compile into JS
+React, when running on the server, can make for more SEO friendly web pages than other JS frameworks, as the only thing seen by the client at that point is the generated HTML page(s)</li>
+<li>React Native can provide a nearly seamless mobile experience to pair alongside your React application for the web</li>
+</ul>
+
+<h3 id="my-thoughts-on-react-js">My thoughts on React.js</h3>
+
+<p>React is a great framework and a great tool. For any large, comprehensive project, it’s almost a shoe-in for usage. The biggest worry I would have as a developer adopting React is the exact same thing that makes it such a smashing success - Facebook. There have been worries about the terms of use for React, as well as Facebook’s ability to stop updates or change the licensing. This may seem too paranoid to be a show-stopper for some, but for others, it may be the reason why their project does not adopt React as their frontend framework.</p>
+
+<h2 id="angular-js-2">Angular.js 2</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/angular.png" alt="Popular JavaScript frameworks: Angular 2" /></p>
+
+<p><a href="https://angularjs.org/">Angular</a> is the powerhouse that sits next to React at the top of the charts for JavaScript frameworks. Angular 2+ has had literally years of development behind it, and Angular.js was representative of a lot of lessons that aided the development of Angular 2 and future versions.</p>
+
+<h3 id="points-to-consider-1">Points to consider:</h3>
+
+<ul>
+<li>Angular uses TypeScript, which is a superset of JavaScript that can compile down to vanilla JS. Many find this to be one of its biggest selling points.</li>
+<li>Pre-rendering of content on the server can allow for better SEO as well as faster browsing</li>
+<li>The Angular project is built on years of experience, from Angular to Angular 2 and well beyond.</li>
+<li>Angular 2 is full of useful features such as dependency injection, templates, forms, and more.</li>
+<li>Because Angular is maintained by Google, users can feel confident that it will be around and used for a long while.</li>
+</ul>
+
+<h3 id="my-thoughts-on-angular-js-2">My thoughts on Angular.js 2</h3>
+
+<p>My thoughts on Angular 2 are very similar to my thoughts on React. If a user needs a large, feature-filled platform, it’d be hard to go wrong with Angular 2. There’s a ton of useful content here. Conversely, you have to accept the heavier weight of this platform and the fact that it’s mostly maintained by a powerhouse company like Google, who could, in theory, stop supporting it any time, although that seems very unlikely.</p>
+
+<h2 id="vue-js">Vue.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/vue.png" alt="Popular JavaScript framework: Vue.js" /></p>
+
+<p><a href="https://vuejs.org/">Vue</a> is growing into maturity, being now several years old, but is still looked at as a new player in the JavaScript framework scene. The growth of the Vue community is stellar.</p>
+
+<h3 id="points-to-consider-2">Points to consider:</h3>
+
+<ul>
+<li>Vue has an incredibly small file size, making it easy to include in projects without creating a slowdown.</li>
+<li>Vue has a relatively easier learning curve than some of the bigger frameworks, and fantastic documentation to assist those new to JS frameworks and veterans alike.</li>
+<li>It is easy to integrate into other applications and languages. For example, Vue.js bundles with Laravel and couples nicely with it to create frontends for Laravel applications.</li>
+<li>Vue uses an HTML-based templating syntax, allowing developers to write components quickly and easily.</li>
+</ul>
+
+<h3 id="my-thoughts-on-vue-js">My thoughts on Vue.js</h3>
+
+<p>I have always liked Vue. It’s my go-to recommendation for people just getting started with JavaScript frameworks, or who need something lightweight for a project. It doesn’t have all of the bells and whistles of some of the more prominent contenders, but you don’t always need them. It’s less fully featured, but that also makes it less restrictive.</p>
+
+<h2 id="meteor-js">Meteor.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/meteor.png" alt="Popular JavaScript framework: Meteor" /></p>
+
+<p><a href="https://www.meteor.com/">Meteor.js</a> is a “full stack framework”. The fact that it is full stack means that you can control everything from the database to the UI with the same language and the same framework, and it is one of Meteor’s primary advantages.</p>
+
+<h3 id="points-to-consider-3">Points to consider:</h3>
+
+<ul>
+<li>Meteor is a full-stack framework, which allows developers to learn one tool, and use it for almost everything in their application. It also makes it an exciting proposition for new developers who are aiming at full-stack positions or projects, as they can get productive faster with Meteor.</li>
+<li>Meteor ships with a variety of useful “smart packages” readily available for all manner of uses, and allows the inclusion of custom packages as well for those who wish to create their own.</li>
+<li>The Meteor community is very active and engaged, providing community support on the forums, building and maintaining packages for public use, etc.</li>
+</ul>
+
+<h3 id="my-thoughts-on-meteor-js">My thoughts on Meteor.js</h3>
+
+<p>Meteor almost doesn’t belong on this list. It can be used to build your app’s UI, but it can also be used in conjunction with a UI-specific framework (with Meteor just for the backend). However, it can stand on its own as needed, and if you want to have a single, all-inclusive framework that will handle everything in one box, Meteor is the way to go.</p>
+
+<h2 id="ember-js">Ember.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/ember.png" alt="Popular JavaScript framework: Ember" /></p>
+
+<p><a href="https://www.emberjs.com/">Ember.js</a> is focused on getting things done, and getting them done quickly. Ember is a more opinionated framework, funneling developers into best practices for the platform. This makes it much easier for projects to get started, but some may chafe at limitations. It also provides several external tools to help developers along.</p>
+
+<h3 id="points-to-consider-4">Points to consider:</h3>
+
+<ul>
+<li>Opinionated best practices make Ember very easy to build with &ndash; as long as you’re willing to follow Ember’s structure. If you will be unable to do so, Ember may not be the right tool for your project.</li>
+<li>The command line tools package &ldquo;ember-cli&rdquo; opens up a whole new world of useful tools to add to an Ember app developer’s toolkit.</li>
+<li>The Ember Inspector allows for easy inspection of Ember objects in your browser’s developer tools. This can be used both while developing and while debugging issues.</li>
+</ul>
+
+<h3 id="my-thoughts-on-ember-js">My thoughts on Ember.js</h3>
+
+<p>Ember.js is a great tool for rapidly getting your application into production, and for dealing with problems and troubleshooting issues. It isn’t the only framework with an inspector plugin or a CLI, but their inclusion along with its rigid best practices allow for a great quick start experience.</p>
+
+<h2 id="backbone-js">Backbone.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/backbone.png" alt="Popular JavaScript framework: Backbone" /></p>
+
+<p><a href="http://backbonejs.org/">Backbone</a> has been around for a long time (a very long time, as JavaScript frameworks go), but it is still incredibly prevalent, both in legacy applications and in newer projects that need a less prescriptive framework or library to build on top of.</p>
+
+<h3 id="points-to-consider-5">Points to consider:</h3>
+
+<ul>
+<li>The maturity of the platform means that many issues have already been discovered and solved, and its community resources and support are solid.</li>
+<li>Backbone’s approach to application structure is minimalist. It is incredibly lightweight, at a smaller file size than most frameworks on this list. It also is providing the bare bones of a framework, allowing the developer to build what they need off of it.</li>
+<li>It forces no templating engine, leaving that up to the individual developer. However, it does have Underscore as a dependency, allowing that to be the easiest default choice for templating.</li>
+</ul>
+
+<h3 id="my-thoughts-on-backbone-js">My thoughts on Backbone.js</h3>
+
+<p>Backbone is declining in popularity, perhaps due to its age and minimalism, but it is still a relevant and powerful tool for the right needs. It is reasonably easy to get a handle on, and if you need a framework that will allow you to build your application the way you see fit and provide you with a core to build off of, as the name implies, Backbone is a solid choice.</p>
+
+<h2 id="aurelia-js">Aurelia.js</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/aurelia.png" alt="Popular JavaScript framework: Aurelia" /></p>
+
+<p><a href="https://aurelia.io/">Aurelia</a> is a framework composed of smaller modules, allowing developers to pick and choose the pieces that work for them, or to use the framework in its entirety.</p>
+
+<h3 id="points-to-consider-6">Points to consider:</h3>
+
+<ul>
+<li>Aurelia has a modern take on app development, with its modular infrastructure giving developers many useful options without being overwhelming.</li>
+<li>Aurelia has a relatively low learning curve, giving developers the chance to accelerate their time to writing productive code.</li>
+<li>A simple MV* architecture is employed, with conventions to prevent unnecessary configuration. This may feel restrictive to some developers, while others will welcome the streamlining.</li>
+<li>Support for ES5, ES 2015, ES 2016 and TypeScript gives Aurelia the agility to be used in multiple kinds of JavaScript development situations.</li>
+</ul>
+
+<h3 id="my-thoughts-on-aurelia-js">My thoughts on Aurelia.js</h3>
+
+<p>Aurelia is focused on being compatible with whatever JavaScript your application uses. The ability to take modules piecemeal ensures that it may be useful even if you do not need the whole framework. Aurelia does everything it can to be practical, quick, and of service in a variety of situations.</p>
+
+<h2 id="polymer">Polymer</h2>
+
+<p><img src="/blog/images/popular-javascript-frameworks/polymer.png" alt="Popular JavaScript framework: Polymer" /></p>
+
+<p><a href="https://www.polymer-project.org/">Polymer</a> is a lighter weight Google-backed framework, with a hard focus on standards compliance.</p>
+
+<h3 id="points-to-consider-7">Points to consider:</h3>
+
+<ul>
+<li>As with the other frameworks which are projects of large companies, the fact that Google maintains polymer is mostly a good thing. It means lots of support and ongoing development, but it also may feel as though it comes with strings or reliance on a giant, to some developers.</li>
+<li>The standards-compliant focus helps to ensure longevity for your application, as well as compatibility across other apps or platforms.</li>
+<li>Polymer works well with Progressive Web Apps, which is an increasingly significant focus for developers as they hone in on connecting the mobile experience with that of the desktop user.</li>
+<li>Polymer also has a lightweight footprint, which makes its load times much better than the larger frameworks.</li>
+</ul>
+
+<h3 id="my-thoughts-on-polymer-js">My thoughts on Polymer.js</h3>
+
+<p>Polymer provides an excellent alternative for those that want a lighter, more easily integrated framework while still relying on a platform that the big players back. With Google behind it, Aurelia can gain much more of the market share than it currently has, while still maintaining a lighter touch than its older competitors.</p>
+
+<h2 id="mithril-js">Mithril.js</h2>
+
+<p><a href="https://mithril.js.org/">Mithril</a> is another small-footprint JavaScript framework that bills itself as the pragmatic choice. With a tiny file size and documentation that gets straight to the point, Mithril intends to get you started and then get out of your way.</p>
+
+<h3 id="points-to-consider-8">Points to consider</h3>
+
+<ul>
+<li>With a file size of 8kb (compressed), Mithril’s footprint is one of the lightest out there, allowing for lightning-fast loading.</li>
+<li>Mithril has a great set of guides and docs to get started, and they estimate that a developer can get through the quickstart in a mere ten minutes.</li>
+<li>Mithril has cut out the cruft in order to get to that size. They show you how to do authentication, file uploads, to use ES6 or JSX &ndash; features that a large portion of their users will actually want.</li>
+</ul>
+
+<h3 id="my-thoughts-on-mithril-js">My thoughts on Mithril.js</h3>
+
+<p>Of all of the trimmed-down frameworks on this list, Mithril might in fact be the leanest. It’s certainly worth a look if you haven’t seen it before. It seems to handle most of the main jobs you would want a JavaScript framework to handle, without the extra garbage that often comes along with the package.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>So at the end of the day, the question is: Which JavaScript framework should I use for my project? The answer, of course, is as complicated as ever.</p>
+
+<p>My personal favorite is Vue.js, out of those selected here. The real answer, though, is entirely project-specific. Do you need the most popular JavaScript framework? Probably not. How about the largest and most expansive, or the smallest and lightest? These factors may or may not matter.</p>
+
+<p>In any case, this set of frameworks should give any developer at least a recommendation or two that meet their needs, and get to building their frontend application!</p>
+
+<h3 id="further-reading">Further reading</h3>
+
+<ul>
+<li><p><a href="https://raygun.com/blog/oop-concepts-java/">OOP Concepts in Java</a></p></li>
+
+<li><p><a href="https://raygun.com/blog/hapi-vs-express/">Hapi vs. Express in 2018: Node.js framework comparison</a></p></li>
+
+<li><p><a href="https://raygun.com/javascript-debugging-tips">JavaScript debugging tips you probably didn&rsquo;t know</a></p></li>
+</ul>
+
+			</section>
+
+			<footer class="post-footer post-content">
+				
+				<div class="post-share">
+					<a class="icon-twitter" href="https://twitter.com/share?text=9%20Popular%20JavaScript%20Frameworks%20Used%20in%202018&amp;url=https%3a%2f%2fraygun.com%2fblog%2fpopular-javascript-frameworks%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+						<span>Twitter</span>
+					</a>
+					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fraygun.com%2fblog%2fpopular-javascript-frameworks%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+						<span>Facebook</span>
+					</a>
+					<a class="icon-gplus" href="https://plus.google.com/share?url=https%3a%2f%2fraygun.com%2fblog%2fpopular-javascript-frameworks%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+						<span>Google+</span>
+					</a>
+				</div>
+			</footer>
+
+		</div>
+
+		<nav class="post-nav">
+			
+				<a class="post-nav-item post-nav-next" href="https://raygun.com/blog/oop-concepts-java/">
+					<section class="post-nav-teaser">
+						<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+					</section>
+				</a>
+			
+			
+				<a class="post-nav-item post-nav-prev" href="https://raygun.com/blog/git-aliases/">
+					<section class="post-nav-teaser">
+						<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+					</section>
+				</a>
+			
+		</nav>
+
+	</article>
+</main>
+
+<div id="single-post-widgets" class="post-content mb-5">
+	<div id="related">
+  
+  
+  <h3 class="mb-4">Further Reading</h3>
+  <ul class="list-unstyled">
+    
+    <li class="media mb-4">
+      <a href="/blog/programming-languages" class="mr-3 d-none d-md-block related-post-image">
+        
+        <img src="https://raygun.com/blog/images/programming-languages/feature.png" alt="Top 43 Programming Languages: When and How to Use Them featured image." width="176" />
+        
+      </a>
+      <div class="media-body">
+        <h5 class="mt-0"><a href="/blog/programming-languages">Top 43 Programming Languages: When and How to Use Them</a></h5>
+        There are many programming languages to choose from. The TIOBE Index is a list of programming …
+      </div>
+    </li>
+    
+    <li class="media mb-4">
+      <a href="/blog/javascript-hasher-version-7/" class="mr-3 d-none d-md-block related-post-image">
+        
+        <img src="https://raygun.com/blog/wp-content/uploads/2017/06/update-to-the-latest-hasher.png" alt="Latest JavaScript hasher: update to version 7 and reduce your error groups featured image." width="176" />
+        
+      </a>
+      <div class="media-body">
+        <h5 class="mt-0"><a href="/blog/javascript-hasher-version-7/">Latest JavaScript hasher: update to version 7 and reduce your error groups</a></h5>
+        Raygun Crash Reporting has released version seven of the Raygun4JavaScript hasher to offer better …
+      </div>
+    </li>
+    
+    <li class="media mb-4">
+      <a href="/blog/javascript-unit-testing-frameworks/" class="mr-3 d-none d-md-block related-post-image">
+        
+        <img src="https://raygun.com/blog/wp-content/uploads/2017/05/JavaScript-unit-testing-frameworks.jpg" alt="JavaScript unit testing frameworks: Comparing Jasmine, Mocha, AVA, Tape and Jest [2018] featured image." width="176" />
+        
+      </a>
+      <div class="media-body">
+        <h5 class="mt-0"><a href="/blog/javascript-unit-testing-frameworks/">JavaScript unit testing frameworks: Comparing Jasmine, Mocha, AVA, Tape and Jest [2018]</a></h5>
+        [Updated 2018]
+When starting development on a new front end project, I always ask myself two …
+      </div>
+    </li>
+    
+  </ul>
+  
+</div>
+
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="footer-primary">
+  <div class="row">
+    <div class="col-md-6 col-lg-2">
+      <div class="footer-links">
+        <h4 class="footer-links__title">Platform</h4>
+
+        <div class="footer-links__list">
+          <ul class="footer-list list-unstyled">
+            <li>
+              <a href="https://raygun.com/book-demo" class="footer-link">Request a Demo</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/pricing" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/platform" class="footer-link">Platform Overview</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/platform/crash-reporting" class="footer-link">Crash Reporting</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/platform/real-user-monitoring" class="footer-link">Real User Monitoring</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/platform/user-tracking" class="footer-link">User Tracking</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/platform/deployment-tracking" class="footer-link">Deployment Tracking</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/features/plugins" class="footer-link">Integrations</a>
+            </li>
+            <li>
+              <a href="https://app.raygun.com/signin" class="footer-link">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-2">
+      <div class="footer-links">
+        <h4 class="footer-links__title">Support</h4>
+
+        <div class="footer-links__list">
+          <ul class="footer-list list-unstyled">
+            <li>
+              <a href="https://raygun.com/docs" class="footer-link">Documentation</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/error-monitoring-drives-innovation" class="footer-link">Whitepapers</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/faq" class="footer-link">FAQs</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/security" class="footer-link">Security</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/thinktank/forum/2" class="footer-link">Feature Requests</a>
+            </li>
+            <li>
+              <a href="https://status.raygun.com" class="footer-link">App Status</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="footer-links">
+        <h4 class="footer-links__title">Resources</h4>
+
+        <div class="footer-links__list">
+          <ul class="footer-list list-unstyled">
+            <li>
+              <a href="https://raygun.com/ebooks" class="footer-link">eBooks</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-developers" class="footer-link">For Developers</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-ctos" class="footer-link">For CTOs &amp; CEOs</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-product-managers" class="footer-link">For Project Managers</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-business-owners" class="footer-link">For Business Owners</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-customer-support" class="footer-link">For Customer Support</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/for-service-companies" class="footer-link">For Service Companies</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-2">
+      <div class="footer-links">
+        <h4 class="footer-links__title">Company</h4>
+
+        <div class="footer-links__list">
+          <ul class="footer-list list-unstyled">
+            <li>
+              <a href="https://raygun.com/about" class="footer-link">About Raygun</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/customer-stories" class="footer-link">Customers</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/about/team" class="footer-link">Careers</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/about/press" class="footer-link">Media</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/blog" class="footer-link">Blog</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/about/contact" class="footer-link">Contact</a>
+            </li>
+            <li>
+              <a href="https://raygun.com/newsletter" class="footer-link">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="footer-links">
+        <h4 class="footer-links__title">Languages &amp; Frameworks</h4>
+
+        <div class="footer-links__list">
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="footer-list list-unstyled">
+                <li>
+                  <a href="https://raygun.com/languages/javascript" class="footer-link">JavaScript</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/dotnet" class="footer-link">.NET</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/php" class="footer-link">PHP</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/python" class="footer-link">Python</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/ruby" class="footer-link">Ruby</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/java" class="footer-link">Java</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="footer-list list-unstyled">
+                <li>
+                  <a href="https://raygun.com/languages/ios" class="footer-link">iOS</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/android" class="footer-link">Android</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/xamarin" class="footer-link">Xamarin</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/unity" class="footer-link">Unity</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/node" class="footer-link">Node</a>
+                </li>
+                <li>
+                  <a href="https://raygun.com/languages/wordpress" class="footer-link">Wordpress</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <div class="footer-social-links">
+  <div class="d-flex justify-content-md-center justify-content-lg-end">
+    <ul class="social-link-list">
+      <li class="social-link-list__item">
+        <a href="https://github.com/MindscapeHQ" class="footer-social-links__link">
+          <span class="icon icon--32 icon--social" aria-label="Github"><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>GitHub</title>
+  <desc>GitHub icon</desc>
+  <defs></defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="github" class="icon-element" fill="#B3B4B5" fill-rule="nonzero">
+          <path d="M243.392,747.712 C246.08,749.312 249.248,748.256 250.304,746.656 C251.392,744.512 249.792,741.792 246.592,740.192 C243.392,739.136 240.736,739.648 239.68,741.248 C238.624,743.424 240.224,746.112 243.392,747.712 Z M266.848,764.928 C268.928,763.328 268.448,759.552 265.76,756.288 C263.104,753.632 259.36,752.544 257.248,754.688 C255.104,756.288 255.648,760.064 258.304,763.328 C260.992,765.984 264.704,767.072 266.848,764.928 L266.848,764.928 Z M282.784,789.12 C285.472,786.944 285.472,782.656 282.784,778.88 C280.672,775.136 276.384,773.504 273.76,775.68 C271.072,777.28 271.072,781.6 273.76,785.344 C276.384,789.12 280.672,790.72 282.784,789.12 L282.784,789.12 Z M305.152,811.68 C307.296,809.536 306.208,804.704 303.008,801.44 C299.296,797.696 294.528,797.184 292.384,799.84 C289.696,802.016 290.784,806.88 294.528,810.08 C298.24,813.856 303.008,814.4 305.152,811.68 Z M325.376,828.352 C329.632,829.952 334.432,828.352 335.488,825.152 C336.544,821.92 333.376,818.144 328.576,816.512 C324.32,815.456 319.52,817.056 318.464,820.32 C317.376,823.52 320.608,827.296 325.376,828.352 Z M360.512,833.728 C365.312,833.728 369.024,831.04 369.024,827.84 C369.024,824.064 364.768,821.376 360,821.92 C355.2,821.92 351.456,824.576 351.456,827.84 C351.456,831.584 355.2,834.24 360.512,833.728 Z M392.448,829.952 C397.248,828.896 400.448,825.696 399.904,822.432 C399.392,819.232 395.104,817.056 390.304,817.632 C385.536,818.656 382.336,821.92 382.848,825.696 C383.392,828.896 387.648,831.04 392.448,829.952 Z M1024,517.056 C1024,231.456 794.752,0 512,0 C229.248,0 0,231.456 0,517.056 C0,762.496 169.536,967.552 396.672,1020.416 C400.64,990.144 403.104,963.136 403.104,953.632 C403.104,943.936 402.56,896.096 402.56,861.696 C402.56,861.696 288.64,886.4 264.704,812.736 C264.704,812.736 246.08,764.928 219.456,752.576 C219.456,752.576 182.176,726.752 222.08,727.296 C222.08,727.296 262.56,730.496 284.928,769.76 C320.608,833.216 380.224,814.88 403.648,804.16 C407.36,777.28 418.048,759.552 429.696,748.8 C338.688,738.56 243.392,703.104 243.392,545.024 C243.392,499.904 259.392,462.784 285.472,434.304 C281.216,423.552 267.36,381.6 289.152,324.64 C323.776,313.888 402.048,367.104 402.048,367.104 C432.683,358.226 467.873,353.12 504.256,353.12 C540.639,353.12 575.828,358.226 609.148,367.761 C642.468,377.296 684.704,313.888 718.784,324.64 C741.152,381.6 727.296,423.552 723.04,434.304 C749.12,462.784 765.088,499.904 765.088,545.024 C765.088,703.616 669.28,738.592 578.24,748.768 C593.152,761.696 605.92,786.4 605.92,825.12 L605.92,953.632 C605.92,963.52 608.512,992.256 612.64,1024 C847.2,976.736 1024,767.808 1024,517.056 L1024,517.056 Z"></path>
+      </g>
+  </g>
+</svg></span>
+        </a>
+      </li>
+      <li class="social-link-list__item">
+        <a href="https://twitter.com/raygunio" class="footer-social-links__link">
+          <span class="icon icon--32 icon--social" aria-label="Twitter"><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Twitter</title>
+  <desc>Twitter icon</desc>
+  <defs></defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="twitter" class="icon-element" fill="#B3B4B5" fill-rule="nonzero">
+          <path d="M1024,512 C1024,229.234 794.766,0 512,0 C229.234,0 0,229.234 0,512 C0,794.766 229.234,1024 512,1024 C794.766,1024 1024,794.766 1024,512 Z M752.242,396.117 C774.486,393.699 796.075,387.555 815.929,378.993 C800.853,400.895 782.023,420.408 760.462,436.166 C760.803,440.973 760.803,445.752 760.803,450.559 C760.803,596.763 649.5,765.24 446.094,765.24 C383.431,765.24 325.234,747.092 276.252,715.604 C285.155,716.628 293.717,716.969 302.961,716.969 C354.673,716.969 402.261,699.504 440.291,669.694 C391.651,668.67 350.919,636.841 336.867,593.008 C343.722,594.032 350.577,594.715 357.745,594.715 C367.672,594.715 377.628,593.35 386.872,590.96 C336.184,580.663 298.182,536.148 298.182,482.388 L298.182,481.023 C312.888,489.243 330.011,494.392 348.159,495.075 C318.378,475.192 298.865,441.315 298.865,402.943 C298.865,382.406 304.326,363.576 313.912,347.135 C368.383,414.264 450.218,458.097 541.98,462.875 C540.273,454.655 539.249,446.093 539.249,437.531 C539.249,376.575 588.543,326.939 649.841,326.939 C681.699,326.939 710.456,340.279 730.652,361.869 C755.655,357.062 779.633,347.817 800.853,335.16 C792.633,360.845 775.168,382.406 752.241,396.116 L752.242,396.117 Z"></path>
+      </g>
+  </g>
+</svg></span>
+        </a>
+      </li>
+      <li class="social-link-list__item">
+        <a href="https://facebook.com/raygundotio" class="footer-social-links__link">
+          <span class="icon icon--32 icon--social" aria-label="Facebook"><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Facebook</title>
+  <desc>Facebook icon</desc>
+  <defs></defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="facebook" class="icon-element" fill="#B3B4B5" fill-rule="nonzero">
+          <path d="M1024,512 C1024,229.234 794.766,0 512,0 C229.234,0 0,229.234 0,512 C0,794.766 229.234,1024 512,1024 C794.766,1024 1024,794.766 1024,512 L1024,512 Z M659.94,321.593 L606.18,321.593 C564.054,321.593 556.175,341.817 556.175,370.916 L556.175,435.627 L656.499,435.627 L643.159,537.003 L556.176,537.003 L556.176,796.9 L451.387,796.9 L451.387,537.003 L364.063,537.003 L364.063,435.627 L451.387,435.627 L451.387,360.989 C451.387,274.347 504.464,227.101 581.862,227.101 C618.84,227.101 650.698,229.832 659.942,231.197 L659.942,321.593 L659.94,321.593 Z"></path>
+      </g>
+  </g>
+</svg></span>
+        </a>
+      </li>
+      <li class="social-link-list__item">
+        <a href="https://linkedin.com/company/raygun-io" class="footer-social-links__link">
+          <span class="icon icon--32 icon--social" aria-label="LinkedIn"><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Linkedin</title>
+  <desc>Linkedin icon</desc>
+  <defs></defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="linked-in" class="icon-element" fill-rule="nonzero" fill="#B3B4B5">
+          <path d="M1024,512 C1024,229.234 794.766,0 512,0 C229.234,0 0,229.234 0,512 C0,794.766 229.234,1024 512,1024 C794.766,1024 1024,794.766 1024,512 L1024,512 Z M256.228,391.794 L369.238,391.794 L369.238,731.136 L256.228,731.136 L256.228,391.794 Z M376.405,287.004 C376.746,319.544 352.085,345.571 312.718,345.571 L312.035,345.571 C274.033,345.571 249.713,319.544 249.713,287.004 C249.713,253.809 275.057,228.465 313.4,228.465 C352.084,228.465 376.063,253.809 376.404,287.004 L376.404,287.004 L376.405,287.004 Z M775.68,731.164 L663.012,731.164 L663.012,549.66 C663.012,504.12 646.6,472.974 605.839,472.974 C574.692,472.974 556.175,493.852 547.955,514.048 C545.224,521.586 544.2,531.513 544.2,541.781 L544.2,731.164 L431.532,731.164 C432.926,423.651 431.532,391.793 431.532,391.793 L544.2,391.793 L544.2,440.177 C559.048,416.938 585.729,383.942 645.917,383.942 C720.214,383.942 775.681,432.554 775.681,536.66 L775.681,731.163 L775.68,731.164 Z M544.199,441.116 L544.199,440.177 C544.028,440.461 543.715,440.831 543.516,441.116 L544.199,441.116 Z" id="linkedin"></path>
+      </g>
+  </g>
+</svg></span>
+        </a>
+      </li>
+      <li class="social-link-list__item">
+        <a href="https://plus.google.com/u/1/118086323022965624180/posts" class="footer-social-links__link">
+          <span class="icon icon--32 icon--social" aria-label="Google Plus"><svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Google plus</title>
+  <desc>Google plus icon</desc>
+  <defs></defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="google-plus" class="icon-element" fill="#B3B4B5" fill-rule="nonzero">
+          <path d="M1024,512 C1024,794.766 794.766,1024 512,1024 C229.234,1024 0,794.766 0,512 C0,229.234 229.234,5.68434189e-14 512,5.68434189e-14 C794.766,5.68434189e-14 1024,229.234 1024,512 Z M472.32,529.38 C472.32,490.297 545.252,481.394 545.252,401.693 C545.252,362.923 527.702,335.844 499.087,311.524 L539.393,311.524 L581.861,284.445 L453.235,284.445 C410.483,284.445 363.407,295.851 330.156,324.466 C304.641,346.624 288.627,379.847 288.627,413.696 C288.627,474.908 336.641,518.599 396.631,518.599 C403.714,518.599 410.483,518.002 417.566,517.376 C413.868,525.995 411.081,533.675 411.081,543.545 C411.081,562.005 419.7,574.606 430.48,588.772 C388.951,591.531 342.16,597.078 306.178,619.52 C277.563,637.383 256.002,666.311 256.002,701.07 C256.002,715.235 260.013,729.372 267.408,741.376 C292.951,784.469 349.868,796.444 396.005,796.444 C454.771,796.444 520.933,777.386 552.62,723.541 C561.864,707.527 567.411,689.066 567.411,670.293 C567.411,583.537 472.321,569.998 472.321,529.379 L472.32,529.38 Z M427.406,499.854 C372.025,499.854 345.856,427.235 345.856,381.07 C345.856,363.833 349.241,345.685 360.306,331.833 C370.774,318.293 388.637,309.675 405.846,309.675 C461.256,309.675 488.022,386.93 488.022,432.47 C488.022,450.618 484.324,467.855 471.695,481.394 C460.943,492.459 442.795,499.854 427.407,499.854 L427.406,499.854 Z M428.004,768.455 C378.169,768.455 313.231,746.923 313.231,686.905 C313.231,623.531 387.699,607.545 437.846,607.545 C442.795,607.545 447.716,607.545 452.637,608.142 C482.475,629.674 523.691,654.905 523.691,696.462 C523.691,749.369 473.543,768.455 428.004,768.455 L428.004,768.455 Z M677.234,498.916 L677.234,432.157 L644.95,432.157 L644.95,498.916 L579.698,498.916 L579.698,532.139 L644.95,532.139 L644.95,599.524 L677.234,599.524 L677.234,532.139 L742.77,532.139 L742.77,498.916 L677.234,498.916 L677.234,498.916 Z"></path>
+      </g>
+  </g>
+</svg></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        <div id="footer-secondary" class="footer-secondary d-flex">
+  <div class="footer-secondary__links">
+    <ul class="footer-list footer-list--secondary">
+      <li>
+        <a href="https://raygun.com/privacy" class="footer-link">Privacy</a>
+      </li>
+      <li>
+        <a href="https://raygun.com/terms" class="footer-link">Terms &amp; Conditions</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-secondary__misc ml-auto">
+    <div class="footer-copyright">&copy; Copyright Raygun 2018</div>
+  </div>
+</div>
+    </div>
+
+</footer>
+ 
+<div id="tocMenu" data-target="toc">
+    <div class="menu-header">
+        <span class="menu-label">Menu</span>
+        <a class="menu-close" data-action="toc" data-target="toc"></a>
+    </div>
+    <div id="toc" class="menu-list">
+        <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#react-js">React.js</a>
+<ul>
+<li><a href="#points-to-consider">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-react-js">My thoughts on React.js</a></li>
+</ul></li>
+<li><a href="#angular-js-2">Angular.js 2</a>
+<ul>
+<li><a href="#points-to-consider-1">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-angular-js-2">My thoughts on Angular.js 2</a></li>
+</ul></li>
+<li><a href="#vue-js">Vue.js</a>
+<ul>
+<li><a href="#points-to-consider-2">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-vue-js">My thoughts on Vue.js</a></li>
+</ul></li>
+<li><a href="#meteor-js">Meteor.js</a>
+<ul>
+<li><a href="#points-to-consider-3">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-meteor-js">My thoughts on Meteor.js</a></li>
+</ul></li>
+<li><a href="#ember-js">Ember.js</a>
+<ul>
+<li><a href="#points-to-consider-4">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-ember-js">My thoughts on Ember.js</a></li>
+</ul></li>
+<li><a href="#backbone-js">Backbone.js</a>
+<ul>
+<li><a href="#points-to-consider-5">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-backbone-js">My thoughts on Backbone.js</a></li>
+</ul></li>
+<li><a href="#aurelia-js">Aurelia.js</a>
+<ul>
+<li><a href="#points-to-consider-6">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-aurelia-js">My thoughts on Aurelia.js</a></li>
+</ul></li>
+<li><a href="#polymer">Polymer</a>
+<ul>
+<li><a href="#points-to-consider-7">Points to consider:</a></li>
+<li><a href="#my-thoughts-on-polymer-js">My thoughts on Polymer.js</a></li>
+</ul></li>
+<li><a href="#mithril-js">Mithril.js</a>
+<ul>
+<li><a href="#points-to-consider-8">Points to consider</a></li>
+<li><a href="#my-thoughts-on-mithril-js">My thoughts on Mithril.js</a></li>
+</ul></li>
+<li><a href="#conclusion">Conclusion</a>
+<ul>
+<li><a href="#further-reading">Further reading</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<script async src="https://raygun.com/blog/js/main.js?cb=1540499472"></script> 
+
+ 
+
+ 
+    
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K9F87H" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+     
+
+
+</body>
+
+</html>
+�|�{��      [�[��?��p[��s   7    :https://raygun.com/blog/popular-javascript-frameworks/ necko:classified 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8F+O2DZM7ZTG6GukivU8OT5gAAAAAAAAStMIIEqTCCA5GgAwIBAgIQCrHbVtmmtwGnSVKH0shIvjANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAeFw0xNzExMTcwMDAwMDBaFw0xOTA1MDcxMjAwMDBaMBcxFTATBgNVBAMMDCoucmF5Z3VuLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmQitl6azzKp/NvutiSX/6osEjbPfSTXvl3DlJ2Y0pMJHMWRC6lPA+JZPsuwRSSZ2cuJ9cYIs1YPz2Ys6bEmEKf+Nc6Uzdw/90zQsCoWJSXvnGcrF0dceKbpuxUFPH6m9CRTX4SkPrVDkjcLqc9aFHGFlUtq4fQL1BLGo7VGrkEAbIWorUoh0T/b1vZBWCASfVJLmTMWboAJSjzHl+IISWg+7i48KqHNQmtIZAp4egOq5My/QwxHDgb1BxL70sgxD1+Wl8ZDYke2anXtRrDE+0eWbOpzGN+M2/Ej4AbGoCvzDfelrd1Ms8Wmb8xVOhYP5Xzzew9Y9limMrqE45RTkMCAwEAAaOCAagwggGkMB8GA1UdIwQYMBaAFFPKF1n8a8ADIS8aruSqqByCVtp1MB0GA1UdDgQWBBQGYvIuBE0LdeHrtRPOeSvEoG8GFDAjBgNVHREEHDAaggwqLnJheWd1bi5jb22CCnJheWd1bi5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY2RwLnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1sAQIwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgEwdQYIKwYBBQUHAQEEaTBnMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3NsLmNvbTA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4LmNydDAJBgNVHRMEAjAAMA0GCSqGSIb3DQEBCwUAA4IBAQC8/aCmdGCpvlIV3zU+TGvdVS1n6PIeBSdQBXykFzC/8k51Xa4Z2Z1ExDXy/T+HwX5yvDmWUSK+xLqmig5gfI7q7NsuP/+s5ububSOvZOcS4Hkw7sBSAdWm0+WMJQ11AxC8PFglXhanlduVBZTJqFUW+unZUZ1l0zWDFxafNMhQaGWdRlCNCHK/PccekaIxk+8cOqaUoSFma+3dvTZErRi0wFeUss7c0+k0JRgKGXmamQ+A3SMezRDVWYdhDLakoKymP/YkiVqAI2IrGG01foZpuvkcE+sPs+nU6fpDJJe3n4qgAT81LCI8bcMJGZdZnqK58XBHC+sO9iDXH4L6K5BDwC8AAwAAAAABAQAA request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Mon, 19 Nov 2018 09:51:52 GMT
+Etag: "4c1b7b486476fb8e29e9b8b95e0abed1"
+Last-Modified: Thu, 25 Oct 2018 20:31:53 GMT
+Server: AmazonS3
+x-amz-id-2: /kZ8vbBNG+ol9xQjTCkHoW/j1dudyNo2RPt+x4UDGe9F1mY7DTsxY9A/kwR9wJnIrg5ZtxdLED4=
+x-amz-request-id: 8C6CD95B56EA723B
+Content-Length: 55956
+ charset windows-1252 uncompressed-len 0 predictor::resource-count 39 predictor::https://raygun.com/blog/css/main.css?cb=1540499472 1,1,1542621108,0 predictor::https://www.gravatar.com/avatar/6cdfc5ea464ed325a8c551ac0384b8c0.png?s=32 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/feature.jpg 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/react.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/angular.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/vue.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/meteor.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/ember.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/backbone.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/aurelia.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/popular-javascript-frameworks/polymer.png 1,1,1542621108,0 predictor::https://raygun.com/blog/images/programming-languages/feature.png 1,1,1542621108,0 predictor::https://raygun.com/blog/wp-content/uploads/2017/06/update-to-the-latest-hasher.png 1,1,1542621108,0 predictor::https://raygun.com/blog/wp-content/uploads/2017/05/JavaScript-unit-testing-frameworks.jpg 1,1,1542621108,0 predictor::https://raygun.com/blog/js/main.js?cb=1540499472 1,1,1542621108,0 predictor::https://cdn.raygun.io/raygun4js/prerelease/raygun.min.js 1,1,1542621108,0 predictor::https://www.googletagmanager.com/gtm.js?id=GTM-K9F87H 1,1,1542621108,0 predictor::https://raygun.com/blog/fonts/OpenSans/OpenSans-Regular.woff2 1,1,1542621108,0 predictor::https://raygun.com/blog/fonts/OpenSans/OpenSans-SemiBold.woff2 1,1,1542621108,0 predictor::https://raygun.com/blog/fonts/icons.woff?9273991 1,1,1542621108,0 predictor::https://sjs.bizographics.com/insight.min.js 1,1,1542621108,0 predictor::https://static.ads-twitter.com/uwt.js 1,1,1542621108,0 predictor::https://www.google-analytics.com/analytics.js 1,1,1542621108,0 predictor::https://www.googleadservices.com/pagead/conversion_async.js 1,1,1542621108,0 predictor::https://static.hotjar.com/c/hotjar-1008342.js?sv=5 1,1,1542621108,0 predictor::https://platform.twitter.com/oct.js 1,1,1542621108,0 predictor::https://connect.facebook.net/en_US/fbevents.js 1,1,1542621108,0 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j72&a=2134211253&t=pageview&_s=1&dl=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&dr=https%3A%2F%2Fwww.google.com&ul=en-us&de=UTF-8&dt=9%20Popular%20JavaScript%20Frameworks%20Used%20in%202018%20%C2%B7%20Raygun%20Blog&sd=24-bit&sr=1366x768&vp=1288x671&je=0&_u=YEBAAEAB~&jid=505597448&gjid=1136134386&cid=1492747376.1542621114&tid=UA-34597244-1&_gid=1986483421.1542621114&_r=1&gtm=2wgbc0K9F87H&z=1314382838 1,1,1542621108,0 predictor::https://connect.facebook.net/signals/config/1556022631151482?v=2.8.33&r=stable 1,1,1542621108,0 predictor::https://googleads.g.doubleclick.net/pagead/viewthroughconversion/819883531/?random=1542621114272&cv=9&fst=1542621114272&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=659255991&u_h=768&u_w=1366&u_ah=744&u_aw=1301&u_cd=24&u_his=4&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=2wgbc0&sendb=1&frm=0&url=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&ref=https%3A%2F%2Fwww.google.com&tiba=9%20Popular%20JavaScript%20Frameworks%20Used%20in%202018%20%C2%B7%20Raygun%20Blog&async=1&rfmt=3&fmt=4 1,1,1542621108,0 predictor::https://www.facebook.com/tr/?id=1556022631151482&ev=PageView&dl=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&rl=https%3A%2F%2Fwww.google.com&if=false&ts=1542621114619&sw=1366&sh=768&v=2.8.33&r=stable&a=tmgoogletagmanager&ec=0&o=30&fbp=fb.1.1542621114618.1969709994&it=1542621114186&coo=false 1,1,1542621108,0 predictor::https://script.hotjar.com/modules-c5c729f090830a40ca9069d25853d3f7.js 1,1,1542621108,0 predictor::https://t.co/i/adsct?p_id=Twitter&p_user_id=0&txn_id=l4wqk&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0 1,1,1542621108,0 predictor::https://t.co/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxjdp&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0 1,1,1542621108,0 predictor::https://api.autopilothq.com/anywhere/7c15080ae7804036a80465f591708ee005c769e7136e4f95847e193bc1e07aaf?t=9%20Popular%20JavaScript%20Frameworks%20Used%20in%202018%20%C2%B7%20Raygun%20Blog&u=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&r=https%3A%2F%2Fwww.google.com 1,1,1542621108,0 predictor::https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=l4wqk&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&tpx_cb=twttr.conversion.loadPixels&tw_document_href=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F 1,1,1542621108,0 predictor::https://analytics.twitter.com/i/adsct?p_id=Twitter&p_user_id=0&txn_id=nxjdp&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&tpx_cb=twttr.conversion.loadPixels&tw_document_href=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F 1,1,1542621108,0 predictor::https://px.ads.linkedin.com/collect/?time=1542621119927&pid=36886&url=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&pageUrl=https%3A%2F%2Fraygun.com%2Fblog%2Fpopular-javascript-frameworks%2F&ref=https%3A%2F%2Fwww.google.com&fmt=js&s=1 1,1,1542621108,0 predictor::https://api.autopilothq.com/anywhere/7c15080ae7804036a80465f591708ee005c769e7136e4f95847e193bc1e07aaf/core.js 1,1,1542621108,0   ڔ

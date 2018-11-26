@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=New Tab - Google Chrome
+Icon=google-chrome
+Exec=/opt/google/chrome/chrome
+StartupNotify=false
+StartupWMClass=Google-chrome
+OnlyShowIn=Unity;
+X-UnityGenerated=true

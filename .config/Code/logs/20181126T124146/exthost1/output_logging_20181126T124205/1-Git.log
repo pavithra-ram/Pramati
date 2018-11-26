@@ -1,0 +1,244 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/pavithra
+> git fetch
+> git status -z -u
+> git show :test/tfile.md
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git check-ignore -z --stdin
+> git show :Pramati/training/colors.md
+> git ls-files --stage -- Pramati/training/
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git check-ignore -z --stdin
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :design/head2.html
+> git ls-files --stage -- design/
+> git show :design/head.html
+> git ls-files --stage -- design/
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show -s --format=%H
+%P
+%B HEAD
+> git reset HEAD~
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git add -A -- .
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin

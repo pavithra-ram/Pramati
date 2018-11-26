@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trial request - GitHub Enterprise</title>
+    <meta name="description" content="The power of GitHub's social coding for your own workgroup. Pricing, tour and more.">
+    <meta http-equiv="Content-type:text/html;charset=utf-8">
+    <link rel="stylesheet" media="all" href="/assets/site_next-9815ec0e3002227ac82511ff2e40986d7a2ed5dbd0f7b592fe33534b35884155.css" />
+    <link rel="stylesheet" media="print" href="/assets/print-3ec21ad289fb8d870ed2f39c9faaa7c1276c9564cba83994c47d00dc082606d7.css" />
+    
+      <script src="/assets/application-432d836ef1ecb2a96cc4a331fb176e5f6604d07a2905393056d3492234b69228.js"></script>
+      
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="H7GIDyJaqgMgs7vV/PvrN3y6iE9qRrXGsV2VGiYruyEbb73jYFLJbyBnA1L3+gTXcoHxUXyvxUhapFr254K/3w==" />
+      <script src="/assets/event_tracking-1753a06d4c3a2dc7dd4919c85bdf0c92cc8d96feba5fdad04821f2633ee6d3ab.js"></script>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="contact-requests-controller new-action page-responsive site-subpage">
+
+    <div class="js-site-container">
+
+
+
+      <header class="site-header" role="banner">
+  <div class="container-responsive">
+    <a class="header-logo-invertocat" href="//github.com" aria-label="Homepage" data-ga-click="(Enterprise) Header, go to homepage, icon:logo-invertocat">
+      <svg class="octicon octicon-mark-github" viewBox="0 0 16 16" width="32" height="32" role="img" version="1.1" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+    </a>
+</header>
+
+
+      <div class="shade-gradient">
+  <div class="container-responsive">
+    <div class="site-subheader">
+      <ol class="site-breadcrumbs">
+        <li class="breadcrumb-item display-body-sm">
+          <a href="//github.com/business" class="text-purple">Business</a>
+        </li>
+        <li class="breadcrumb-item display-body-sm">Trial</li>
+      </ol>
+    </div>
+    <div class="featurette featurette-single">
+        <h1 class="display-heading-2 mb-3">Start your 45-day free trial</h1>
+      <div class="columns">
+        <div class="two-thirds column column-spacious-right">
+          <form class="new_cr" id="new_cr" action="/contact" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="w15fK2SckDqygBgQbcUzUPf20hkb/8DMEkon7RbhLRrHgGrHJpTzVrJUoJdmxNyw+c2rBw0WsEL5s+gB10gp5A==" />
+            <input type="hidden" name="challenge" id="challenge" value="a7f134e5eda27197f7e5a2f51af24478aeab0c38" />
+
+            <input id="GATRACKID" type="hidden" name="cr[GATRACKID]" />
+            <input id="GACLIENTID" type="hidden" name="cr[GACLIENTID]" />
+            <input id="GAUSERID" type="hidden" name="cr[GAUSERID]" />
+
+              <input type="hidden" name="trial" id="trial" value="true" />
+
+
+
+            <fieldset id="signup-form" class="ga-signup-form">
+
+              
+                <p class="form-row" id="name">
+                  <label class="required" for="cr_ua_name">Your full name</label>
+                  <input required="required" autofocus="autofocus" type="text" name="cr[ua][name]" id="cr_ua_name" />
+                </p>
+
+                
+                  <p class="form-row" id="js-organization-name">
+                    <label class="required" for="cr_ua_oa_name">Organization&#39;s name</label>
+                    <input required="required" type="text" name="cr[ua][oa][name]" id="cr_ua_oa_name" />
+                  </p>
+                <div class="columns">
+                  <div class="one-half column">
+                    <p class="form-row" id="email">
+                      <label class="required" for="cr_ua_email">
+                        Your work email
+                        <span>Please use your company email address (e.g. jen@github.com)</span>
+</label>                      <input required="required" type="email" name="cr[ua][email]" id="cr_ua_email" />
+                    </p>
+                  </div>
+                  <div class="one-half column">
+                      <p class="form-row" id="phone">
+                        <label for="cr_ua_phone">Your phone number</label>
+                        <input type="tel" name="cr[ua][phone]" id="cr_ua_phone" />
+                      </p>
+                  </div>
+                </div>
+                <div class="form-extras">
+                  <p class="form-row" id="state">
+                    <label for="cr_ua_state">State</label>
+                    <input type="text" name="cr[ua][state]" id="cr_ua_state" />
+                  </p>
+
+                    <p class="form-row" id="ext">
+                      <label for="cr_ua_ext">Extension</label>
+                      <input value="Extension" class="js-extension" type="text" name="cr[ua][ext]" id="cr_ua_ext" />
+                    </p>
+                </div>
+
+                <label class="required" for="cr_instance_type">Choose your installation type</label>
+                <div class="instance-types mb-3 clearfix">
+                  <label class="js-instance-type-label-sn instance-type-label-sn alert-message p-2  muted" for="cr_instance_type_aws">
+                    <input class="js-request-type js-request-type-aws mt-0 mr-2" required="required" type="radio" value="aws" name="cr[instance_type]" id="cr_instance_type_aws" />
+                    <div class="instance-type-label-text">
+                      <h4 class="display-body-sm text-bold mb-0 lh-default">GitHub on&nbsp;AWS</h4>
+                      <p class="display-body-sm text-muted ml-0">Deploy GitHub on Amazon Web Services.</p>
+                    </div>
+</label>
+                  <label class="js-instance-type-label-sn instance-type-label-sn alert-message p-2 muted" for="cr_instance_type_azure">
+                    <input class="js-request-type js-request-type-azure mt-0 mr-2" required="required" type="radio" value="azure" name="cr[instance_type]" id="cr_instance_type_azure" />
+                    <div class="instance-type-label-text">
+                      <h4 class="display-body-sm text-bold mb-0 lh-default">GitHub on&nbsp;Azure</h4>
+                      <p class="display-body-sm text-muted ml-0">Deploy GitHub on Microsoft Azure.</p>
+                    </div>
+</label>
+                  <label class="js-instance-type-label-sn instance-type-label-sn alert-message p-2 muted" for="cr_instance_type_gcp">
+                    <input class="js-request-type js-request-type-gcp mt-0 mr-2" required="required" type="radio" value="gcp" name="cr[instance_type]" id="cr_instance_type_gcp" />
+                    <div class="instance-type-label-text">
+                      <h4 class="display-body-sm text-bold mb-0 lh-default">GitHub on&nbsp;GCP</h4>
+                      <p class="display-body-sm text-muted ml-0">Deploy GitHub on Google Cloud Platform.</p>
+                    </div>
+</label>
+                  <label class="js-instance-type-label-sn instance-type-label-sn alert-message p-2 muted" for="cr_instance_type_onprem">
+                    <input class="js-request-type js-request-type-on-premises mt-0 mr-2" required="required" type="radio" value="onprem" name="cr[instance_type]" id="cr_instance_type_onprem" />
+                    <div class="instance-type-label-text">
+                      <h4 class="display-body-sm text-bold mb-0 lh-default">GitHub on&#8209;premises</h4>
+                      <p class="display-body-sm text-muted ml-0">Deploy GitHub on your own servers.</p>
+                    </div>
+</label>
+                    <label class="js-instance-type-label-sn instance-type-label-sn alert-message p-2 muted" for="cr_instance_type_not_sure">
+                      <input class="js-request-type js-request-type-not-sure mt-0 mr-2" required="required" type="radio" value="not_sure" name="cr[instance_type]" id="cr_instance_type_not_sure" />
+                      <div class="instance-type-label-text">
+                        <h4 class="display-body-sm text-bold mb-0 lh-default">Not sure yet</h4>
+                        <p class="display-body-sm text-muted ml-0">We can help you choose the best option.</p>
+                      </div>
+</label>                </div>
+              <div id="comments-textarea" class="mb-2">
+                  <label class="required" for="cr_comments">Do you have any other questions about GitHub Enterprise?</label>
+
+                <textarea required="required" rows="7" cols="50" style="resize: vertical;" name="cr[comments]" id="cr_comments">
+</textarea>
+              </div>
+
+              <div class="">
+                <label class="required" for="cr_agreed_to_terms">Accept terms of use</label>
+
+                <label class="checkbox tou-agreement-module mb-3" id="agree_to_terms">
+                    <input name="cr[agreed_to_terms]" type="hidden" value="no" /><input class="js-tou-checkbox tou-checkbox" required="required" type="checkbox" value="yes" name="cr[agreed_to_terms]" id="cr_agreed_to_terms" />
+                  <span class="display-body-sm text-muted">I hereby accept the <a href="#terms-popup" rel="facebox">terms of this Evaluation License Agreement</a> on behalf of myself and my organization, and agree that I have the authority to accept these terms on behalf of myself and my organization.</span>
+                </label>
+              </div>
+
+              <div>
+                <label class="required mb-2">
+                  Verify account
+                </label>
+                <div class="octocaptcha-element js-octocaptcha-spinner d-flex flex-justify-center flex-items-center width-full">
+                  <img src="/images/spinners/octocat-spinner-128.gif" alt="Octocat spinner 128" width="64" height="64" />
+                </div>
+                <div class="octocaptcha-element js-octocaptcha-success d-none d-flex flex-justify-center flex-items-center width-full">
+                  <svg class="octicon octicon-check text-green" viewBox="0 0 12 16" width="48" height="64" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                </div>
+                <div class="js-octocaptcha-frame-container octocaptcha-element width-full v-hidden zero-height">
+                  <iframe src="https://octocaptcha.com/?origin_page=enterprise_trial_form&amp;origin=https://enterprise.github.com&amp;responsive=true" class="js-octocaptcha-frame width-full octocaptcha-frame d-block"></iframe>
+                </div>
+                <input type="hidden" name="octocaptcha-token" class="js-octocaptcha-token" data-octocaptcha-url="https://octocaptcha.com"></input>
+              </div>
+
+              <button class="btn btn-theme-purple mt-2 mr-2 js-trial-submit
+                  ga-sn-button-trial-form-send
+" type="submit">
+
+                  Send request
+              </button>
+                <span class="display-body-sm mt-2 d-inline-block">Once we receive your contact information, we&#39;ll send you an email with the next steps to get your trial started.</span>
+            </fieldset>
+          </form><!-- /form -->
+        </div>
+        <div class="one-third column pt-3">
+            <h4 class="display-body-sm text-black mb-1">You'll love GitHub Enterprise</h4>
+            <ul class="display-body-sm mb-3 list-unstyled octicon-middle">
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Source code management</li>
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Code review</li>
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Issue tracking</li>
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Admin dashboards</li>
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Custom security</li>
+              <li class="mb-1"><svg class="octicon octicon-check mr-1" color="#6cc644" viewBox="0 0 12 16" width="10" height="14" role="img" version="1.1" aria-hidden="true"><path d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>Support</li>
+            </ul>
+
+            <h4 class="display-body-sm text-black mb-1">Need help?</h4>
+              <p class="display-body-sm mb-2"><a href="//enterprise.github.com/sn-contact">Contact our team</a> or check out the <a href="https://help.github.com/enterprise">Enterprise&nbsp;documentation</a>.</p>
+              <p class="display-heading-4 text-thin mb-3 "><a href="tel:+1-877-448-4820" class="text-black">+1 (877) 448-4820</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="container-responsive">
+        <div class="site-footer" role="contentinfo">
+  <ul class="site-footer-right site-footer-links">
+    <li><a href="https://status.github.com/" class="ga-footer-status">Status</a></li>
+    <li><a href="https://developer.github.com" class="ga-footer-api">API</a></li>
+    <li><a href="https://training.github.com" class="ga-footer-training">Training</a></li>
+    <li><a href="https://shop.github.com" class="ga-footer-shop">Shop</a></li>
+    <li><a href="https://github.com/blog" class="ga-footer-blog">Blog</a></li>
+    <li><a href="https://github.com/about" class="ga-footer-about">About</a></li>
+
+  </ul>
+
+  <a href="https://github.com" aria-label="Homepage" class="site-footer-mark">
+    <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+  </a>
+  <ul class="site-footer-left site-footer-links">
+    <li>&copy; 2018 <span>GitHub</span>, Inc.</li>
+    <li><a href="https://github.com/site/terms" class="ga-footer-terms">Terms</a></li>
+    <li><a href="https://github.com/site/privacy" class="ga-footer-privacy">Privacy</a></li>
+    <li><a href="https://github.com/security" class="ga-footer-security">Security</a></li>
+    <li><a href="https://github.com/contact" class="ga-footer-contact">Contact</a></li>
+    <li><a href="https://help.github.com" class="ga-footer-help">Help</a></li>
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+
+                      <div id="terms-popup">
+                    <div class="terms-popup-content">
+                      <h4>GITHUB ENTERPRISE EVALUATION LICENSE AGREEMENT</h4>
+
+<p>Congratulations! You've taken your first step into a better world. GitHub, Inc.'s ("GitHub", "we", or "us") enterprise software helps you build better software - faster - by enabling collaborative development for teams of all sizes. Before you download and/or use our enterprise software for evaluation purposes, we need you to agree to a special set of terms. Welcome to the Evaluation License Agreement (the "Agreement").</p>
+
+<p>PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING THE SOFTWARE. THESE TERMS AND CONDITIONS GOVERN YOUR USE OF THE SOFTWARE (AS DEFINED BELOW), UNLESS WE HAVE EXECUTED A SEPARATE WRITTEN AGREEMENT WITH YOU FOR THAT PURPOSE. WE'RE ONLY WILLING TO LICENSE THE SOFTWARE TO YOU IF YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. BY INSTALLING OR USING THE SOFTWARE OR BY CLICKING "I ACCEPT" BELOW, YOU ARE CONFIRMING THAT YOU UNDERSTAND THIS AGREEMENT, AND THAT YOU ACCEPT ALL OF ITS TERMS AND CONDITIONS. IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE LEGAL AUTHORITY TO BIND THE ENTITY TO THIS AGREEMENT, IN WHICH CASE "YOU" WILL MEAN THE ENTITY YOU REPRESENT. IF YOU DON'T HAVE SUCH AUTHORITY, OR IF YOU DON'T ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT, THEN WE ARE UNWILLING TO LICENSE THE SOFTWARE TO YOU, AND YOU MAY NOT DOWNLOAD, INSTALL, OR USE IT.</p>
+
+<p>1. <strong>Definitions.</strong>  Here are some definitions we use in this Agreement. If you see a capitalized word that isn't listed here, it will be defined somewhere in the Agreement.</p>
+
+<p>The "Agreement Effective Date" is the earlier of the date that you either click "I Accept" to the terms and conditions of this Agreement, or that you first place an order for an evaluation license to the Software.</p>
+
+<p>"Documentation" means any manuals, documentation and other supporting materials related to the Software that we generally provide to our customers. Documentation is considered part of the Software.</p>
+
+<p>"License Key" means a data file utilized by the Software's access control mechanism that allows you to use the Software during the Evaluation Term.</p>
+
+<p>"Evaluation Term" means forty-five (45) days from the date we make the Software available to you for download.</p>
+
+<p>"Software" means the object-code/obfuscated source code version of our proprietary enterprise software application. Software includes any applicable Documentation, as well as any Updates to the Software that we provide you or that you can access under this Agreement.</p>
+
+<p>An "Update" is a Software release that we make generally available to our customers, along with any corresponding changes to Documentation. An Update may be an error correction or bug fix, generally indicated by a change in the digit to the right of the second decimal point (e.g., a change from version x.x.x to x.x.y); or it may be an enhancement, new feature, or new functionality, generally indicated by a change in the digit to the right of the first decimal point (e.g., x.x.x to x.y.x) or to the left of the first decimal point (e.g., x.x.x to y.x.x).</p>
+
+<p>2. <strong>License Grant.</strong>  Subject to your compliance with the terms and conditions of this Agreement, we hereby grant you a limited, non-exclusive, non-transferable, revocable license to install, execute, and use the Software, during the Evaluation Term, solely for the purpose of evaluating whether to purchase a paid license for the Software, and not for general production use.   You can make one copy of the Software for backup purposes only, provided that you reproduce all copyright and other proprietary notices that are on the original copy of the Software.  There is no fee associated with this evaluation license.  If you decide that you want to use the Software for any production purpose, you'll need to buy a paid license (and accept a new agreement for that purpose).</p>
+
+<p>3. <strong>Restrictions.</strong>  We license the Software to you â€“ we don't sell it. As between us, we own all right, title and interest in and to the Software, and any intellectual property rights associated with it and with our company. We reserve all rights in and to the Software that we don't expressly grant you in this Agreement. You agree not to, nor permit nor authorize any third party to: (i) sublicense, sell, rent, lease, transfer, assign, or distribute the Software to third parties; (ii) host the Software for the benefit of third parties; (iii) disclose or permit any third party to access the Software; (iv) hack or modify the License Key, or try to avoid or change any license registration process we may implement; (v) modify or create derivative works of the Software, or merge the Software with other software; (vi) disassemble, decompile, bypass any code obfuscation, or otherwise reverse engineer the Software or attempt to derive any of its source code, in whole or in part, except to the extent such activities are expressly permitted by law notwithstanding this prohibition; (vii) modify, obscure, or delete any proprietary rights notices included in or on the Software or Documentation; (viii) otherwise use or copy the Software in a manner not expressly permitted by this Agreement; (ix) use the Software for any non-evaluative or production purpose; or (x) use the Software beyond the Evaluation Term. </p>
+
+<p>4. <strong>Feedback.</strong>  During the term of this Agreement, you may provide us with feedback concerning the Software, or other comments and suggestions for new features or improvements (collectively, "Feedback").  You acknowledge that we will own all right, title, and interest in and to the Feedback, and you hereby irrevocably transfer and assign to us all of your right, title and interest in such feedback, including all intellectual property rights therein.  At our request and expense, you agree to execute documents or take such further actions as we may reasonably request to help us acquire, perfect, and maintain our rights in the Feedback.</p>
+
+<p>5. <strong>Government Users.</strong>  Any use, duplication, or disclosure of the Software by the U.S. Government or its contractors is subject to the restrictions set forth in this Agreement and this Section 5. The Software and its Documentation are "Commercial Computer Software" and "Commercial Computer Software Documentation" as defined under FAR 252.227-7014. If you are subject to the Defense Federal Acquisition Resolutions (DFAR), the Software and Documentation are licensed pursuant to our standard commercial license according to DFARS 227.7202. For all other government entities, use, duplication, or disclosure of the Software and Documentation by the U.S. Government is subject to restrictions set forth in subparagraph (b)(2) of 48 CFR 52.227-19, as applicable. GitHub, Inc., 88 Colin P. Kelly Street, San Francisco, CA 94107.</p>
+
+<p>6. <strong>Delivery; Installation.</strong>   Promptly after the Agreement Effective Date, we'll make the Software and the License Key available for you to download on a secure, password-protected website. If Updates become available during the Evaluation Term, we'll make those available for you to download on the same website. You're responsible for maintaining the confidentiality of all of your usernames and passwords, including the ones you use to download the Software. Take good care of them, because you agree that you'll be responsible for any activity that takes place using your usernames and passwords (whether you knew about it or not). Installation of the Software and any Updates are your responsibility.</p>
+
+<p>7. <strong>Term and Termination.</strong></p>
+
+<p>7.1. <strong>Term.</strong>  This Agreement starts on the Agreement Effective Date and, unless terminated as provided for in this Section 7, will continue in effect during the Evaluation Term.  This Agreement will automatically terminate without the requirement of notice at the end of the Evaluation Term, unless we agree to issue you an extension to your license, in which case the Evaluation Term will be deemed extended to last as long as the license extension we provide you.</p>
+
+<p>7.2. <strong>Termination.</strong>  Either of us can terminate this Agreement at any time, with or without cause, upon five (5) days' written notice to the other.  We can terminate this Agreement immediately upon written notice to you if you breach any provision of this Agreement.</p>
+
+<p>7.3. <strong>Effect of Termination.</strong>  When this Agreement terminates or expires: (i) the Evaluation Term for any Software in your possession will immediately end; (ii) you'll no longer have the right to use the Software, and any licenses we grant you in this Agreement will automatically cease to exist as of the date of termination/expiration; (iii) you'll destroy all copies of the Software in your possession or control, and certify in writing to us that you've done so; and (iv) you'll promptly return to us (or, if we request it, destroy) any of our Confidential Information in your possession or control. We encourage you to keep copies of your data outside of the Software itself, because if the Software gets disabled, you won't have access to the data you've stored there (and we won't be liable to you if that happens). Sections 1, 3, 4, and 7-12 will survive the termination or expiration of this Agreement for any reason.</p>
+
+<p>8. <strong>No Warranty; Disclaimer.</strong>  You acknowledge and agree that the Software is being provided "AS IS", and without warranty of any kind, express or implied.  GITHUB DISCLAIMS ALL WARRANTIES WITH RESPECT TO THE SOFTWARE, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.</p>
+
+<p>9. <strong>Limitation of Liability.</strong>  IN NO EVENT WILL WE BE LIABLE TO YOU OR TO ANY THIRD PARTY FOR DAMAGES OF ANY KIND, INCLUDING, WITHOUT LIMITATION, DIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF USE, DATA, BUSINESS OR PROFITS) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR YOUR INSTALLATION, USE, OR INABILITY TO USE THE SOFTWARE, OR FOR ANY ERROR OR DEFECT IN THE SOFTWARE, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, AND WHETHER OR NOT WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGE.  THE PARTIES HAVE AGREED THAT THESE LIMITATIONS WILL SURVIVE AND APPLY EVEN IF ANY LIMITED REMEDY SPECIFIED IN THIS AGREEMENT IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.</p>
+
+<p>10. <strong>Confidentiality.</strong></p>
+
+<p>10.1. <strong>Definition of Confidential Information.</strong>  For the purposes of this Agreement, "Confidential Information" means any of our business or technical information that we disclose or make available to you under this Agreement, whether in writing, orally, or by any other means, and including things like computer programs, code, algorithms, data, know-how, formulas, processes, ideas, inventions (whether patentable or not), schematics and other technical, business, financial, and product development plans, names and expertise of employees and consultants, and customer lists. For the purposes of this Agreement, the Software and Documentation, and any copies of them, will be deemed to be our Confidential Information, regardless of whether it is marked as such.</p>
+
+<p>10.2. <strong>Restrictions on Use and Disclosure.</strong>  You will not use our Confidential Information, except as permitted under this Agreement. You agree to maintain our Confidential Information in confidence, and protect it using at least the same degree of care as you use for your own information of a similar nature, but in all events at least a reasonable degree of care. You agree to take all reasonable precautions to prevent any unauthorized disclosure of our Confidential Information, including, without limitation, disclosing Confidential Information only to your employees, independent contractors, consultants, and legal and financial advisors (collectively, "Representatives"): (i) with a need to know such information, (ii) who are parties to appropriate agreements sufficient to comply with this Section 10, and (iii) who are informed of the nondisclosure obligations imposed by this Section 10. You will be responsible for all acts and omissions of your Representatives. The foregoing obligations won't restrict you from disclosing our Confidential Information pursuant to the valid order or requirement of a court, administrative agency, or other governmental body, provided that you give us reasonable notice to enable us to contest such order or requirement. The restrictions set forth in this Section 10 shall survive the termination or expiration of this Agreement for any reason.</p>
+
+<p>10.3. <strong>Exclusions.</strong>  The restrictions set forth in Section 10.2 will not apply with respect to any Confidential Information that you can prove via documentary evidence: (i) was or became publicly known through no act or omission of yours or your Representatives; (ii) was rightfully known or became rightfully known to you without confidential or proprietary restriction from a source other than us, who had a right to disclose it; (iii) we approved the information for disclosure without restriction in a written document which was signed by a duly authorized officer; or (iv) you independently developed the information without access to or use of our Confidential Information.</p>
+
+<p>11. <strong>Governing Law and Jurisdiction.</strong>  This Agreement will be governed by and interpreted in accordance with the laws of the State of California, without giving effect to any principles of conflict of laws. The parties expressly agree that the United Nations Convention on Contracts for the International Sale of Goods and the Uniform Computer Information Transactions Act will not apply to this Agreement. Any legal action or proceeding arising under this Agreement will be brought exclusively in the federal or state courts located in San Francisco, California and the parties irrevocably consent to the personal jurisdiction and venue there.</p>
+
+<p>12. <strong>Miscellaneous.</strong></p>
+
+<p>12.1. <strong>Assignment.</strong>  You aren't allowed to assign or transfer any of your rights or obligations in this Agreement, in whole or in part, by operation of law or otherwise, without our prior written consent, and any attempt by you to do so without our consent will be null and void.  We can assign this Agreement at our sole discretion.</p>
+
+<p>12.2. <strong>Severability.</strong>  In the event that any provision of this Agreement is deemed by a court of competent jurisdiction to be illegal, invalid, or unenforceable, the court will modify or reform this Agreement to give as much effect as possible to that provision. Any provision that can't be modified or reformed in this way will be deemed deleted, and the remaining provisions of this Agreement will continue in full force and effect.</p>
+
+<p>12.3. <strong>Notices.</strong>   Any notice, request, demand or other communication required or permitted under this Agreement should be in writing (e-mail counts), should reference this Agreement, and will be deemed to be properly given: (i) upon receipt, if delivered personally; (ii) upon confirmation of receipt by the intended recipient, if by e-mail; (iii) five (5) business days after it is sent by registered or certified mail, with written confirmation of receipt; or (iv) three (3) business days after deposit with an internationally recognized express courier, with written confirmation of receipt. </p>
+
+<p>12.4. <strong>Waiver.</strong>  A party's obligations under this Agreement can only be waived in a writing signed by an authorized representative of the other party, which waiver will be effective only with respect to the specific obligation described. Any waiver or failure to enforce any provision of this Agreement on one occasion will not be deemed a waiver of any other provision or of such provision on any other occasion.</p>
+
+<p>12.5. <strong>Force Majeure.</strong>  GitHub will be excused from performing under this Agreement to the extent that we're unable to perform due extraordinary causes beyond our reasonable control. That might include things like acts of God, strikes, lockouts, riots, acts of war, epidemics, communication line failure, and power failures.</p>
+
+<p>12.6. <strong>Independent Contractors.</strong>   We're each independent contractors with respect to the subject matter of this Agreement. Nothing contained in this Agreement will be deemed or construed in any manner whatsoever to create a partnership, joint venture, employment, agency, fiduciary, or other similar relationship between us, and neither of us can bind the other contractually.</p>
+
+<p>12.7. <strong>Amendments; Entire Agreement.</strong>  No modification, change, or amendment of this Agreement will be binding upon the parties, unless we both agree to the change in a writing signed by each of our authorized representatives. This Agreement constitutes the entire agreement and understanding of the parties with respect to its subject matter, and supersedes any and all prior or contemporaneous understandings and agreements, whether oral or written, between the parties with respect to its subject matter.</p>
+
+<p>12.8. <strong>No Other Terms.</strong>   Sometimes your accounting folks will send us purchase orders with lots of itty bitty language attached that requires a microscope for us to read. Everybody does it â€“ we understand. But this Agreement is the only agreement between us, and the terms of any purchase order, written terms or conditions, or other document that you submit to us that contain terms that are different from, in conflict with, or in addition to the terms of this Agreement are hereby rejected by GitHub, and will be void and of no effect.</p>
+
+<p>BY CLICKING THE "AGREE" BUTTON OR, IF YOU HAVE ALREADY CLICKED THE "AGREE" BUTTON, BY CONTINUING TO ACCESS OR USE THE SOFTWARE, YOU ACKNOWLEDGE AND AGREE THAT (a) YOU HAVE READ THIS AGREEMENT IN ITS ENTIRETY, (b) YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT, AND (c) YOUR OBLIGATIONS UNDER THIS AGREEMENT ARE BINDING AND ENFORCEABLE.</p>
+
+<p>PLEASE PRINT A COPY OF THIS AGREEMENT FOR YOUR RECORDS.</p>
+
+                    </div>
+                    <div class="text-right">
+                      <button class="btn js-tou-cancel">Cancel</button>
+                      <button class="btn-success js-tou-agree">I agree</button>
+                    </div>
+                  </div>
+
+
+  </body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3769691-2', 'auto');
+  ga('send', 'pageview');
+  ga('github-dotcom.send', 'pageview');
+  ga('set', 'dimension1', "anonymous");
+
+  ga(function(){
+    var tracker = ga.getAll()[0];
+    if(tracker) {
+      $("#GATRACKID").val(tracker.get('trackingId'));
+      $("#GACLIENTID").val(tracker.get('clientId'));
+      $("#GAUSERID").val(tracker.get('userId'));
+    }
+  });
+</script>
+
+</html>
+¾¶Hú”           [ó­È?¼vF       $    :https://enterprise.github.com/trial security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.11.13
+Date: Tue, 20 Nov 2018 06:46:30 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 35785
+Status: 200 OK
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+Etag: W/"0a75d4190a0ff0da6adb470ed19051d6"
+Cache-Control: max-age=0, private, must-revalidate
+x-request-id: d4317786-9e72-4120-af12-7b9b2206dc4b
+x-runtime: 0.013333
+Timing-Allow-Origin: https://github.com
+strict-transport-security: max-age=31536000
+X-GitHub-Backend: Kubernetes
+X-GitHub-Request-Id: A324:298C:1C75:CB6F:5BF3AD8F
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 6 predictor::https://enterprise.github.com/assets/site_next-9815ec0e3002227ac82511ff2e40986d7a2ed5dbd0f7b592fe33534b35884155.css 1,1,0,0 predictor::https://enterprise.github.com/assets/print-3ec21ad289fb8d870ed2f39c9faaa7c1276c9564cba83994c47d00dc082606d7.css 1,1,0,0 predictor::https://enterprise.github.com/assets/application-432d836ef1ecb2a96cc4a331fb176e5f6604d07a2905393056d3492234b69228.js 1,1,0,0 predictor::https://enterprise.github.com/assets/event_tracking-1753a06d4c3a2dc7dd4919c85bdf0c92cc8d96feba5fdad04821f2633ee6d3ab.js 1,1,0,0 predictor::https://www.google-analytics.com/analytics.js 1,1,0,0 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j72&a=1005102737&t=pageview&_s=1&dl=https%3A%2F%2Fenterprise.github.com%2Ftrial&ul=en-us&de=UTF-8&dt=Trial%20request%20-%20GitHub%20Enterprise&sd=24-bit&sr=1366x768&vp=1288x673&je=0&_u=AACAAEAB~&jid=1445447127&gjid=1663295140&cid=497726406.1542690644&tid=UA-3769691-2&_gid=2128519219.1542690644&_r=1&z=2000781123 1,1,0,0   ‹É

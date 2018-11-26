@@ -1,0 +1,123 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/pavithra
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :test/tfile.md
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git check-ignore -z --stdin
+> git add -A -- .
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+fatal: unable to stat '.config/Code/Backups/139c8878d0f80bd851181f6ec57ca7c7/file/bc6308f12f5ddc0698fd290ce7bf758b': No such file or directory
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git push -u origin master
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git show :Pramati/training/colors.md
+> git ls-files --stage -- Pramati/training/
+> git check-ignore -z --stdin
+> git show :test/tfile.md
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found
+> git fetch
+remote: Not Found
+fatal: repository 'https://github.com/pavithra-ram/' not found

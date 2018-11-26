@@ -1,0 +1,84 @@
+{
+   "checksum": "ef47b4cfed345471de2dc9b94c7f4836",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13187258579208568",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13187350571660717"
+            },
+            "name": "Basic writing and formatting syntax - User Documentation",
+            "type": "url",
+            "url": "https://help.github.com/articles/basic-writing-and-formatting-syntax/"
+         }, {
+            "date_added": "13187265227816971",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13187265227818840"
+            },
+            "name": "What is git and why should I use it? - Quora",
+            "type": "url",
+            "url": "https://www.quora.com/What-is-git-and-why-should-I-use-it"
+         }, {
+            "date_added": "13187612964312534",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13187612964313699"
+            },
+            "name": "How not to be afraid of GIT anymore – freeCodeCamp.org",
+            "type": "url",
+            "url": "https://medium.freecodecamp.org/how-not-to-be-afraid-of-git-anymore-fe1da7415286"
+         }, {
+            "date_added": "13187613313420779",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13187699473650562"
+            },
+            "name": "HTML meter Tag",
+            "type": "url",
+            "url": "https://www.w3schools.com/tags/tag_meter.asp"
+         }, {
+            "date_added": "13187624650981116",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13187624650981964"
+            },
+            "name": "Git command summary | Don't be afraid to commit",
+            "type": "url",
+            "url": "http://archaeogeek.github.io/foss4gukdontbeafraid/git/commandsummary.html"
+         }, {
+            "date_added": "13187625150975516",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13187681682539798"
+            },
+            "name": "Confirm",
+            "type": "url",
+            "url": "https://bcy2yx.axshare.com/#g=1&p=confirm_1"
+         } ],
+         "date_added": "13187247665670674",
+         "date_modified": "13187625150975516",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13187247665670682",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13187247665670683",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

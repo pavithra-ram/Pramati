@@ -1,0 +1,40 @@
+2018/11/25-19:12:55.707 2860 Reusing MANIFEST /home/pavithra/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2018/11/25-19:12:55.722 2860 Recovering log #136
+2018/11/25-19:12:55.722 2860 Reusing old log /home/pavithra/.config/google-chrome/Default/Session Storage/000136.log 
+2018/11/25-19:27:48.350 5417 Compacting 2@0 + 1@1 files
+2018/11/25-19:27:48.420 5417 Generated table #139@0: 245 keys, 91185 bytes
+2018/11/25-19:27:48.420 5417 Compacted 2@0 + 1@1 files => 91185 bytes
+2018/11/25-19:27:48.473 5417 compacted to: files[ 0 1 0 0 0 0 0 ]
+2018/11/25-19:27:48.473 5417 Delete type=2 #135
+2018/11/25-19:27:48.473 5417 Delete type=2 #133
+2018/11/25-19:27:48.473 5417 Delete type=2 #137
+2018/11/25-19:31:32.487 5417 Level-0 table #141: started
+2018/11/25-19:31:32.570 5417 Level-0 table #141: 18379 bytes OK
+2018/11/25-19:31:32.643 5417 Delete type=0 #136
+2018/11/25-19:37:48.449 5417 Level-0 table #143: started
+2018/11/25-19:37:48.572 5417 Level-0 table #143: 15705 bytes OK
+2018/11/25-19:37:48.614 5417 Delete type=0 #140
+2018/11/25-19:41:28.030 5417 Level-0 table #145: started
+2018/11/25-19:41:28.114 5417 Level-0 table #145: 13938 bytes OK
+2018/11/25-19:41:28.241 5417 Delete type=0 #142
+2018/11/25-19:46:24.980 5417 Level-0 table #147: started
+2018/11/25-19:46:25.275 5417 Level-0 table #147: 14244 bytes OK
+2018/11/25-19:46:25.579 5417 Delete type=0 #144
+2018/11/25-19:46:25.579 5417 Compacting 4@0 + 1@1 files
+2018/11/25-19:46:25.754 5417 Generated table #148@0: 93 keys, 55426 bytes
+2018/11/25-19:46:25.754 5417 Compacted 4@0 + 1@1 files => 55426 bytes
+2018/11/25-19:46:26.114 5417 compacted to: files[ 0 1 0 0 0 0 0 ]
+2018/11/25-19:46:26.114 5417 Delete type=2 #147
+2018/11/25-19:46:26.114 5417 Delete type=2 #139
+2018/11/25-19:46:26.115 5417 Delete type=2 #141
+2018/11/25-19:46:26.115 5417 Delete type=2 #143
+2018/11/25-19:46:26.115 5417 Delete type=2 #145
+2018/11/25-19:55:02.269 5417 Level-0 table #150: started
+2018/11/25-19:55:02.403 5417 Level-0 table #150: 15955 bytes OK
+2018/11/25-19:55:02.523 5417 Delete type=0 #146
+2018/11/25-20:08:04.848 5417 Level-0 table #152: started
+2018/11/25-20:08:04.911 5417 Level-0 table #152: 18890 bytes OK
+2018/11/25-20:08:04.965 5417 Delete type=0 #149
+2018/11/25-20:12:33.125 5417 Level-0 table #154: started
+2018/11/25-20:12:33.217 5417 Level-0 table #154: 17421 bytes OK
+2018/11/25-20:12:33.270 5417 Delete type=0 #151

@@ -1,0 +1,23 @@
+logrotate state -- version 2
+"/home/pavithra/.cache/upstart/ssh-agent.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/indicator-keyboard.log" 2018-11-26-10:0:0
+"/home/pavithra/.cache/upstart/upstart-event-bridge.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/gpg-agent.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/at-spi2-registryd.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/unity7.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/indicator-sound.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_appstreamcli.0.crash.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_unattended-upgrade.0.crash.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/window-stack-bridge.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/indicator-printers.log" 2018-11-26-10:0:0
+"/home/pavithra/.cache/upstart/bamfdaemon.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/dbus.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/indicator-session.log" 2018-11-22-10:1:43
+"/home/pavithra/.cache/upstart/hud.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/gnome-keyring-ssh.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/indicator-datetime.log" 2018-11-26-10:0:0
+"/home/pavithra/.cache/upstart/update-notifier-release.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/unity-settings-daemon.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/unity-panel-service.log" 2018-11-26-10:7:8
+"/home/pavithra/.cache/upstart/upstart-dbus-system-bridge.log" 2018-11-20-10:3:1
+"/home/pavithra/.cache/upstart/unity-panel-service-lockscreen.log" 2018-11-25-19:11:40

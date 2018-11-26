@@ -1,0 +1,39 @@
+ID ATTRIBUTE :
+
+To define a specific style for one special element, add an id attribute to the element
+
+<style>
+#p01 {
+    color: blue;
+}
+</style>
+
+<body>
+<p>This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+</body>
+
+
+CLASS ELEMENT :
+
+To define a style for special types of elements, add a class attribute to the element
+
+<style>
+
+p.error {
+    color: red;
+}
+</style>
+
+<body>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+</body>
+
+
+
+
+

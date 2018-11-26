@@ -1,0 +1,518 @@
+pavithra@IMCHLT095:~$ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+[sudo] password for pavithra: 
+pavithra@IMCHLT095:~$ sudo dpkg --add-architecture i386
+pavithra@IMCHLT095:~$ sudo apt-get update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://dl.google.com/linux/chrome/deb stable Release                     
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]     
+Get:5 http://archive.canonical.com xenial InRelease [11.5 kB]                  
+Hit:6 https://packages.microsoft.com/repos/vscode stable InRelease             
+Get:7 http://archive.canonical.com xenial/partner amd64 Packages [3,132 B]     
+Get:8 http://archive.canonical.com xenial/partner i386 Packages [3,124 B]      
+Get:9 http://archive.canonical.com xenial/partner Translation-en [1,616 B]     
+Hit:10 http://in.archive.ubuntu.com/ubuntu xenial InRelease                    
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB] 
+Fetched 342 kB in 6s (52.0 kB/s)                                               
+*** Error in `appstreamcli': double free or corruption (fasttop): 0x0000000001feadd0 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x77725)[0x7f4ac56f5725]
+/lib/x86_64-linux-gnu/libc.so.6(+0x7ff4a)[0x7f4ac56fdf4a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f4ac5701abc]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_component_complete+0x439)[0x7f4ac5a79d19]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_data_pool_update+0x44a)[0x7f4ac5a7af0a]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_cache_builder_refresh+0x1c2)[0x7f4ac5a70272]
+appstreamcli(ascli_refresh_cache+0x12e)[0x4049de]
+appstreamcli(as_client_run+0x6fb)[0x403ceb]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f4ac569e830]
+appstreamcli(_start+0x29)[0x403519]
+======= Memory map: ========
+00400000-00408000 r-xp 00000000 08:01 19922994                           /usr/bin/appstreamcli
+00607000-00608000 r--p 00007000 08:01 19922994                           /usr/bin/appstreamcli
+00608000-00609000 rw-p 00008000 08:01 19922994                           /usr/bin/appstreamcli
+0133d000-02ddf000 rw-p 00000000 00:00 0                                  [heap]
+7f4ab8000000-7f4ab8021000 rw-p 00000000 00:00 0 
+7f4ab8021000-7f4abc000000 ---p 00000000 00:00 0 
+7f4abfe4c000-7f4abfe57000 r-xp 00000000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7f4abfe57000-7f4ac0057000 ---p 0000b000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7f4ac0057000-7f4ac0058000 r--p 0000b000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7f4ac0058000-7f4ac0059000 rw-p 0000c000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7f4ac0059000-7f4ac008f000 r-xp 00000000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f4ac008f000-7f4ac028f000 ---p 00036000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f4ac028f000-7f4ac0294000 r--p 00036000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f4ac0294000-7f4ac0295000 rw-p 0003b000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7f4ac0295000-7f4ac02ae000 r-xp 00000000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7f4ac02ae000-7f4ac04ae000 ---p 00019000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7f4ac04ae000-7f4ac04b1000 r--p 00019000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7f4ac04b1000-7f4ac04b2000 rw-p 0001c000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7f4ac04b2000-7f4ac0e71000 r--p 00000000 08:01 19929887                   /usr/lib/locale/locale-archive
+7f4ac0e71000-7f4ac2727000 r-xp 00000000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7f4ac2727000-7f4ac2926000 ---p 018b6000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7f4ac2926000-7f4ac2927000 r--p 018b5000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7f4ac2927000-7f4ac2928000 rw-p 018b6000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7f4ac2928000-7f4ac292c000 r-xp 00000000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f4ac292c000-7f4ac2b2b000 ---p 00004000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f4ac2b2b000-7f4ac2b2c000 r--p 00003000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f4ac2b2c000-7f4ac2b2d000 rw-p 00004000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f4ac2b2d000-7f4ac2c35000 r-xp 00000000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7f4ac2c35000-7f4ac2e34000 ---p 00108000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7f4ac2e34000-7f4ac2e35000 r--p 00107000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7f4ac2e35000-7f4ac2e36000 rw-p 00108000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7f4ac2e36000-7f4ac2e57000 r-xp 00000000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f4ac2e57000-7f4ac3056000 ---p 00021000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f4ac3056000-7f4ac3057000 r--p 00020000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f4ac3057000-7f4ac3058000 rw-p 00021000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7f4ac3058000-7f4ac31d7000 r-xp 00000000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7f4ac31d7000-7f4ac33d7000 ---p 0017f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7f4ac33d7000-7f4ac33e7000 r--p 0017f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7f4ac33e7000-7f4ac33e8000 rw-p 0018f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7f4ac33e8000-7f4ac33ec000 rw-p 00000000 00:00 0 
+7f4ac33ec000-7f4ac33ef000 r-xp 00000000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f4ac33ef000-7f4ac35ee000 ---p 00003000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f4ac35ee000-7f4ac35ef000 r--p 00002000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f4ac35ef000-7f4ac35f0000 rw-p 00003000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f4ac35f0000-7f4ac3606000 r-xp 00000000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f4ac3606000-7f4ac3805000 ---p 00016000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f4ac3805000-7f4ac3806000 rw-p 00015000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f4ac3806000-7f4ac3978000 r-xp 00000000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f4ac3978000-7f4ac3b78000 ---p 00172000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f4ac3b78000-7f4ac3b82000 r--p 00172000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f4ac3b82000-7f4ac3b84000 rw-p 0017c000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7f4ac3b84000-7f4ac3b88000 rw-p 00000000 00:00 0 
+7f4ac3b88000-7f4ac3bb8000 r-xp 00000000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7f4ac3bb8000-7f4ac3db7000 ---p 00030000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7f4ac3db7000-7f4ac3db8000 r--p 0002f000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7f4ac3db8000-7f4ac3db9000 rw-p 00030000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7f4ac3db9000-7f4ac3fad000 r-xp 00000000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7f4ac3fad000-7f4ac41ad000 ---p 001f4000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7f4ac41ad000-7f4ac41b4000 r--p 001f4000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7f4ac41b4000-7f4ac41b5000 rw-p 001fb000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7f4ac41b5000-7f4ac41d2000 r-xp 00000000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7f4ac41d2000-7f4ac43d2000 ---p 0001d000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7f4ac43d2000-7f4ac43d3000 r--p 0001d000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7f4ac43d3000-7f4ac43d4000 rw-p 0001e000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7f4ac43d4000-7f4ac4584000 r-xp 00000000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7f4ac4584000-7f4ac4783000 ---p 001b0000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7f4ac4783000-7f4ac478b000 r--p 001af000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7f4ac478b000-7f4ac478d000 rw-p 001b7000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7f4ac478d000-7f4ac478e000 rw-p 00000000 00:00 0 
+7f4ac478e000-7f4ac4795000 r-xp 00000000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f4ac4795000-7f4ac4994000 ---p 00007000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f4ac4994000-7f4ac4995000 r--p 00006000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f4ac4995000-7f4ac4996000 rw-p 00007000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f4ac4996000-7f4ac49ad000 r-xp 00000000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f4ac49ad000-7f4ac4bad000 ---p 00017000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f4ac4bad000-7f4ac4bae000 r--p 00017000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f4ac4bae000-7f4ac4baf000 rw-p 00018000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f4ac4baf000-7f4ac4bb1000 rw-p 00000000 00:00 0 
+7f4ac4bb1000-7f4ac4bd0000 r-xp 00000000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7f4ac4bd0000-7f4ac4dcf000 ---p 0001f000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7f4ac4dcf000-7f4ac4dd0000 r--p 0001e000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7f4ac4dd0000-7f4ac4dd1000 rw-p 0001f000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7f4ac4dd1000-7f4ac4dd3000 rw-p 00000000 00:00 0 
+7f4ac4dd3000-7f4ac4dec000 r-xp 00000000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f4ac4dec000-7f4ac4feb000 ---p 00019000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f4ac4feb000-7f4ac4fec000 r--p 00018000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f4ac4fec000-7f4ac4fed000 rw-p 00019000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f4ac4fed000-7f4ac4ff0000 r-xp 00000000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7f4ac4ff0000-7f4ac51ef000 ---p 00003000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7f4ac51ef000-7f4ac51f0000 r--p 00002000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7f4ac51f0000-7f4ac51f1000 rw-p 00003000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7f4ac51f1000-7f4ac5209000 r-xp 00000000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f4ac5209000-7f4ac5408000 ---p 00018000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f4ac5408000-7f4ac5409000 r--p 00017000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f4ac5409000-7f4ac540a000 rw-p 00018000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f4ac540a000-7f4ac540e000 rw-p 00000000 00:00 0 
+7f4ac540e000-7f4ac547c000 r-xp 00000000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f4ac547c000-7f4ac567c000 ---p 0006e000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f4ac567c000-7f4ac567d000 r--p 0006e000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f4ac567d000-7f4ac567e000 rw-p 0006f000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f4ac567e000-7f4ac583e000 r-xp 00000000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f4ac583e000-7f4ac5a3d000 ---p 001c0000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f4ac5a3d000-7f4ac5a41000 r--p 001bf000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f4ac5a41000-7f4ac5a43000 rw-p 001c3000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f4ac5a43000-7f4ac5a47000 rw-p 00000000 00:00 0 
+7f4ac5a47000-7f4ac5a92000 r-xp 00000000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7f4ac5a92000-7f4ac5c92000 ---p 0004b000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7f4ac5c92000-7f4ac5c93000 r--p 0004b000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7f4ac5c93000-7f4ac5c94000 rw-p 0004c000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7f4ac5c94000-7f4ac5ce6000 r-xp 00000000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7f4ac5ce6000-7f4ac5ee5000 ---p 00052000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7f4ac5ee5000-7f4ac5ee6000 r--p 00051000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7f4ac5ee6000-7f4ac5ee7000 rw-p 00052000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7f4ac5ee7000-7f4ac6067000 r-xp 00000000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7f4ac6067000-7f4ac6267000 ---p 00180000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7f4ac6267000-7f4ac626b000 r--p 00180000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7f4ac626b000-7f4ac626d000 rw-p 00184000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7f4ac626d000-7f4ac626f000 rw-p 00000000 00:00 0 
+7f4ac626f000-7f4ac637d000 r-xp 00000000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7f4ac637d000-7f4ac657d000 ---p 0010e000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7f4ac657d000-7f4ac657e000 r--p 0010e000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7f4ac657e000-7f4ac657f000 rw-p 0010f000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7f4ac657f000-7f4ac6580000 rw-p 00000000 00:00 0 
+7f4ac6580000-7f4ac65a6000 r-xp 00000000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f4ac675e000-7f4ac677d000 r--s 00000000 08:01 20447527                   /usr/share/mime/mime.cache
+7f4ac677d000-7f4ac678b000 rw-p 00000000 00:00 0 
+7f4ac67a2000-7f4ac67a5000 rw-p 00000000 00:00 0 
+7f4ac67a5000-7f4ac67a6000 r--p 00025000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f4ac67a6000-7f4ac67a7000 rw-p 00026000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f4ac67a7000-7f4ac67a8000 rw-p 00000000 00:00 0 
+7ffd7960c000-7ffd7962d000 rw-p 00000000 00:00 0                          [stack]
+7ffd797c1000-7ffd797c3000 r--p 00000000 00:00 0                          [vvar]
+7ffd797c3000-7ffd797c5000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
+Reading package lists... Done
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+E: Problem executing scripts APT::Update::Post-Invoke-Success 'if /usr/bin/test -w /var/cache/app-info -a -e /usr/bin/appstreamcli; then appstreamcli refresh > /dev/null; fi'
+E: Sub-process returned an error code
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+pavithra@IMCHLT095:~$ sudo apt-get install skype
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package skype
+pavithra@IMCHLT095:~$ sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+pavithra@IMCHLT095:~$ sudo dpkg --add-architecture i386pavithra@IMCHLT095:~$ sudo apt-get updateIgn:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://dl.google.com/linux/chrome/deb stable Release                     
+Hit:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease                     
+Hit:5 https://packages.microsoft.com/repos/vscode stable InRelease             
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]    
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]  
+Get:8 http://archive.canonical.com/ubuntu xenial InRelease [11.5 kB]           
+Get:9 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Hit:10 http://archive.canonical.com xenial InRelease                           
+Get:11 http://archive.canonical.com/ubuntu xenial/partner amd64 Packages [3,132 B]
+Get:12 http://archive.canonical.com/ubuntu xenial/partner i386 Packages [3,124 B]
+Get:13 http://archive.canonical.com/ubuntu xenial/partner Translation-en [1,616 B]
+Fetched 342 kB in 2s (124 kB/s)                                  
+*** Error in `appstreamcli': double free or corruption (fasttop): 0x0000000002b9c220 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x77725)[0x7efe46fa4725]
+/lib/x86_64-linux-gnu/libc.so.6(+0x7ff4a)[0x7efe46facf4a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7efe46fb0abc]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_component_complete+0x439)[0x7efe47328d19]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_data_pool_update+0x44a)[0x7efe47329f0a]
+/usr/lib/x86_64-linux-gnu/libappstream.so.3(as_cache_builder_refresh+0x1c2)[0x7efe4731f272]
+appstreamcli(ascli_refresh_cache+0x12e)[0x4049de]
+appstreamcli(as_client_run+0x6fb)[0x403ceb]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7efe46f4d830]
+appstreamcli(_start+0x29)[0x403519]
+======= Memory map: ========
+00400000-00408000 r-xp 00000000 08:01 19922994                           /usr/bin/appstreamcli
+00607000-00608000 r--p 00007000 08:01 19922994                           /usr/bin/appstreamcli
+00608000-00609000 rw-p 00008000 08:01 19922994                           /usr/bin/appstreamcli
+01eec000-0398e000 rw-p 00000000 00:00 0                                  [heap]
+7efe3c000000-7efe3c021000 rw-p 00000000 00:00 0 
+7efe3c021000-7efe40000000 ---p 00000000 00:00 0 
+7efe416fb000-7efe41706000 r-xp 00000000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7efe41706000-7efe41906000 ---p 0000b000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7efe41906000-7efe41907000 r--p 0000b000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7efe41907000-7efe41908000 rw-p 0000c000 08:01 20316880                   /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+7efe41908000-7efe4193e000 r-xp 00000000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7efe4193e000-7efe41b3e000 ---p 00036000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7efe41b3e000-7efe41b43000 r--p 00036000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7efe41b43000-7efe41b44000 rw-p 0003b000 08:01 20188022                   /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+7efe41b44000-7efe41b5d000 r-xp 00000000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7efe41b5d000-7efe41d5d000 ---p 00019000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7efe41d5d000-7efe41d60000 r--p 00019000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7efe41d60000-7efe41d61000 rw-p 0001c000 08:01 20316884                   /usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+7efe41d61000-7efe42720000 r--p 00000000 08:01 19929887                   /usr/lib/locale/locale-archive
+7efe42720000-7efe43fd6000 r-xp 00000000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7efe43fd6000-7efe441d5000 ---p 018b6000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7efe441d5000-7efe441d6000 r--p 018b5000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7efe441d6000-7efe441d7000 rw-p 018b6000 08:01 19931450                   /usr/lib/x86_64-linux-gnu/libicudata.so.55.1
+7efe441d7000-7efe441db000 r-xp 00000000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7efe441db000-7efe443da000 ---p 00004000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7efe443da000-7efe443db000 r--p 00003000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7efe443db000-7efe443dc000 rw-p 00004000 08:01 41423382                   /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7efe443dc000-7efe444e4000 r-xp 00000000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7efe444e4000-7efe446e3000 ---p 00108000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7efe446e3000-7efe446e4000 r--p 00107000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7efe446e4000-7efe446e5000 rw-p 00108000 08:01 41423268                   /lib/x86_64-linux-gnu/libm-2.23.so
+7efe446e5000-7efe44706000 r-xp 00000000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7efe44706000-7efe44905000 ---p 00021000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7efe44905000-7efe44906000 r--p 00020000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7efe44906000-7efe44907000 rw-p 00021000 08:01 41423265                   /lib/x86_64-linux-gnu/liblzma.so.5.0.0
+7efe44907000-7efe44a86000 r-xp 00000000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7efe44a86000-7efe44c86000 ---p 0017f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7efe44c86000-7efe44c96000 r--p 0017f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7efe44c96000-7efe44c97000 rw-p 0018f000 08:01 19931464                   /usr/lib/x86_64-linux-gnu/libicuuc.so.55.1
+7efe44c97000-7efe44c9b000 rw-p 00000000 00:00 0 
+7efe44c9b000-7efe44c9e000 r-xp 00000000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7efe44c9e000-7efe44e9d000 ---p 00003000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7efe44e9d000-7efe44e9e000 r--p 00002000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7efe44e9e000-7efe44e9f000 rw-p 00003000 08:01 41423222                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7efe44e9f000-7efe44eb5000 r-xp 00000000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7efe44eb5000-7efe450b4000 ---p 00016000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7efe450b4000-7efe450b5000 rw-p 00015000 08:01 41423236                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7efe450b5000-7efe45227000 r-xp 00000000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7efe45227000-7efe45427000 ---p 00172000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7efe45427000-7efe45431000 r--p 00172000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7efe45431000-7efe45433000 rw-p 0017c000 08:01 19925121                   /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+7efe45433000-7efe45437000 rw-p 00000000 00:00 0 
+7efe45437000-7efe45467000 r-xp 00000000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7efe45467000-7efe45666000 ---p 00030000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7efe45666000-7efe45667000 r--p 0002f000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7efe45667000-7efe45668000 rw-p 00030000 08:01 19931755                   /usr/lib/x86_64-linux-gnu/libprotobuf-lite.so.9.0.1
+7efe45668000-7efe4585c000 r-xp 00000000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7efe4585c000-7efe45a5c000 ---p 001f4000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7efe45a5c000-7efe45a63000 r--p 001f4000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7efe45a63000-7efe45a64000 rw-p 001fb000 08:01 19932115                   /usr/lib/x86_64-linux-gnu/libxapian.so.22.7.0
+7efe45a64000-7efe45a81000 r-xp 00000000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7efe45a81000-7efe45c81000 ---p 0001d000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7efe45c81000-7efe45c82000 r--p 0001d000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7efe45c82000-7efe45c83000 rw-p 0001e000 08:01 19932169                   /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.4
+7efe45c83000-7efe45e33000 r-xp 00000000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7efe45e33000-7efe46032000 ---p 001b0000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7efe46032000-7efe4603a000 r--p 001af000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7efe4603a000-7efe4603c000 rw-p 001b7000 08:01 19932161                   /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.3
+7efe4603c000-7efe4603d000 rw-p 00000000 00:00 0 
+7efe4603d000-7efe46044000 r-xp 00000000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7efe46044000-7efe46243000 ---p 00007000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7efe46243000-7efe46244000 r--p 00006000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7efe46244000-7efe46245000 rw-p 00007000 08:01 19931155                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7efe46245000-7efe4625c000 r-xp 00000000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7efe4625c000-7efe4645c000 ---p 00017000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7efe4645c000-7efe4645d000 r--p 00017000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7efe4645d000-7efe4645e000 rw-p 00018000 08:01 41423350                   /lib/x86_64-linux-gnu/libresolv-2.23.so
+7efe4645e000-7efe46460000 rw-p 00000000 00:00 0 
+7efe46460000-7efe4647f000 r-xp 00000000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7efe4647f000-7efe4667e000 ---p 0001f000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7efe4667e000-7efe4667f000 r--p 0001e000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7efe4667f000-7efe46680000 rw-p 0001f000 08:01 41423356                   /lib/x86_64-linux-gnu/libselinux.so.1
+7efe46680000-7efe46682000 rw-p 00000000 00:00 0 
+7efe46682000-7efe4669b000 r-xp 00000000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7efe4669b000-7efe4689a000 ---p 00019000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7efe4689a000-7efe4689b000 r--p 00018000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7efe4689b000-7efe4689c000 rw-p 00019000 08:01 41418757                   /lib/x86_64-linux-gnu/libz.so.1.2.8
+7efe4689c000-7efe4689f000 r-xp 00000000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7efe4689f000-7efe46a9e000 ---p 00003000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7efe46a9e000-7efe46a9f000 r--p 00002000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7efe46a9f000-7efe46aa0000 rw-p 00003000 08:01 19931286                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.0
+7efe46aa0000-7efe46ab8000 r-xp 00000000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7efe46ab8000-7efe46cb7000 ---p 00018000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7efe46cb7000-7efe46cb8000 r--p 00017000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7efe46cb8000-7efe46cb9000 rw-p 00018000 08:01 41423344                   /lib/x86_64-linux-gnu/libpthread-2.23.so
+7efe46cb9000-7efe46cbd000 rw-p 00000000 00:00 0 
+7efe46cbd000-7efe46d2b000 r-xp 00000000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7efe46d2b000-7efe46f2b000 ---p 0006e000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7efe46f2b000-7efe46f2c000 r--p 0006e000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7efe46f2c000-7efe46f2d000 rw-p 0006f000 08:01 41423327                   /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7efe46f2d000-7efe470ed000 r-xp 00000000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7efe470ed000-7efe472ec000 ---p 001c0000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7efe472ec000-7efe472f0000 r--p 001bf000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7efe472f0000-7efe472f2000 rw-p 001c3000 08:01 41423198                   /lib/x86_64-linux-gnu/libc-2.23.so
+7efe472f2000-7efe472f6000 rw-p 00000000 00:00 0 
+7efe472f6000-7efe47341000 r-xp 00000000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7efe47341000-7efe47541000 ---p 0004b000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7efe47541000-7efe47542000 r--p 0004b000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7efe47542000-7efe47543000 rw-p 0004c000 08:01 19930848                   /usr/lib/x86_64-linux-gnu/libappstream.so.0.9.4
+7efe47543000-7efe47595000 r-xp 00000000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7efe47595000-7efe47794000 ---p 00052000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7efe47794000-7efe47795000 r--p 00051000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7efe47795000-7efe47796000 rw-p 00052000 08:01 19931310                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.0
+7efe47796000-7efe47916000 r-xp 00000000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7efe47916000-7efe47b16000 ---p 00180000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7efe47b16000-7efe47b1a000 r--p 00180000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7efe47b1a000-7efe47b1c000 rw-p 00184000 08:01 19931272                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.0
+7efe47b1c000-7efe47b1e000 rw-p 00000000 00:00 0 
+7efe47b1e000-7efe47c2c000 r-xp 00000000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7efe47c2c000-7efe47e2c000 ---p 0010e000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7efe47e2c000-7efe47e2d000 r--p 0010e000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7efe47e2d000-7efe47e2e000 rw-p 0010f000 08:01 41423240                   /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.0
+7efe47e2e000-7efe47e2f000 rw-p 00000000 00:00 0 
+7efe47e2f000-7efe47e55000 r-xp 00000000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7efe4800d000-7efe4802c000 r--s 00000000 08:01 20447527                   /usr/share/mime/mime.cache
+7efe4802c000-7efe4803a000 rw-p 00000000 00:00 0 
+7efe48051000-7efe48054000 rw-p 00000000 00:00 0 
+7efe48054000-7efe48055000 r--p 00025000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7efe48055000-7efe48056000 rw-p 00026000 08:01 41423170                   /lib/x86_64-linux-gnu/ld-2.23.so
+7efe48056000-7efe48057000 rw-p 00000000 00:00 0 
+7ffe1bb4e000-7ffe1bb6f000 rw-p 00000000 00:00 0                          [stack]
+7ffe1bb84000-7ffe1bb86000 r--p 00000000 00:00 0                          [vvar]
+7ffe1bb86000-7ffe1bb88000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
+Reading package lists... Done
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+E: Problem executing scripts APT::Update::Post-Invoke-Success 'if /usr/bin/test -w /var/cache/app-info -a -e /usr/bin/appstreamcli; then appstreamcli refresh > /dev/null; fi'
+E: Sub-process returned an error code
+W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en_IN) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11 (main/dep11/Components-amd64.yml) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+W: Target DEP-11-icons (main/dep11/icons-64x64.tar) is configured multiple times in /etc/apt/sources.list.d/google-chrome.list:3 and /etc/apt/sources.list.d/google.list:1
+pavithra@IMCHLT095:~$ sudo apt-get install skypeReading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package skype
+pavithra@IMCHLT095:~$ wget https://repo.skype.com/latest/skypeforlinux-64.deb
+--2018-11-21 12:04:52--  https://repo.skype.com/latest/skypeforlinux-64.deb
+Resolving repo.skype.com (repo.skype.com)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘repo.skype.com’
+pavithra@IMCHLT095:~$ cd Pramati
+pavithra@IMCHLT095:~/Pramati$ git add training
+fatal: Not a git repository (or any of the parent directories): .git
+pavithra@IMCHLT095:~/Pramati$ git init
+Initialized empty Git repository in /home/pavithra/Pramati/.git/
+pavithra@IMCHLT095:~/Pramati$ git remote add origin https://github.com/pavithra-ram/Pramati
+pavithra@IMCHLT095:~/Pramati$ git add training
+pavithra@IMCHLT095:~/Pramati$ git commit -m "added training folder"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'pavithra@IMCHLT095.(none)')
+pavithra@IMCHLT095:~/Pramati$   git config --global user.email "you@example.com"pavithra@IMCHLT095:~/Pramati$   git config --global user.email "you@example.com"pavithra@IMCHLT095:~/Pramati$  git config --global user.email "pavithra.ramasamy@imaginea.com"
+pavithra@IMCHLT095:~/Pramati$ git commit -m "added training folder
+> 
+> 
+> 
+> "
+On branch master
+
+Initial commit
+
+nothing to commit
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/pavithra-ram/Pramati'
+pavithra@IMCHLT095:~/Pramati$ git config --global user.name "Your Name"
+pavithra@IMCHLT095:~/Pramati$ git config --global user.name "Your Name"
+pavithra@IMCHLT095:~/Pramati$ git config --global user.name "pavithra-ram"
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/pavithra-ram/Pramati'
+pavithra@IMCHLT095:~/Pramati$ ^C
+pavithra@IMCHLT095:~/Pramati$ git show-refs
+git: 'show-refs' is not a git command. See 'git --help'.
+
+Did you mean this?
+	show-ref
+pavithra@IMCHLT095:~/Pramati$ git show-ref
+pavithra@IMCHLT095:~/Pramati$ git remote add origin "https://github.com/pavithra-ram/Pramati"
+fatal: remote origin already exists.
+pavithra@IMCHLT095:~/Pramati$ git add training
+pavithra@IMCHLT095:~/Pramati$ git commit -m "added training folder"
+On branch master
+
+Initial commit
+
+nothing to commit
+pavithra@IMCHLT095:~/Pramati$ git add training/html_basics.md
+pavithra@IMCHLT095:~/Pramati$ git commit -m "added training folder and a file"
+[master (root-commit) 2e61e12] added training folder and a file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 training/html_basics.md
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+Username for 'https://github.com': pavithra_ram
+Password for 'https://pavithra_ram@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/pavithra-ram/Pramati/'
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+Username for 'https://github.com': pavithra-ram
+Password for 'https://pavithra-ram@github.com': 
+To https://github.com/pavithra-ram/Pramati
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/pavithra-ram/Pramati'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pavithra@IMCHLT095:~/Pramati$ git pull origin master
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/pavithra-ram/Pramati
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+Use "fg" to return to nano.
+
+[1]+  Stopped                 git pull origin master
+pavithra@IMCHLT095:~/Pramati$ git commit -m "changes"
+[master 8ca7b6a] changes
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+Username for 'https://github.com': pavithra-ram
+Password for 'https://pavithra-ram@github.com': 
+To https://github.com/pavithra-ram/Pramati
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/pavithra-ram/Pramati'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+pavithra@IMCHLT095:~/Pramati$ git show-ref
+8ca7b6ae24cecd071c46eb8ba28f8a4266531df6 refs/heads/master
+db08a5a187efdcbde3911e19fac382fa309d25d2 refs/remotes/origin/master
+pavithra@IMCHLT095:~/Pramati$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+pavithra@IMCHLT095:~/Pramati$ git pull --rebase
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+pavithra@IMCHLT095:~/Pramati$ git pull origin master
+From https://github.com/pavithra-ram/Pramati
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+pavithra@IMCHLT095:~/Pramati$ git add training/html_basics.md
+pavithra@IMCHLT095:~/Pramati$ git commit -m "changes"
+On branch master
+nothing to commit, working directory clean
+pavithra@IMCHLT095:~/Pramati$ git push origin master
+Username for 'https://github.com': pavithra-ram
+Password for 'https://pavithra-ram@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 668 bytes | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/pavithra-ram/Pramati
+   db08a5a..2f950c0  master -> master
+pavithra@IMCHLT095:~/Pramati$ 
+

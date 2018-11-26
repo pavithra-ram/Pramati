@@ -1,0 +1,12 @@
+2018/11/26-10:08:00.349 3509 Reusing MANIFEST /home/pavithra/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2018/11/26-10:08:00.799 3509 Recovering log #4
+2018/11/26-10:08:01.319 3509 Reusing old log /home/pavithra/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2018/11/26-10:22:33.067 5377 Level-0 table #8: started
+2018/11/26-10:22:33.211 5377 Level-0 table #8: 1533513 bytes OK
+2018/11/26-10:22:33.299 5377 Delete type=0 #4
+2018/11/26-10:22:49.982 5377 Compacting 1@1 + 1@2 files
+2018/11/26-10:22:50.204 5377 Generated table #9@1: 2594 keys, 450688 bytes
+2018/11/26-10:22:50.204 5377 Compacted 1@1 + 1@2 files => 450688 bytes
+2018/11/26-10:22:50.258 5377 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/11/26-10:22:50.258 5377 Delete type=2 #5
+2018/11/26-10:22:50.258 5377 Delete type=2 #8

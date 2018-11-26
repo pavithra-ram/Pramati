@@ -1,0 +1,615 @@
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[2796:2796:1126/101008.977887:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+WARN  2018-11-26 10:26:29 unity <unknown>:0 Unable to fetch children: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.ayatana.bamf.view' on object at path /org/ayatana/bamf/application/545253652
+
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+WARN  2018-11-26 10:29:48 unity.iconloader IconLoader.cpp:756 Unable to load icon file:/// at size -1x22: Can't open directory
+[3306:3306:1126/103052.466224:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20ea00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103052.483928:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20f800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103053.201555:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3de000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103054.346323:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc4500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103054.599263:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20f100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103122.888702:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd094700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103123.587070:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd370700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103139.737417:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20ba00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103145.208656:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd210300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/103548.149935:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0bf100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+javaldx: Could not find a Java Runtime Environment!
+Warning: failed to read path from javaldx
+
+(soffice:7551): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:7551): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:7551): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:7551): GLib-GObject-WARNING **: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7f8984003e90' of type 'OOoAtkObjCompTxt'
+
+(soffice:7551): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(soffice:7551): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+[3306:3306:1126/103916.580961:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd068e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/104120.341900:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20d300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/104122.077920:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20b000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/104122.442337:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd267c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:6194:1126/104123.585613:ERROR:cert_verify_proc_nss.cc(975)] CERT_PKIXVerifyCert for synchroscript.deliveryengine.adswizz.com failed err=-8181
+[3306:3306:1126/104126.526362:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd204800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/104126.589364:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd201700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/104133.671017:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/104134.522649:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/104135.374128:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/104136.226808:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/104312.080341:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+[3306:3306:1126/104821.700315:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2ff500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105027.897224:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd532e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105028.038135:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd532700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/105034.582994:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105036.271772:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/105107.517338:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd535100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105351.591841:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2fe700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/105352.363622:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105353.217514:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105354.086091:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105354.937634:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105355.809990:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105356.657252:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105357.512651:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/105359.453243:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d7c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/105405.354311:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105406.236773:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105410.632772:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105411.503438:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105412.368230:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/105430.968502:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd300300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105431.209364:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d8300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/105431.739530:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105432.610960:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105433.478691:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/105434.332136:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105435.181631:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/105436.035715:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/105917.602520:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54cc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105926.925828:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105932.405180:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/105933.804943:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d6000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:10072:1126/110002.224637:ERROR:cert_verify_proc_nss.cc(975)] CERT_PKIXVerifyCert for adtag.primetime.adobe.com failed err=-8181
+[3306:3306:1126/110014.867501:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda7d100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110023.701001:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110030.736831:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda79100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110049.370002:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddaebc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110105.614474:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddaeae00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110106.726153:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddaea000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110120.367487:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd27a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/110145.340474:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd27300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/110215.579968:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/110215.781421:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/110644.817216:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/111440.861666:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54be00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/111442.338916:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54b000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/111503.914627:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54b700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/111506.326543:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda7a000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:11488:1126/111506.988306:ERROR:cert_verify_proc_nss.cc(975)] CERT_PKIXVerifyCert for b12.myspace.com failed err=-8181
+[3306:3306:1126/112117.696081:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d8a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112120.260628:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda78a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112353.564543:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd535100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112353.675369:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112353.762796:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbf500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112353.871623:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54d300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112355.771092:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda7c300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112355.847809:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54da00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112355.992328:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112356.332391:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54d300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112356.347606:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbf500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112356.366676:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112731.383290:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd27300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112731.405406:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda79100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112731.482010:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda7ae00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112732.438727:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dda7d800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/112914.238234:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113022.873775:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113128.003473:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d8a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113128.951111:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd99ac00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113258.660491:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113313.693500:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113527.139981:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54e800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113535.074296:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113605.208927:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113607.107273:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113627.299842:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113646.225466:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113731.014994:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddaebc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113752.991901:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd533c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113849.622710:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd26500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113852.190622:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd28800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113918.607475:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113920.440708:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd27300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/113933.428309:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd54d300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114001.813161:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd25700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114003.514896:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d6700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114103.477180:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8dcc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114105.776198:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4d6000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114332.102410:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd202a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114333.807079:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd200000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114337.526045:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd220a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114339.620428:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd32ce00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114411.549783:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0c8500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/114413.606549:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+
+(nautilus:15121): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:15121): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:15121): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:15121): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:15121): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/115205.708773:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd373000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115207.613155:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd373700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/115209.164372:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/115223.853521:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0c8500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115238.520744:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0c9300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115240.980563:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd373e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115745.170638:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115747.054040:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd21b300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115749.563069:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd280100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/115753.540316:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd20ba00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/120139.340555:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc4c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/120141.133912:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd364300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/120244.295698:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddd66700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/121535.763596:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc4c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/121615.845155:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd214e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/121804.664423:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+[3306:3306:1126/121831.482560:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0ad000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/121833.993232:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3f9300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/121834.812669:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3fa800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/121837.173581:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0af300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123435.200413:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd229700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123436.271688:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd22a500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123438.862822:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd319000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/123441.322864:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/123442.995109:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/123443.043606:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/123444.664787:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/123444.697230:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/123459.566084:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd330100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123500.128629:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6bc300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123500.518949:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd229e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/123502.888518:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/123504.494420:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6bbc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123553.116910:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd31c100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123557.095021:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6bca00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/123839.950240:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8b6700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[90m[main 12:41:47][0m update#setState idle
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[90m[main 12:42:17][0m update#setState checking for updates
+[90m[main 12:42:17][0m update#setState idle
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[2796:2796:1126/125336.645003:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+[3306:3306:1126/125548.674237:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd409100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/125549.864745:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8b7c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/125601.456949:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/125604.414238:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/125604.681644:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/125608.449019:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd32fa00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/125609.041789:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd22a500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/125620.807566:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125622.477536:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125625.112968:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125626.760451:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125629.392869:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125631.058174:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125633.674151:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125635.342010:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125637.965467:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125639.630687:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125642.248242:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125643.918490:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125646.541516:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125648.214054:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/125650.833930:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[90m[main 13:42:17][0m update#setState checking for updates
+[90m[main 13:42:18][0m update#setState idle
+[3306:3306:1126/141600.839605:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd330800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/142931.600866:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd229e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144134.912163:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2f1700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144135.407190:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd21b300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144135.761647:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd219000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:3224:1126/144138.332709:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -100
+[3306:3306:1126/144139.564593:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd7e9e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144139.889920:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd7eb300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[90m[main 14:42:17][0m update#setState checking for updates
+[90m[main 14:42:18][0m update#setState idle
+
+(nautilus:32258): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:32258): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:32258): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:32258): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:32258): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+[3306:3306:1126/144750.773193:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2f3a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144758.528004:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbf500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144828.777417:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2f1000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/144829.447130:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd21ba00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/145029.066913:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd219000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/145032.360266:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd7ea500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/145437.775103:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/145439.446057:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/150708.133106:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd5aa700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/151814.119863:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/151815.791040:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151817.461649:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/151824.896295:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd21ba00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/151827.551584:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd21b300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/151827.649015:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2f4100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/151829.994789:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151831.667558:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151834.304119:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151835.952952:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151838.583859:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151840.248934:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151842.862793:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151844.533711:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151847.151958:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151848.817131:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151851.430320:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151853.095838:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151855.710272:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151857.374741:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151859.988605:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151901.653828:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151903.318608:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151905.950177:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151907.598021:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151910.228849:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151911.893109:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151914.507788:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151916.173771:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151918.786591:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151920.451369:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151923.066260:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151924.734489:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151927.345454:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151929.009459:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151931.623670:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151933.288464:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151934.954063:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151937.569993:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151939.232391:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151941.863019:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151943.529621:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151946.142396:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151947.808381:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151950.422070:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151952.086789:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151954.700450:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151956.365422:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/151958.979189:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152000.694438:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152003.308002:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152004.976166:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152006.639641:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152009.285483:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152010.952193:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152013.581738:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[2796:2796:1126/152015.399234:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152018.027762:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152019.693417:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152022.372655:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152024.037577:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152026.651752:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152028.317961:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152030.930753:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152032.595813:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152035.210160:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152036.875569:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152039.489455:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152041.155744:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152043.768446:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152045.432865:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152047.098447:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152049.729994:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152051.377447:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152054.007519:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152055.673601:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152058.287247:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152059.951741:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/152102.570167:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+
+(nautilus:3530): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:3530): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:3530): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:3530): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:3530): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(eog:3691): EOG-WARNING **: Failed to open file '/home/pavithra/.cache/thumbnails/normal/c4ff96bef4062dd4ccf265574d314f74.png': No such file or directory
+
+(nautilus:4186): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:4186): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:4186): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:4186): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:4186): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/153759.343215:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbee00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/153804.224786:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3df700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/153807.554817:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e2800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/153840.562955:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/153842.250203:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/153937.126423:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc7e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/153937.496731:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc8c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/153959.994192:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4a8800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154000.015941:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd67d700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154000.039752:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd811700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154000.089145:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd812500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154000.212942:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd813300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154000.305948:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd814100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154025.717665:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd17f800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154026.010682:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b8c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154026.047670:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6ba800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154026.241426:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd31f500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154026.280924:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd31e000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154041.907964:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b7000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154041.934322:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6ba800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154042.009708:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b9300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[90m[main 15:42:17][0m update#setState checking for updates
+[90m[main 15:42:18][0m update#setState idle
+[2796:3224:1126/154332.972499:ERROR:ssl_client_socket_impl.cc(1061)] handshake failed; returned -1, SSL error code 1, net_error -101
+[3306:3306:1126/154333.723067:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b8500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154334.606635:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154340.821145:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd321100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154419.729497:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddb26100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/154420.486989:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/154421.337530:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/154422.209867:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/154422.296398:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddb24500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154422.381959:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc1a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/154423.076521:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/154425.701906:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b9a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154426.006796:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd6b8500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154557.366666:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f6a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154640.477584:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd1f4700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154702.157753:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd397700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154702.359999:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd569000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/154703.647671:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/154900.483617:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc3e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/154902.145308:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/154903.016605:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/154903.866702:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/154904.734353:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/154907.748097:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd316a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154908.249662:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd437e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154918.196473:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc4500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154927.293201:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc4500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154927.332942:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd25b700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154939.213920:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd42fc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/154939.291191:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd42e700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155012.039744:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd32e300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155012.117843:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd32c000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155012.363350:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd32dc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155031.636901:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd2dde00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155031.725286:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd084000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/155033.864145:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155034.716351:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155035.568468:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155036.436607:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155037.305919:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155038.158358:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155039.027404:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/155042.027155:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc5a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155042.464257:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc7700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155046.560983:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155054.285260:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd226700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155103.118301:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbfc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155125.952889:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc3000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155126.018838:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd4e5000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/155126.591637:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155127.443699:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155128.296074:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155129.149035:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155130.001849:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155130.868942:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155131.721333:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155132.590288:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155133.442150:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/155134.916760:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd581000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155135.491674:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd582500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155709.881048:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.887640:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.923666:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.937106:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.953904:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.976426:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155709.987143:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.003650:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.020149:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.043766:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.053746:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.086700:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.104216:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.128413:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.137016:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.168550:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.169920:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.209764:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.220382:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.258881:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.270471:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.293566:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.303592:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.342990:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.353579:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.375164:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.386866:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.416435:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.419896:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.458580:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.470114:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.499676:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.504434:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.541237:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.553895:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.580534:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.587406:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.622809:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.637394:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.664034:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.670567:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.705548:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.720101:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.744745:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.754259:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.788051:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.803735:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.841139:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.853792:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.870217:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.886708:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.911605:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.920261:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.952545:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.953916:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155710.996115:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.003719:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.034185:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.036483:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.076422:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.087074:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.117237:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.120896:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.158297:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.171004:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.199359:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.203901:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.241742:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.253579:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.291528:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.304227:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.324972:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.337609:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.363696:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.370468:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.406905:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.420507:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.455896:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.470459:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.485782:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.487056:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.532389:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.536786:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.570847:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.587506:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.612118:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.620633:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.657701:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.670265:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.693088:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.703719:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.738794:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.753351:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.777043:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[3306:3306:1126/155711.786626:ERROR:gl_surface_presentation_helper.cc(237)] GetVSyncParametersIfAvailable() failed!
+[2796:2796:1126/155721.483032:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155722.334080:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155723.186660:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155724.055895:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155724.907196:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155725.794528:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/155728.957006:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0dae00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155851.263666:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd0dbc00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/155851.681699:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e3000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/155853.747126:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155853.848314:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155856.640042:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155856.738692:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155858.913264:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155859.012779:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155901.935565:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155902.020534:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155904.058340:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155904.158737:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155907.233400:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155907.317567:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155909.223755:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155909.306846:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[2796:2796:1126/155912.550472:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155912.596933:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/155914.422027:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[3306:3306:1126/155957.499468:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/160000.460814:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/160004.648329:ERROR:gles2_cmd_decoder.cc(17797)] [.BrowserCompositor-0x15ba3efe2100]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[3306:3306:1126/160004.648483:ERROR:gles2_cmd_decoder.cc(10209)] [.BrowserCompositor-0x15ba3efe2100]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[3306:3306:1126/160004.648592:ERROR:gles2_cmd_decoder.cc(17797)] [.BrowserCompositor-0x15ba3efe2100]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[3306:3306:1126/160004.648672:ERROR:gles2_cmd_decoder.cc(10209)] [.BrowserCompositor-0x15ba3efe2100]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[3306:3306:1126/160004.700187:ERROR:gles2_cmd_decoder.cc(10209)] [.BrowserCompositor-0x15ba3efe2100]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[3306:3306:1126/160004.700368:ERROR:gles2_cmd_decoder.cc(10209)] [.BrowserCompositor-0x15ba3efe2100]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+[3306:3306:1126/160026.898159:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd462c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/160714.205237:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd461e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[3306:3306:1126/160947.098198:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3b9a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/161007.635427:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3b8500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/164145.823717:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e5300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/164146.058170:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd461e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/164200.356338:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8c0800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/164200.813329:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8c0800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/164205.556857:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/164208.232657:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e4c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/164210.703882:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[2796:2796:1126/164211.575183:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+[90m[main 16:42:17][0m update#setState checking for updates
+[90m[main 16:42:19][0m update#setState idle
+[3306:3306:1126/165213.466642:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e6800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165253.908561:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8bfa00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165253.960610:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfc0300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165345.811692:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8be500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165423.539143:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddfe0a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165511.663803:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8bde00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/165630.231901:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3b9300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[2796:2796:1126/170212.960996:ERROR:latency_info.cc(144)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 101 is too big.
+[3306:3306:1126/171118.600173:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddf22a00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171118.881970:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddfde700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171140.233439:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddfdae00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171140.719709:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd9bd500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171145.385145:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd8c0100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171145.556435:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddf23800]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171201.675773:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddfa6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171202.011408:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd462500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171207.821591:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3b7e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171207.971196:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd9bea00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171210.142503:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd88ec00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171328.229776:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dcfbe700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171412.412819:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd88d000]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171735.241355:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3dd3e6100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+[3306:3306:1126/171735.260832:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x14b3ddfa4c00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+[90m[main 17:42:17][0m update#setState checking for updates
+[90m[main 17:42:18][0m update#setState idle
+[2796:2796:1126/174736.718277:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
