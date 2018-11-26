@@ -1,11 +1,9 @@
 
-# ALL HTML TAGS WITH USES:(FOR QUICK REFERENCE): 
-
- 
-
+# ALL HTML TAGS WITH USES : (FOR QUICK REFERENCE) : 
 <!DOCTYPE html>
 <html>
 <head>
+<title>my first html</title>
 </head>
 <body>
 <p><u>Basic heading and para tag</u></p>
