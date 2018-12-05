@@ -1,29 +1,54 @@
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
 .csi {
   background: lightgray; 
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   margin-right: 10px;
   border-radius:50%;
   display:inline-block;
-  padding:40px;
+  padding:50px;
   margin-bottom:30px;
   margin-top:40px;
- 
+  cursor:pointer;
 }
 .cstd
 {
-padding-left:100px;
+
+padding-left:7%;
+width:25%;
+}
+.csimgsrc
+{
+    
+    width:95%;
+    
+}
+.csth
+{
+
+padding-left:10px;
 width:25%;
 }
 
 .cscustomer
 {
-padding-left:3px;
-padding-right:5px;
+padding-left:6px;
+padding-right:6px;
+padding-bottom:2px;
 }
 .cstable
 {
+  
    margin-left:5%;
+   margin-top:5%;
+}
+.cspstable
+{
+ margin-left:5%;
+ margin-top:5%;
 }
 .csa {
     color: black;   
@@ -36,8 +61,15 @@ padding-right:5px;
 }
 .csb
 {
-letter-spacing:3px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 55px;
+    text-transform: uppercase;
+
 }
+
+
 .n2ul {
     list-style-type: none;
     margin: 50px;
@@ -150,3 +182,212 @@ height:50px;
  font-family: 'Roboto', sans-serif;
  letter-spacing:2px;
 }
+
+.b2container {
+    margin-top:50px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.b2text-block {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;   
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing:2px;
+}
+.b2button {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;    
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.b2button1:hover {
+    background-color: darkblue;
+    color: white;
+}
+.bdimg
+{
+  width:100%;
+  height:500px;
+}
+.ittable
+            {
+                width:80%;
+                display:table
+            }
+            
+            .itimgs{
+                width:225px;
+                height:225px;
+                display:table-cell
+            }
+            .ita:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.ita:hover {
+    background-color: hotpink;
+}
+* {
+    box-sizing: border-box;
+}
+
+.itbody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Create three unequal columns that floats next to each other */
+.itcolumn {
+    float: left;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.itside {
+    width: 50%;
+}
+
+/* Middle column */
+.itmiddle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.itrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.itstyle
+{
+    display: table-row;
+}
+.itstyle2
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.itstyle3
+{
+    sdisplay: table-cell; 
+    vertical-align: middle;
+}
+.itstyle4
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.itstyle5
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.btb1
+{
+    background-color: black;
+    color:white;
+    width: 600px;
+    height:80px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px 25px -45px;
+    border-radius:6%;    
+}
+
+.btb2
+{
+    background-color: red;
+    color:white;
+    width: 600px;
+    height:40px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px 25px -35px;
+    border-radius:6%;    
+}
+
+.btimg {
+  border-radius: 50%;
+  margin-top:-10px;
+  margin-left:20px;
+  width:10%;
+}
+.bth2
+{
+   color:white;
+   margin-left:100px;
+   margin-top:-50px;
+}
+.bth4
+{
+  margin-top:-10px;
+  margin-left:125px;
+}
+
+.bt2b1
+{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    height:80px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px 25px -35px;
+    border-radius:6%;    
+}
+.bt2b2
+{
+    background-color: red;
+    color:white;
+    width: 1200px;
+    height:40px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px 25px -10px;
+    border-radius:6%;    
+}
+
+.bt2img {
+  border-radius: 50%;
+  margin-top:-40px;
+  margin-left:20px;
+  width:75px;
+  height:75px;
+  padding-bottom:5px;
+}
+.bt2h2
+{
+   color:white;
+   margin-left:120px;
+   margin-top:-70px;
+}
+.bt2h4
+{
+  position: absolute;
+  margin-top:-10px;
+  margin-left:155px;
+}
+.bt2table
+{
+  margin-top:150px;
+}
+
