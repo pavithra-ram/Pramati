@@ -125,6 +125,10 @@ height:70%;
 float:right;
 margin-right:0%;
 }
+.bdimgg
+{
+width:100%;
+}
 .bdcontainer {
    
     text-align: center;
@@ -490,3 +494,4 @@ padding-left:200px;
       {
         background-color: hotpink;
       }
+    
