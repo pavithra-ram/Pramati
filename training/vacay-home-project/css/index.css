@@ -90,10 +90,15 @@ margin-left:22%;
     display: block;
     color: black;
     text-align: center;
-    padding: 12px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 
+}
+.n2a:hover
+{
+ background-color:red;
+  color:white;
 }
 .n2active {
     background-color: red;
@@ -162,7 +167,10 @@ margin-right:0%;
     padding: 14px 16px;
     text-decoration: none;
 }
-
+.nna:hover
+{
+ color:red;
+}
 .reimg-big
 {
 width:150px;
@@ -327,9 +335,9 @@ height:50px;
 
 .btimg {
   border-radius: 50%;
-  margin-top:-10px;
+  margin-top:-32px;
   margin-left:20px;
-  width:10%;
+  width:5%;
 }
 .bth2
 {
@@ -347,7 +355,7 @@ height:50px;
 {
     background-color: black;
     color:white;
-    width: 1200px;
+    width: 1245px;
     height:80px;
     border: 25px solid black;
     padding: 25px;
@@ -356,11 +364,11 @@ height:50px;
 }
 .bt2b2
 {
-    background-color: red;
+    background-color:rgb(218, 56, 83);;
     color:white;
-    width: 1200px;
+    width: 1245px;
     height:40px;
-    border: 25px solid red;
+    border: 25px solid rgb(218, 56, 83);
     padding: 25px;
     margin: 25px 25px -10px;
     border-radius:6%;    
@@ -390,4 +398,95 @@ height:50px;
 {
   margin-top:150px;
 }
+             .tetable
+            {
+                width:90%;
+                display:table;
+            }
+            
+            .teimgs{
+                width:395px;
+                height:390px;
+                display:table-cell;
+                padding-left:10px;
+                padding-top:10px;
+ 		padding-bottom:-3px;
+ 		padding-right:1px;
 
+            }
+            .tea:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.tea:hover {
+    background-color: hotpink;
+}
+.tei:hover
+{
+ color: hotpink;
+ cursor:pointer;
+}
+      
+.testyle1
+{
+ display: table-row;
+}  
+.testyle2
+{
+display: table-cell; 
+vertical-align: middle;
+padding-left:200px;
+}
+.fxcontainer
+       {
+           width:1280px;
+           height:535px;
+       }
+      .fxcontainer-1 
+      {
+        
+          display:flex;
+          height: 264px;     
+      }
+     
+      .fxcontainer-2
+      {
+          display:flex;
+          height: 264px; 
+      }
+    
+      .fxcontent
+      {
+       
+       padding-left:16px;
+       padding-right:10px;
+       width: 320px; 
+       height: 264px;
+      }
+      .fximage
+      {
+        width: 320px;
+        height: 264px;
+        padding-top:1px;
+      }
+      .fxita:link
+      {
+         background-color:white;
+         color: black;
+         border:1px solid black;
+         padding: 14px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+      }
+      .fxita:hover 
+      {
+        background-color: hotpink;
+      }
