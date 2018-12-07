@@ -1,23 +1,32 @@
-body
+@media(min-width:700px)
 {
-  font-family: 'Roboto', sans-serif;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 .csi {
-  background: lightgray; 
-  font-size: 35px;
-  text-align: center;
-  margin-right: 10px;
-  border-radius:50%;
-  display:inline-block;
-  padding:50px;
-  margin-bottom:30px;
-  margin-top:40px;
-  cursor:pointer;
+    background: lightgray;
+    font-size: 37px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 33px;
+    margin-bottom: 34px;
+    margin-top: 37px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.csiconset
+{
+    width:42px;
+    height:37px;
 }
 .cstd
 {
 
-padding-left:7%;
+padding-left: 9%;
 width:25%;
 }
 .csimgsrc
@@ -43,7 +52,7 @@ padding-bottom:2px;
 {
   
    margin-left:5%;
-   margin-top:5%;
+   margin-top:0%;
 }
 .cspstable
 {
@@ -93,15 +102,16 @@ margin-left:22%;
     padding: 10px 16px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    letter-spacing:1px;
 
 }
 .n2a:hover
 {
- background-color:red;
+ background-color:#FF4157;
   color:white;
 }
 .n2active {
-    background-color: red;
+    background-color:#FF4157;
     padding:10px;
     color:white;
 }
@@ -125,10 +135,6 @@ height:70%;
 float:right;
 margin-right:0%;
 }
-.bdimgg
-{
-width:100%;
-}
 .bdcontainer {
    
     text-align: center;
@@ -141,27 +147,31 @@ width:100%;
 }
 .bdcentered {
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .bdimg
 {
-  width:100%;
+  width:101%;
   height:400px;
 }
 
 
 .nnul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: -1px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 0;
+    padding-right: 40px;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(0,0,0)
 }
 
 .nnli {
     float: right;
+    
 }
 
 .nna{
@@ -173,7 +183,7 @@ width:100%;
 }
 .nna:hover
 {
- color:red;
+ color:#ff4157;
 }
 .reimg-big
 {
@@ -363,7 +373,7 @@ height:50px;
     height:80px;
     border: 25px solid black;
     padding: 25px;
-    margin: 25px 25px -35px;
+    margin: -5px 25px -35px;
     border-radius:6%;    
 }
 .bt2b2
@@ -490,8 +500,182 @@ padding-left:200px;
          text-decoration: none;
          display: inline-block;
       }
+      .fxp
+      {
+          font-size:14px;
+          letter-spacing: 0.5px;
+        line-height: 25px;
+      }
       .fxita:hover 
       {
-        background-color: hotpink;
+        background-color: #FF4157;
       }
-    
+      .fxh2
+      {
+          cursor:pointer;
+          font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px
+      }
+    .fxh2:hover
+    {
+        color: #FF4157;   
+    }
+               
+            
+.texcontainer-1{
+
+display:flex;
+
+}
+.texcontainer-1 div
+{
+ padding-left:12px;
+
+}
+.texa:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.texa:hover {
+    background-color:#FF4157;
+}
+.texi:hover
+{
+ color: hotpink;
+ cursor:pointer;
+}
+.teximage
+{
+    width: 545px;
+    padding-left: 40px;
+}
+.texcontent
+{
+    padding-left: 40px;
+    width: 720px;
+}
+.teximght
+{
+ height:322px;
+width:500px
+}
+.ltalign
+{
+    padding-left:153px;
+    background-color:#162544;
+    width: 100%;
+
+}
+.ltcontainer-1
+{
+   display:flex;
+   background-color:#162544;
+   width: 100%;
+}
+.ltitem1
+{
+   color:white;
+   padding:25px;
+}
+.lthred:hover
+{
+    color:#FF4157;
+    cursor:pointer;
+}
+.lti
+{
+   color:white;
+   font-size:30px;
+   padding: 3px;
+
+}
+.ltr
+{
+    color:#FF4157;
+    font-size:20px;
+}
+.ltred
+{
+   color:#FF4157;
+}
+.ltinnercontainer-1
+{
+   display:flex;
+}
+.ltimg
+{
+   width:146px;
+   padding: 25px;
+}
+.ltimg:hover
+{
+    cursor:pointer;
+}
+* {box-sizing: border-box;}
+                .ixcontainer
+                {
+                    display:flex;
+                }
+                .ixfirst {
+                    padding-top: 52px;
+                    margin-left: 73px;
+                    position: relative;
+                    width: 100%;
+                 
+                }
+                
+                .iximage {
+                  display: block;
+                  width: 245px;
+                  height: 251px;
+                 
+                }
+                .ixfirst:hover .iximage {
+                   opacity: 0.3;
+                          }
+                .ixoverlay {
+                    position: absolute;   
+                    background: rgb(0, 0, 0);
+                    background: rgba(0, 0, 0, 0.5);
+                    color: #f1f1f1;
+                    width: 99.5%;
+                    opacity: 0;
+                    height: 22%;
+                    bottom: 0px;
+                    color: white;
+                    font-size: 20px;
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                .ixoverlay-icon {
+                  position: absolute; 
+                  bottom: 0; 
+                  /*background: rgb(0, 0, 0);*/
+                  /*background: rgba(0, 0, 0, 0.5); Black see-through */
+                  color: #f1f1f1; 
+                  width: 92%;
+                  top:39%;                
+                  opacity:0;
+                  color: rgb(121, 57, 180);
+                  font-size: 40px;
+                  padding: 20px;
+                  text-align: center;
+                  cursor:pointer;
+                }
+                
+                .ixfirst:hover .ixoverlay {
+                  opacity: 1;
+                }
+                .ixfirst:hover .ixoverlay-icon {
+                  opacity: 1;
+                }
+            }

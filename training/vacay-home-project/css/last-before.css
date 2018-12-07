@@ -1,0 +1,13 @@
+.table
+{
+    width:90%;
+    display:table
+}
+
+.img
+{
+width:665px;
+height:400px;
+background:red;
+display:table-cell
+}
