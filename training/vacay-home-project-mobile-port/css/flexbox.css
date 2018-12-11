@@ -1,0 +1,46 @@
+.fxcontainer
+       {
+           width:1280px;
+           height:539px;
+       }
+      .fxcontainer-1 
+      {
+        
+          display:flex;
+          height: 264px;     
+      }
+     
+      .fxcontainer-2
+      {
+          display:flex;
+          height: 264px; 
+      }
+    
+      .fxcontent
+      {
+       
+       padding-left:16px;
+       padding-right:10px;
+       width: 320px; 
+       height: 264px;
+      }
+      .fximage
+      {
+        width: 320px;
+        height: 264px;
+        padding-top:1px;
+      }
+      .fxita:link
+      {
+         background-color:white;
+         color: black;
+         border:1px solid black;
+         padding: 14px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+      }
+      .fxita:hover 
+      {
+        background-color: hotpink;
+      }

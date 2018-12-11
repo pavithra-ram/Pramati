@@ -1,0 +1,45 @@
+             .tetable
+            {
+                width:70%;
+                display:table;
+            }
+            
+            .teimgs{
+                width:275px;
+                height:250px;
+                display:table-cell;
+                padding-left:30px;
+                padding-top:36px;
+ 		padding-bottom:30px;
+ 		padding-right:130px;
+
+            }
+            .tea:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.tea:hover {
+    background-color: hotpink;
+}
+.tei:hover
+{
+ color: hotpink;
+ cursor:pointer;
+}
+      
+.testyle1
+{
+ display: table-row;
+}  
+.testyle2
+{
+display: table-cell; 
+vertical-align: middle;
+}

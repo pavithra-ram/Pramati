@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+                .ixcontainer
+                {
+                    display:flex;
+                }
+                .ixfirst {
+                  position: relative;
+                  width: 50%;
+                  max-width: 225px;
+                 
+                }
+                
+                .iximage {
+                  display: block;
+                  width: 225px;
+                  height: 251px;
+                 
+                }
+                .ixfirst:hover .iximage {
+                   opacity: 0.3;
+                          }
+                .ixoverlay {
+                    position: absolute;   
+                    background: rgb(0, 0, 0);
+                    background: rgba(0, 0, 0, 0.5);
+                    color: #f1f1f1;
+                    width: 100%;
+                    opacity: 0;
+                    height: 22%;
+                    bottom: 0px;
+                    color: white;
+                    font-size: 20px;
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                .ixoverlay-icon {
+                  position: absolute; 
+                  bottom: 0; 
+                  /*background: rgb(0, 0, 0);*/
+                  /*background: rgba(0, 0, 0, 0.5); Black see-through */
+                  color: #f1f1f1; 
+                  width: 101%;
+                  top:30%;                
+                  opacity:0;
+                  color: rgb(121, 57, 180);
+                  font-size: 40px;
+                  padding: 20px;
+                  text-align: center;
+                  cursor:pointer;
+                }
+                
+                .ixfirst:hover .ixoverlay {
+                  opacity: 1;
+                }
+                .ixfirst:hover .ixoverlay-icon {
+                  opacity: 1;
+                }

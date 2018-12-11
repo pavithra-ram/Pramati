@@ -1,0 +1,42 @@
+#container
+{
+  width:980px;
+  margin:0px auto;
+}
+
+#left-column
+{
+  width:700px;
+  float:left;
+  background:blue;
+}
+
+#right-column
+{
+  width:260px;
+  float:left;
+  background:orange;
+}
+img
+{
+width:500px;
+height:300px;
+}
+@media screen and (max-width:480px){
+
+#container{
+ 
+   width:100%;
+}
+#left-column
+{
+  width:70%;
+  background-color:gray;
+}
+#right-column
+{
+ width:30%;
+  background-color:pink;
+}
+
+}
