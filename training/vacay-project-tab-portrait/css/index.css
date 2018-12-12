@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (min-height: 600px) {
+@media only screen and (min-width:767px ){
 
 
 html, body {
@@ -85,10 +85,8 @@ padding-bottom:2px;
 
 .n2ul {
     list-style-type: none;
-    /* margin: 12px; */
-    margin-right: 10px;
-    margin-top: 55px;
-    padding: 7px;
+    /* margin: 51px; */
+    padding: 0;
     overflow: hidden;
     background-color: white;
     position: relative;
@@ -99,16 +97,21 @@ padding-bottom:2px;
 }
 .n2ul1
 {
-    margin-left: 14%;
+
+margin-left: -48%; 
+    margin-top: 99px;
+    /* margin-left: 21%; */
+    margin-left: 64px;
+    margin-bottom: 40px;
 }
 .n2a {
     display: block;
-    color: #2B2B2B;;
+    color: #2B2B2B;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 
 }
 .n2a:hover
@@ -117,36 +120,30 @@ padding-bottom:2px;
   color:white;
 }
 .n2active {
-    background-color: #FF4157;
-    /* padding: 6px; */
-    padding-left: 12px;
-    padding-top: 7px;
-    color: white;
-    padding-bottom: 8px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    background-color:#FF4157;
+    padding:10px;
+    color:white;
 }
 
 .n2logo-img {
     float: left;
     position: relative;
-    margin: 21px 15px 15px 10px;
+    margin: 36px 15px 19px -22px;
 }
 .n2log
 {
-    margin-left: 1%;
-    padding-top: 14px;
+    margin-left: 5%;
 }
 .n2img
 {
-    width: 52%;
-    height: 70%;
+    width: 24%;
+
 }
 .n2last
 {
-float:right;
-margin-right:0%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 28px;
 }
 .bdcontainer {
    
@@ -160,23 +157,21 @@ margin-right:0%;
 }
 .bdcentered {
     position: absolute;
-    top: 53%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 23px;
-    font-weight:bold;
+   
 }
-.bd1img
+.bdimg
 {
-    width: 100%;
-    height: 320px;
+  width:101%;
+  height:400px;
 }
 
 
 .nnul {
     list-style-type: none;
     margin: -1px;
-    margin-right: -38px;
     padding-left: 5px;
     padding-top: 4px;
     padding-bottom: 0;
@@ -222,15 +217,15 @@ height:50px;
 }
 
 .b2container {
-    margin-top: 20px;
+    margin-top:50px;
     position: relative;
     font-family: 'Roboto', sans-serif;
 }
 
 .b2text-block {
     position: absolute;
-    bottom: 16px;
-    left: 5px;
+    bottom: 90px;
+    left: 20px;   
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -238,42 +233,40 @@ height:50px;
 }
 .b2h4
 {
-    font-size: 23px;
+
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: 3px;
-    padding-bottom: 6px;
+    padding-bottom:6px;
 }
 .b2p
 {
     padding-top: 13px;
     padding-bottom: 28px;
-    letter-spacing: 2px;
 }
 .b2button {
-    background-color: #FF4157;
+    background-color:#FF4157; 
     border: none;
     color: white;
-    padding: 11px 10px;
+    padding: 11px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 2px;    
     transition-duration: 0.4s;
     cursor: pointer;
     letter-spacing: 1px;
 }
 
 .b2button1:hover {
-    background-color: rgb(32, 27, 70);
+    background-color:rgb(32, 27, 70);
     color: white;
-    /* border: 1px solid; */
-    border: 1px solid rgb(32, 27, 70)
 }
 .bdimg
 {
   width:100%;
-  height: 325px;
+  height:500px;
 }
 .ittable
             {
@@ -492,50 +485,61 @@ padding-left:200px;
 }
 .fxcontainer
        {
-        width: 1185px;
-        height: 535px;
+       /* width: 1185px;
+        height: 535px;*/
         margin-left: 46px;
         margin-right: 46px;
-        margin-top: 28px;
        }
+      .fxcontainer-1 
+      {
+        
+         display:flex;
+        /*  height: 264px;     */
+      }
      
+      .fxcontainer-2
+      {
+         display:flex;
+         /* height: 264px; */
+      }
+    
       .fxcontent
       {       
-        padding-left: 0px;
-        padding-right: 10px;
-        width: 320px;
-        height: 264px;
-        margin-left: -21px;
+       padding-left:16px;
+       padding-right:10px;
+       width: 320px; 
+       height: 264px;
       }
       .fximage
       {
-        width: 318px;
-        height: 264px;
-        padding-top: 1px;
-    
-        margin-left: -20px;
+        width: 431px;
+    height: 264px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
       }
       .fxita:link
       {
         background-color: white;
         color: #2b2b2b;
         border: 1px solid black;
-        padding: 4px 9px;
+        padding: 5px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         letter-spacing: 1;
         letter-spacing: 1px;
         margin-top: 25px;
-        margin-left: -22px;
+        margin-left: -30px;
+        font-size: 15px;
       }
       .fxp
       {
-        font-size: 14px;
-        letter-spacing: 0.5px;
+          font-size:14px;
+          letter-spacing: 0.5px;
         line-height: 25px;
         padding-top: 11px;
-        margin-left: 0px;
       }
       .fxita:hover 
       {
@@ -558,14 +562,22 @@ padding-left:200px;
     }
      .texp
      {
-        font-size: 12.5px;
+        font-size: 14.5px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    padding-bottom: 34px;
+    color: #2b2b2b;
+    margin-left: -113px;
+     }     
+     .texp1
+     {
+        margin-top: -23px;
+        margin-left: 22px;
+        font-size: 14.5px;
         letter-spacing: 1px;
         line-height: 23px;
-        padding-bottom: 34px;
         color: #2b2b2b;
-        padding-right: 344px;
-        margin-left: -20px;
-     }          
+     }     
    .texh2
    {
     font-weight: 600;
@@ -578,8 +590,8 @@ padding-left:200px;
     color: #2b2b2b;
     line-height: 1.1;
     font-size: 18px;
-    margin-top: 22px;
-    margin-left: -21px;
+    margin-left: -115px;
+    margin-top: 13px;
    }     
    .texh2:hover
    {
@@ -587,30 +599,29 @@ padding-left:200px;
    }    
 .texcontainer-1{
 
-/*display:flex;*/
-
-margin-top: 75px;
+display:flex;
 
 }
 .texcontainer-1 div
 {
- padding-left:12px;
- margin-left: 35px;
- 
+    padding-left: 10px;
+    margin-left: 35px;
 
 }
 .texa:link {
     background-color: white;
     color: #2b2b2b;
     border: 1px solid black;
-    padding: 4px 9px;
+    padding: 5px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     letter-spacing: 1;
     letter-spacing: 1px;
-    margin-top: 0px;
-    margin-left: -22px;
+    margin-top: 10px;
+    margin-left: 26px;
+    font-size: 15px;
+    margin-bottom: 10px
 }
 
 
@@ -627,28 +638,19 @@ margin-top: 75px;
 }
 .teximage
 {
-    width: 545px;
-    padding-left: 40px;
+    width: 857px;
 }
 .texcontent
 {
-   /* padding-left: 40px;*/
-    width: 654px;
-  
+    width: 488px;
 }
 .teximght
 {
-    height: 271px;
-    width: 317px;
-    margin-left: -20px;
-  
-}
-.teximght1
-{
-    height: 271px;
-    width: 317px;
-    margin-left: -20px;
-    margin-top: -70px;
+    height: 362px;
+    width: 548px;
+    margin-left: -22px;
+    margin-top: 10px;
+    width: 361px;
 }
 .ltalign
 {
@@ -665,8 +667,26 @@ margin-top: 75px;
 }
 .ltitem1
 {
+    color: white;
+    /* padding: 25px; */
+    padding-top: 35px;
+    /* padding-left: 10px; */
+    margin-left: -130px;
+    margin-right: 107px;
+}
+.ltitem2
+{
    color:white;
-   padding:25px;
+   padding:35px;
+}
+.ltitem3
+{
+    color: white;
+    /* padding: 25px; */
+    padding-top: 35px;
+    /* padding-left: 10px; */
+    margin-left: -150px;
+    margin-right: 107px;
 }
 .lthred:hover
 {
@@ -768,15 +788,14 @@ margin-top: 75px;
             * {box-sizing: border-box;}
 .ttmaincontainer
 {
-  /*display:flex;
-  justify-content:space-evenly;*/
+  display:flex;
+  justify-content:space-evenly;
+  margin-left: -12px;
 }
 .ttcontainer {
-    position: relative;
-    width: 95%;
-    max-width: 307px;
-    margin-left: 26px;
-    margin-top: 10px;
+  position: relative;
+  width: 50%;
+  max-width: 300px;
 }
 
 .ttimage {
@@ -798,14 +817,10 @@ margin-top: 75px;
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 17px;
-    /* padding: 10px; */
+    font-size: 20px;
+    padding: 10px;
     text-align: center;
-    letter-spacing: 1px;
     cursor: pointer;
-    padding-top: 11px;
-    padding-bottom: 7px;
-    margin-left: 14px;
 }
 
 .ttcontainer:hover .ttoverlay {
@@ -853,16 +868,9 @@ margin-top: 75px;
             {
                 border-radius: 50%;
                 background-color: lightgray;
-                width: 127px;
-                height: 127px;                
-            }
-            .tttcontainer-3
-            {
-                display:flex;
-            }
-            .tttcontainer-4
-            {
-                display:flex;
+                width: 108px;
+                height: 108px;
+                
             }
             .tttcxicon
             {
@@ -873,26 +881,69 @@ margin-top: 75px;
                 /* margin: 76px; */
                 margin-top: 62px;
                 margin-bottom: 43px;
-                margin-left: 23px;
-                /* margin-right: 139px; */
-                margin-right: 29px;
+                margin-left: 13px;
+                margin-right: 78px;
             }
-            .tttcxwh
+            .tttcxwh2
             {
-                width: 315px;
-                */: ;
-                padding-left: 48px;
+                padding-left: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #2B2B2B;
+                
+            }
+            .tttcxwh1
+            {
+                /*width: 315px;*/
+                /* height: 218px; */              
+                padding-left: 18px;
                 cursor: pointer;
                 font-size: 16px;
                 font-weight: 500;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
+                line-height: 1.1;
+                color: #2B2B2B; 
+            }
+            .tttcxwh2:hover{
+                color:#ff4157;
+            }
+            
+            .tttcxwh1:hover{
+                color:#ff4157;
+            }
+            .tttcxwh3
+            {
+                /*width: 315px;*/
+                /* height: 218px; */
+                padding-left: 79px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
                 line-height: 1.1;
                 color: #2B2B2B;
-                padding-right: 0px;
-                /* width: 20%; */
-                padding-left: 35px;
+                
             }
-            .tttcxwh:hover{
+            .tttcxwh3:hover{
+                color:#ff4157;
+            }
+            .tttcxwh4
+            {
+                /*width: 315px;*/
+                /* height: 218px; */
+                padding-left: 35px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                line-height: 1.1;
+                color: #2B2B2B;
+                
+            }
+            .tttcxwh4:hover{
                 color:#ff4157;
             }
             .tttcximg
@@ -921,64 +972,60 @@ margin-top: 75px;
     padding-right: 77px;
     padding-bottom: 43px;
     top: 161%;
-  
+    ht: -81px;
     top: 104%
 }
 .btnb1
 {
     background-color: black;
     color: white;
-    width: 323px;
-   /* height: 194px;*/
+    width: 712px;
+    height: 226px;
     border: 25px solid black;
     padding: 25px;
-    margin: 25px 25px -45px;
+    margin: 25px -13px -45px;
     border-radius: 6%;
     letter-spacing: 2px;
 }
 
 .btnb2
 {
-    background-color: #FF4157;
-    color: white;
-    width: 323px;
-    /*height: 206px;*/
+    background-color:#FF4157;
+    color:white;
+    width: 712px;
+    height: 117px;
     border: 25px solid #FF4157;
     padding: 25px;
-    margin: 25px 25px -35px;
-    border-radius: 6%;
-    letter-spacing: 1px;
+    margin: 25px -13px -45px;
+    border-radius:6%;  
+    letter-spacing: 2px;    
 }
 
 .btnimg {
     border-radius: 50%;
     margin-top: -29px;
-    margin-left: 66px;
-    width: 89px;
+    margin-left: 5px;
+    width: 64px;
 }
 .btnh2
 {
     color: white;
-    /* margin-left: 88px; */
-    /* margin-top: -68px; */
-    font-size: 98%;
-    /* width: 33%; */
-    margin-top: 12px;
-    letter-spacing: 1px;
-    padding-left: 31px;
+    margin-left: 100px;
+    margin-top: -68px;
+    font-size: 131%;
 }
 .btnh4
 {
     margin-top: 8px;
-    margin-left: 46px;
-    font-size: 66%;
+    margin-left: 115px;
+    font-size: 89%;
 }
 .btndiv
 {
   width:1301px;
- /* height: 298px;*/
-  margin-top: 1610px;
-  margin-left: 0px;
+  height: 298px;
+  margin-top: -41px;
+  margin-left: 31px;
 }
 .font-style-last
 {
@@ -986,3 +1033,5 @@ font-weight: bold;
 letter-spacing: 2px;
 }
 }
+
+

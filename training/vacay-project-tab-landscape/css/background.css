@@ -1,0 +1,21 @@
+.bdcontainer {
+   
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+    letter-spacing:2px;
+    font-size:45px;
+    
+}
+.bdcentered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bdimg
+{
+  width:100%;
+  height:400px;
+}
