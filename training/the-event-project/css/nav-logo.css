@@ -1,0 +1,78 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(12,18,28);
+}
+.header-logo-nav
+{
+    display:flex;
+    margin-left:1
+}
+#logo-image
+{
+padding: 0;
+margin: 0;
+max-height: 40px;
+/* flex: 2; */
+margin-top: 10px;
+margin-right: 109px;
+margin-left: 57px;
+cursor: pointer;
+}
+.nav-logo-ul
+{
+list-style-type: none;
+/* margin: 0; */
+margin-top: 10px;
+padding: 0;
+overflow: hidden;
+background-color: rgb(12,18,28);
+font-size: 14px;
+}
+
+.nav-logo-li {
+float: left;
+}
+
+.nav-logo-li a {
+display: block;
+color:rgba(202, 206, 221, 0.8);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: 600;
+/* padding: 8px;*/
+font-size: 14px;
+line-height: 1.5;
+}
+.nav-logo-li a:hover
+{
+color:white;
+}
+.nav-logo-li a{
+background-color: transparent;
+}
+.nav-logo-button
+{
+color: #fff;
+background: #f82249;
+padding: 7px 23px;
+border-radius: 50px;
+border: 2px solid #f82249;
+transition: all ease-in-out 0.3s;
+font-weight: 500;
+margin-left: 3px;
+margin-top: -5px;
+line-height: 1;
+font-size: 13px;
+cursor: pointer;
+}
+.nav-logo-button:hover
+{
+border:1px solid #f82249;
+background-color: transparent;
+}
+.logo-image-style
+{
+width: 205px;
+height: 44px;
+}

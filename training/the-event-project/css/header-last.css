@@ -1,0 +1,42 @@
+.ltalign
+{
+    padding-left:153px;
+    background-color: rgb(19, 19, 126);
+
+}
+.ltcontainer-1
+{
+   display:flex;
+   background-color: rgb(19, 19, 126);
+   width: 100%;
+}
+.ltitem1
+{
+   color:white;
+   padding:25px;
+}
+.lti
+{
+   color:white;
+   font-size:30px;
+   padding: 3px;
+
+}
+.ltr
+{
+    color:red;
+    font-size:20px;
+}
+.ltred
+{
+   color:red;
+}
+.ltinnercontainer-1
+{
+   display:flex;
+}
+.ltimg
+{
+   width:100px;
+   padding: 25px;
+}
