@@ -109,7 +109,7 @@
     margin-top: 43px;
     margin-left: 337px; 
 }
-.circle
+.nlcircle
 {
                 border-radius: 50%;
      background-color: #f82249; 
@@ -118,15 +118,15 @@
     cursor:pointer;
     
             }
-            .zoom
+            .nlzoom
             {
                 transition: transform .2s;
             }
-.zoom :hover
+.nlzoom :hover
 {
     transform: scale(1.5); 
 }
-            .icon
+            .nlicon
             {
                 display: flex;
     align-items: center;
@@ -302,10 +302,19 @@ background-color: #f82249;
     line-height: 1.2;
     text-align: left;
 }
+.content-part1
+{
+    width:1270px;
+    height:994px;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(12,18,28);
+}
 </style>
 </head>
 <body>
-
+<div class="content-part1">
 
 <div class="header-logo-nav">
         <div id="logo-image">
@@ -329,8 +338,8 @@ background-color: #f82249;
 <div>
     <h1 class="nav-logo-h1">THE ANNUAL <span class="nav-logo-span">MARKETING</span>&nbsp;CONFERENCE</h1>
     <p class="nav-logo-p">10-12 December, Downtown Conference Center, New York</p>
-    <span class="zoom">
-        <i class="circle icon">
+    <span class="nlzoom">
+        <i class="nlcircle nlicon">
         <i class="fa fa-play "></i></i>        
     </span>
     <button class="nav-logo-button2">About The Events</button>
@@ -354,6 +363,7 @@ background-color: #f82249;
          </div>
        </div>
        </div>
-    </div>
+ </div>
+    
 </body>
 </html>
