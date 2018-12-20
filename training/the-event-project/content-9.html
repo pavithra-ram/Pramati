@@ -11,12 +11,24 @@
     }
     .content-part9
     {
-    background-color: #fff;
-    background-image: url(image/2bg.jpg);
-    width:1284px;
-  
-          /*  filter: blur(20px);*/
+    
+    padding-bottom: 50px;
+    background-color: #373C4E;
+     
     }
+.c9overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  transition: .3s ease;
+  background-image: url(image/2bg.jpg);
+
+}
    .content9-input 
     {
     background: #fff;
@@ -101,6 +113,7 @@
 <body>
     <div class="part-9">
 <div class="content-part9">
+<div class="c9overlay">
             <div>
                      <h2 class="content9-h2">NEWSLETTER</h2>
                      <p class="content9-p">Rerum numquam illum recusandae quia mollitia consequatur.</p>
@@ -108,8 +121,10 @@
             </div>
             <div class="content9-flex-input">
                <div><input type="text" placeholder="Enter your Email" class="content9-input"> </div>
-               <div> <button class="content9-button">Subscribe</button></div>
-           
+               <div> <button class="content9-button">Subscribe</button></div>           
+
+</div>
+</div>
 </div>
 </div>
 </body>
