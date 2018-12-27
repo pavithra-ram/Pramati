@@ -9,6 +9,7 @@ body
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #777777;
+  overflow-x: hidden;
 }
 .background---image
 {
@@ -44,6 +45,12 @@ padding-bottom: 30px;
  font-weight: 500;
  border-radius: 50px;
  }
+ .background---image .bg-content-left .btn:hover
+ {
+  background-position: right center;
+  color:#fff;
+ }
+
  .bg-content-left
  {
  margin-left: 85px;
@@ -113,4 +120,255 @@ padding-bottom: 30px;
  {
   box-shadow: 0 0 50px rgba(153, 153, 153, 0.2);
  }
- 
+.container-3
+{
+background-color: #F9F9F9;
+}  
+.container-3 h2
+{
+font-size: 36px;
+margin-bottom: 30px;
+color:#222222;
+}
+.container-3 li
+{
+list-style: none;
+font-weight:600;
+}
+.style-icon-list::before
+{
+font-family: fontawesome;
+content: "\f101";
+color: #772dff;
+margin-right: 10px;
+}
+.container-3 .img-responsive
+{
+  max-width: 216%;
+  z-index: 1;
+  height: 100%;
+}
+.container-3 .small-img
+{
+  z-index: 3;
+  width: 105%;
+  height: 100%;
+  padding-left: 110px;
+  margin-left: 150px;
+}
+.col-md-5
+{   
+flex: 0 0 41.666667%;
+max-width: 41.666667%;
+height: 120%;
+}
+.container-3 img
+{
+position: absolute;
+/* top: 10px; */
+left: 25px;
+}
+.container-3 .content-overlay 
+{
+position: absolute;
+top: 10px;
+left: 25px;
+color:#F9F9F9;
+
+}
+.container-3 .content-overlay
+{
+z-index: 5;
+}
+.container-3 .space-left
+{
+  margin-left: 279px;
+  margin-top: 10px;
+  padding-top: 70px;
+  width: 66%;
+  padding-bottom: 35%;
+}
+.container-3 .content-overlay h4
+{
+font-size: 20px;
+color: #fff;
+margin-bottom: 50px;
+font-family: "Playfair Display", serif;
+font-weight: 700;
+margin-left: 20px;
+margin-top: 15px;
+}
+.container-3 .content-overlay p
+{
+line-height: 24px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+padding-bottom: 10px;
+color:#fff;
+margin-left: 20px;
+}
+.container-3 .content-left-overlay h2
+{
+font-size: 36px;
+font-weight:800;
+margin-bottom: 30px;         
+font-family: "Playfair Display", serif;
+
+}
+.container-3 .content-left-overlay p
+{
+font-weight: 700;
+margin-bottom: 20px;
+line-height:2;
+font-size: 14px;
+}
+.container-3 .content-left-overlay ul
+{
+font-weight:700; 
+}
+.container-3 .content-left-overlay
+{
+margin-left: 75px;
+margin-top: 90px;
+}
+.container-3 .style-list-align
+{
+padding: 0px;
+margin: 0px;
+}
+.col-md-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  height: 100%;
+}
+.container-4
+           {
+            line-height: 1.2;
+            padding-bottom: 50px;
+            margin-top: 150px;
+            width: 88%;
+            margin-left: 85px;
+            margin-bottom: 80px;
+   
+           }
+           .container-4 h2
+           {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 25px;
+            font-family: "Playfair Display", serif;   
+            color: #222222;
+           }
+           .container-4 p
+           {
+            font-size: 14px;
+            padding-bottom: 90px;
+            font-weight: 300;
+            max-width: 450px;
+            margin: auto;
+            line-height:1.5;
+            color: #777777;
+           }
+           .c4-hover-effect-box-col
+           {
+            padding: 30px 0;
+            box-shadow: 0 0 50px rgba(153, 153, 153, 0.1);    
+            transition: all 0.3s ease 0s;
+            width:160px;
+           }
+           .c4-hover-effect-box-col:hover {
+            box-shadow: 0 0 50px rgba(153, 153, 153, 0.3);
+             }
+           .c4-content h4
+           {
+            margin-top: 30px;
+            font-family: "Playfair Display", serif;
+            font-weight: 800;
+            font-size: 19px;
+            color: #222222;
+           }
+           .eye-care
+           {
+               padding-bottom: 20px;
+           }
+           .container-4 img
+           {
+               vertical-align: middle;
+           }   
+           .c4-col-container
+           {
+              padding-bottom: 90px;
+           }       
+           .bttnn
+           {
+            background-position: right center;
+            color: #fff;
+            background: linear-gradient(to right, #0ba9ff 0%, #56d9ff 51%, #0ba9ff 100%);
+            background-size: 200% auto;
+            padding: 15px 40px;
+            font-family: "Roboto", sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 50px;
+           }
+           .bttnn:hover
+           {
+            background-position: right center;
+            color:#fff;
+           }
+           .c-5
+           {
+            background-image: url(../image/counter-bg.jpg);        
+            background-size: cover;        
+            position:relative;
+            padding:120px 0;
+           }
+           .c5-color-overlay
+           {
+               width:100%;
+               top:0;
+               height: 100%;
+               background: #000;
+               opacity:0.4;
+               position:absolute;
+           }  
+           .col-design
+           {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 50px rgba(153, 153, 153, 0.1);
+            text-align: center;
+            padding: 50px 20px;  
+            position:relative;       
+        
+           }  
+           .col-design h1
+           {
+            font-family: "Roboto", sans-serif;
+            font-size: 72px;
+            padding-bottom: 70px;
+            color: #ffffff;
+            font-weight: 900;
+            line-height: 1.2;
+            position: relative;         
+           }  
+           .c-5 .container .row .col-lg-3 .col-design h1
+           {
+            z-index:10;  
+           }  
+           .col-design p
+           {
+               font-size: 16px;
+               color:#fff;
+               font-weight: 600;
+               position:relative;  
+               letter-spacing: 0.5;            
+           } 
+          .c-5 .container .row .col-lg-3 .col-design p
+          {
+            z-index:10;
+          }
+          .c-5 .container .row .col-lg-3 .col-design 
+          {
+              z-index: 10;
+          }

@@ -5,39 +5,91 @@
         <meta name="Keywords" content="HTML,CSS">
         <link rel="icon" href="image/favicon.png" type="image/x-icon">
         <title>Medicare</title>
+        <link href="css/reset.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link href="css/main.css" rel="stylesheet">
     </head>
        <style>
-        .container-3
-        {
-            background-color: #F9F9F9;
-        }  
-        .container-3 h2
-        {
+           *
+           {
+            box-sizing: border-box;
+           }
+           .c-6
+           {
+               background: #f9f9f9;
+               padding-top:120px;
+           }
+           .c-6 h2
+           {
             font-size: 36px;
-            margin-bottom: 30px;
-            color:#222222;
-        }
-        .container-3 li
-        {
-            list-style: none;
-        }
-        .style-icon-list::before
-        {
-            font-family: fontawesome;
-            content: "\f101";
-            color: #772dff;
-            margin-right: 10px;
-        }
-       </style>
+            font-weight: 800;
+            margin-bottom: 25px;
+            font-family: "Playfair Display", serif;   
+            color: #222222;
+           }
+           .c-6 p
+           {
+            font-size: 14px;
+            padding-bottom: 90px;
+            font-weight: 300;
+            max-width: 450px;
+            margin: auto;
+            line-height:1.5;
+            color: #777777;
+           }
+           .c6-icon-style
+           {
+            cursor:pointer;
+            padding:10px;
+           }
+           .c6-icon-style:hover
+           {
+            color:#007bff;
+           }
+           .c6-hover-border-effect
+           {
+            box-shadow: 0 0 50px rgba(153, 153, 153, 0.1);  
+            transition: all 0.3s ease 0s;
+            background: #fff;
+            padding: 40px;
+           }
+           .c6-hover-border-effect:hover {
+            box-shadow: 0 0 50px rgba(153, 153, 153, 0.3);
+             }
+             .c6-heading h4
+             {
+                margin: 20px 0px 0px;
+                font-size: 18px;
+                font-family: "Playfair Display", serif;
+                font-weight: 700;
+                color: #222222;
+                line-height: 1.2;
+             }
+             .c6-line1-p p
+             {
+                margin-bottom: 15px;
+                line-height: 24px;
+                font-size: 14px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                color: #777777;
+             }
+             .c6-line2-p p             
+             {
+                line-height: 24px;
+                font-size: 14px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                color: #777777;
+             }
+           
+    </style>
     <body>    
-         <div class="background---image img-responsive">
+     <div class="background---image img-responsive">
          <div class="bg-content-left">
              <div>
              <h2>Growing up your<br>
@@ -48,6 +100,7 @@
             </div>
          </div>
          </div>
+         
 
          <div class="column-content-part-1">
              <div class="column-container-part-1">
@@ -106,7 +159,8 @@
 
          <div class="container-3">
              <div class="row">
-                 <div class="col-md-6">
+                 <div class="col-md-5">
+                     <div class="content-left-overlay">
                      <h2>
                             Welcome to Medicare Center
                      </h2>
@@ -114,17 +168,176 @@
                             inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
 							especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
                      </p>
-                     <ul>
-                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace that’s why it’s crucial that.</li>
-                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace that’s why it’s crucial that.</li>
-                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace that’s why it’s crucial that.</li>
+                     <ul class="style-list-align">
+                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that’s why it’s crucial that.</li>
+                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that’s why it’s crucial that.</li>
+                        <li class="style-icon-list">Women face higher conduct standards especially in the workplace &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that’s why it’s crucial that.</li>
                     </ul>
+                    </div>
                   </div>
                   <div class="col-md-4">
-                      <img src="image/about-bg.jpg" style="width: 60%">
+                     <img src="image/about-bg.jpg" class="img-responsive">
+                     <img src="image/about-bg2.png" class="small-img">
+                     <div class="content-overlay border space-left">
+                         <h4>Doctors Time table</h4>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                         <p>Mon to Friday -- 07.00 AM to 10.00 PM</p>
+                     </div>
+                     </div>
                   </div>
              </div>
          </div>
-    
+         
+         <div class="container-4 text-center">
+             <h2>Medicare Popular Departments</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+             <div class="c4-col-container">
+                 <div class="row">
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon1.png" alt="image">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Cardiology
+                                    </h4>
+                                </div>
+                            </div>
+                 </div>
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon2.png" alt="image">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Urology
+                                    </h4>
+                                </div>
+                            </div>
+                 </div>
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon3.png" alt="image">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Dental Care
+                                    </h4>
+                                </div>
+                            </div>
+                 </div>
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon4.png" alt="image" class="eye-care">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Eye Care
+                                    </h4>
+                                </div>
+                            </div>
+                 </div>
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon5.png" alt="image">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Neurology
+                                    </h4>
+                                </div>
+                            </div>
+                 </div>
+                 <div class="col-lg-2">
+                        <div class="c4-hover-effect-box-col">
+                                <div class="c4-header-img">
+                                 <img src="image/d-icon6.png" alt="image">
+                                </div>
+                                <div class="c4-content">
+                                    <h4>
+                                    Plastic Surgery
+                                    </h4>
+                                </div>
+                        </div>
+                 </div>
+                 </div>
+             </div>
+             <button type="button" class="btn bttnn">LEARN MORE</button>
+         </div>
+
+
+         <div class="c-5">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-3">
+                         <div class="col-design">
+                             <h1>30K</h1>
+                             <p>Years<br>of Experiences</p>
+                             </div>
+                     </div>
+                     <div class="col-lg-3">
+                            <div class="col-design">
+                                    <h1>0K+</h1>
+                                    <p>Instant<br>Blood Donors</p>
+                                    </div>
+                     </div>
+                     <div class="col-lg-3">
+                            <div class="col-design">
+                                    <h1>1K+</h1>
+                                    <p>Well Cured<br>Patients</p>
+                                    </div>
+                     </div>
+                     <div class="col-lg-3">
+                            <div class="col-design">
+                                    <h1>4K+</h1>
+                                    <p>Internal<br>Stuff Groups</p>
+                                    </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="c5-color-overlay"></div>
+         </div>
+
+         <div class="c-6 text-center">
+           <h2>Medicare Popular Departments</h2> 
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+            <div class="c6-col-wrapper">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="c6-img">
+                            <img src="image/member1.png" alt="member-1">
+                        </div> 
+                        <div class="c6-hover-border-effect">
+                                   <div class="c6-icons">
+                                        <i class="fa fa-facebook c6-icon-style"></i>
+                                        <i class="fa fa-twitter  c6-icon-style"></i>
+                                        <i class="fa fa-linkedin c6-icon-style"></i>
+                                   </div>
+                                   <div class="c6-heading text-center">
+                                        <h4>Ethel Davis</h4>
+                                   </div>
+                                   <div class="c6-line1-p text-center">
+                                       <p>Sr. Faculty Data Science</p>
+                                   </div>
+                                   <div class="c6-line2-p text-center">
+                                       <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                                   </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </div>
      </body>
 </html>
