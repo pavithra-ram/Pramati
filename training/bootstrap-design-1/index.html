@@ -7,87 +7,112 @@
         <title>Medicare</title>
         <link href="css/reset.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link href="css/main.css" rel="stylesheet">
-    </head>
-       <style>
+        <link href="css/main.css" rel="stylesheet">    
+        <style>
            *
            {
             box-sizing: border-box;
            }
-           .c-6
+           .footer-part
            {
-               background: #f9f9f9;
-               padding-top:120px;
+            background: url(image/footer-bg.jpg) no-repeat scroll center center;
+            background-size: cover;
+            padding: 120px 0px 60px 80px;
            }
-           .c-6 h2
+           .footer-part h4
            {
-            font-size: 36px;
-            font-weight: 800;
-            margin-bottom: 25px;
-            font-family: "Playfair Display", serif;   
-            color: #222222;
+            padding-bottom: 10px;
+            color: #fff;
+            font-size: 18px;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
            }
-           .c-6 p
+           .footer-part p
            {
+            line-height: 24px;
             font-size: 14px;
-            padding-bottom: 90px;
-            font-weight: 300;
-            max-width: 450px;
-            margin: auto;
-            line-height:1.5;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
             color: #777777;
-           }
-           .c6-icon-style
+           }    
+           .f-p-w1
            {
-            cursor:pointer;
-            padding:10px;
-           }
-           .c6-icon-style:hover
+            width:253px;
+           } 
+           .f-p-w2
            {
-            color:#007bff;
+            width:350px;
            }
-           .c6-hover-border-effect
+           .footer-column-wrapper
            {
-            box-shadow: 0 0 50px rgba(153, 153, 153, 0.1);  
-            transition: all 0.3s ease 0s;
-            background: #fff;
-            padding: 40px;
+            margin-left: 60px;
+            margin-bottom: 80px;
+           } 
+           .footer-part .part-1
+           {
+               margin-right: 30px;
+           }   
+           .footer-part .part-2
+           {
+               margin-right: 30px;
+           }   
+           .number-part
+           {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 30px;
            }
-           .c6-hover-border-effect:hover {
-            box-shadow: 0 0 50px rgba(153, 153, 153, 0.3);
-             }
-             .c6-heading h4
-             {
-                margin: 20px 0px 0px;
-                font-size: 18px;
-                font-family: "Playfair Display", serif;
-                font-weight: 700;
-                color: #222222;
-                line-height: 1.2;
-             }
-             .c6-line1-p p
-             {
-                margin-bottom: 15px;
-                line-height: 24px;
-                font-size: 14px;
-                font-family: "Roboto", sans-serif;
-                font-weight: 500;
-                color: #777777;
-             }
-             .c6-line2-p p             
-             {
-                line-height: 24px;
-                font-size: 14px;
-                font-family: "Roboto", sans-serif;
-                font-weight: 500;
-                color: #777777;
-             }
-           
+          .bttnn-last
+           {
+            background-position: right center;
+    color: #fff;
+    background: linear-gradient(to right, #0ba9ff 0%, #56d9ff 51%, #0ba9ff 100%);
+    background-size: 200% auto;
+    margin-top: 2px;
+    /* margin-right: 2px; */
+    /* margin-bottom: 6px; */
+    /* padding: 10px 22px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-right: 20px;
+    margin-left: 229px;
+    position: absolute;
+    z-index: 20;
+           }
+           .bttnn-last:hover
+           {
+            background-position: right center;
+            color:#fff;
+            border:1px solid #77776E;
+           }
+           .footer-part .part-3 .dss
+           {
+            border-radius: 50px;
+            padding: 15px 0px 20px 15px;
+            font-size: 14px;
+            position: relative;
+            z-index: 10;
+            background: transparent;
+            box-shadow: none;
+            border:1px solid #77776E;
+           }
+           .footer-part .part-3 .dss:hover
+           {
+               border:1px solid #77776E;
+           }
     </style>
+    </head>
     <body>    
      <div class="background---image img-responsive">
          <div class="bg-content-left">
@@ -308,9 +333,11 @@
          </div>
 
          <div class="c-6 text-center">
+             <div class="c6-head">
            <h2>Medicare Popular Departments</h2> 
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
-            <div class="c6-col-wrapper">
+             </div>  
+           <div class="c6-col-wrapper">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="c6-img">
@@ -326,18 +353,227 @@
                                         <h4>Ethel Davis</h4>
                                    </div>
                                    <div class="c6-line1-p text-center">
-                                       <p>Sr. Faculty Data Science</p>
-                                   </div>
-                                   <div class="c6-line2-p text-center">
-                                       <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
-                                   </div>
+                                       <p>Sr. Faculty Data Science</p>                           
+                                        <p class="c6-p-width text-center">If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                                  </div>
                          </div>
                     </div>
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3">
+                            <div class="c6-img">
+                                    <img src="image/member2.png" alt="member-2">
+                                </div> 
+                                <div class="c6-hover-border-effect">
+                                           <div class="c6-icons">
+                                                <i class="fa fa-facebook c6-icon-style"></i>
+                                                <i class="fa fa-twitter  c6-icon-style"></i>
+                                                <i class="fa fa-linkedin c6-icon-style"></i>
+                                           </div>
+                                           <div class="c6-heading text-center">
+                                                <h4>Rodney Cooper</h4>
+                                           </div>
+                                           <div class="c6-line1-p text-center">
+                                               <p>Sr. Faculty Data Science</p>                           
+                                                <p class="c6-p-width text-center">If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                                          </div>
+                                 </div>
+                    </div>
+                    <div class="col-lg-3">
+                            <div class="c6-img">
+                                    <img src="image/member3.png" alt="member-3">
+                                </div> 
+                                <div class="c6-hover-border-effect">
+                                           <div class="c6-icons">
+                                                <i class="fa fa-facebook c6-icon-style"></i>
+                                                <i class="fa fa-twitter  c6-icon-style"></i>
+                                                <i class="fa fa-linkedin c6-icon-style"></i>
+                                           </div>
+                                           <div class="c6-heading text-center">
+                                                <h4>Dane Walker</h4>
+                                           </div>
+                                           <div class="c6-line1-p text-center">
+                                               <p>Sr. Faculty Data Science</p>                           
+                                                <p class="c6-p-width text-center">If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                                          </div>
+                                 </div>
+                    </div>
+                    <div class="col-lg-3">
+                            <div class="c6-img">
+                                    <img src="image/member4.png" alt="member-4">
+                                </div> 
+                                <div class="c6-hover-border-effect">
+                                           <div class="c6-icons">
+                                                <i class="fa fa-facebook c6-icon-style"></i>
+                                                <i class="fa fa-twitter  c6-icon-style"></i>
+                                                <i class="fa fa-linkedin c6-icon-style"></i>
+                                           </div>
+                                           <div class="c6-heading text-center">
+                                                <h4>Lena Keller</h4>
+                                           </div>
+                                           <div class="c6-line1-p text-center">
+                                               <p>Sr. Faculty Data Science</p>                           
+                                                <p class="c6-p-width text-center">If you are looking at blank cassettes on the web, you may be very confused at the difference in price.</p>
+                                          </div>
+                                 </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="c-7">
+           <div class="c7-col-wrapper">
+              <div class="row">
+
+                  <div class="col-lg-6">
+                      <div class="c7-1st-header">
+                        <h2>Our Recent Blogs</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="c7-1st-content">
+                          <div class="row">
+                              <div class="col-lg-4">
+                                  <div class="c7-1_col-img-part">
+                                      <img src="image/blog1.jpg" alt="blog1">
+                                  </div>
+                              </div>
+                              <div class="col-lg-8">
+                                  <div class="c7-1_col-content-part">
+                                      <div class="c7-1_col-icon d-flex justify-content-start">
+                                            <i class="fa fa-calendar c7-icon-space"></i>
+                                            <p>13th Dec</p>
+                                            <i class="fa fa-heart-o  c7-icon-space"></i>
+                                            <p>15</p>
+                                            <i class="fa fa-comment-o  c7-icon-space"></i>
+                                            <p>04</p>
+                                      </div>
+                                      <div class="c7-1_col-title">
+                                          <h4>Portable Fashion for women</h4>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="c7-1st-content">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="c7-1_col-img-part">
+                                        <img src="image/blog2.jpg" alt="blog1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="c7-1_col-content-part">
+                                        <div class="c7-1_col-icon d-flex justify-content-start">
+                                              <i class="fa fa-calendar c7-icon-space"></i>
+                                              <p>13th Dec</p>
+                                              <i class="fa fa-heart-o  c7-icon-space"></i>
+                                              <p>15</p>
+                                              <i class="fa fa-comment-o  c7-icon-space"></i>
+                                              <p>04</p>
+                                        </div>
+                                        <div class="c7-1_col-title">
+                                            <h4>Portable Fashion for women</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="c7-1st-content">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="c7-1_col-img-part">
+                                            <img src="image/blog3.jpg" alt="blog1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="c7-1_col-content-part">
+                                            <div class="c7-1_col-icon d-flex justify-content-start">
+                                                  <i class="fa fa-calendar c7-icon-space"></i>
+                                                  <p>13th Dec</p>
+                                                  <i class="fa fa-heart-o  c7-icon-space"></i>
+                                                  <p>15</p>
+                                                  <i class="fa fa-comment-o  c7-icon-space"></i>
+                                                  <p>04</p>
+                                            </div>
+                                            <div class="c7-1_col-title">
+                                                <h4>Portable Fashion for women</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                  </div>
+                  <div class="col-lg-6">
+                        <div class="c7-1st-header">
+                                    <h2>Make an Appointment</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="c7-2nd-content">
+                            <div class="row justify-content-left ml-5">
+                                <div class="c7-form-border">
+                                        <form class="form_area">
+                                                <div class="row">
+                                                <div class="col-lg-12 form_group">
+                                                
+                                               <input name="name" placeholder="Patient name" placeholder = "Enter your name" class="form-ip-style form-control" required="" type="text">
+                                               
+                                               <input name="email" placeholder="Email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" class="form-ip-style form-control" required="" type="email">
+                                                   
+                                               <input name="name" placeholder="Date of birth" class="form-ip-style form-control" required="" type="text">
+                                               
+                                               <select class="form-ip-style form-control select--style">
+                                                       <option>Doctor’s name</option>
+                                                        <option class="select--style">Rashimul</option>
+                                                       <option class="select--style">Shofi</option>
+                                               </select>      
+                                                  
+                                               <input name="subject" placeholder="Appointment date" class="form-ip-style mb-10 form-control" required="" type="text">
+                                                               
+                                               <textarea placeholder="Message" class="form-ip-style form-control" ></textarea>
+                                               </div>
+                                               </div>
+                                               </form>   
+                                               <div class="c7-btn-space justify-content-right">
+                                               <button type="button" class="btn bttnn c7-btn-space">CONFIRM BOOKING</button> 
+                                               </div> 
+                                          </div>
+                                     </div>
+                                </div>
+                          </div>
+                     </div>
+                 </div>
+           </div>
+             
+           <div class="footer-part">
+               <div class="footer-column-wrapper">
+                   <div class="d-flex">
+                       <div class="part-1">
+                           <h4>About Us</h4>
+                           <p class="f-p-w1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                       </div>
+                       <div class="part-2">
+                           <h4>Contact Us</h4>
+                           <p class="f-p-w2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <span class="number-part">012-6532-568-9746</span>
+                           <br>
+                           <span class="number-part">012-6532-569-9748</span>
+                        </div>
+                       <div class="part-3">
+                           <h4>Newsletter</h4>
+                           <p class="f-p-w3">You can trust us. we only send offers, not a single spam.</p>                          
+                           <div class="d-flex">
+                           <div class="input-group mb-3 ">
+                                <input type="text" class="form-control dss" placeholder="Email address">
+                            </div>
+                          
+                                    <button type="button" class="btn bttnn-last">GET STARTED</button>  
+                            
+                            </div>
+                        </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
      </body>
 </html>
