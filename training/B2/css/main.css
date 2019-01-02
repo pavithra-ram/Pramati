@@ -2,10 +2,50 @@
 {
     box-sizing: border-box;
 }
+html
+{
+    overflow-x:hidden;
+}
+body
+{                
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;            
+}
+h2
+{
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;  
+    line-height: 1.1;
+    font-size: 40px;
+    color:#333;
+}
+p
+{
+    font-size: 14px;
+    line-height: 1.75;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h3
+{
+    margin-top: 20px;
+}
+h4
+{
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.first-bg
+{
+   background: url(../img/header-bg.jpg);
+   background-size: cover;
+}
 .part-1
 {
     padding:25px;
-    background-color: #333
 }      
 .part-1 .navbar .navbar-brand 
 {
@@ -20,15 +60,160 @@
     font-weight: 600;
     letter-spacing: 1.5px;
     font-size: 13px;
+ 
 }
 .part-1 .navbar-nav .nav-link:hover
 {
     color: #fed136;
 }
-body
-{                
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;            
+        .part-2
+        {
+            text-align: center;
+            margin:auto;
+            margin-top: 220px;    
+            padding-bottom: 190px;   
+            margin-bottom: 80px;     
+
+        }       
+        .part-2-text-content-1
+        {
+            font-family: "Droid Serif";
+            font-style: italic;
+            font-size: 45px;
+            line-height: 40px;
+            margin-bottom: 25px;
+            color: #fff;  
+            padding-right: 10px;       
+        } 
+        .part-2-text-content-2
+        {
+            font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: bolder;
+            font-size: 75px;
+            line-height: 70px;
+            margin-bottom: 70px;
+            color: #fff;
+            margin-top: 40px;
+            padding-right: 50px;
+            margin-right: 50px;
+        }
+        .part-2-btn
+         {
+         padding:20px 40px;
+         color: #fff;
+         background-color: #fed136;
+         border-radius: 3px;
+         font-size: 18px;
+         font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+         font-weight: 900;
+         }
+         .part-2-btn:hover
+         {
+         color: #fff;
+         background-color: #fec503;
+         border-color: #f6bf01;
+         }
+         .part-3
+         {
+            margin-top:80px;
+            margin-bottom: 80px;
+         }
+         .part-3 p
+         {
+          width: 92%;
+         }
+         .p3-h3
+         {
+          font-size: 16px;     
+          font-weight: 400;
+          font-family: "Droid Serif";
+          font-style: italic;
+          margin-bottom: 75px;
+          color: #777;
+         }
+         .part-3 .row
+         {
+            margin-right: 0px;
+         }
+         .dot 
+         {
+          height: 95px;
+          width: 95px;
+          background-color: #fed136;
+          border-radius: 50%;
+          display: inline-block;
+         }
+         .p3-c2
+         {
+          color: #777;
+         }
+         .dot-content
+         {
+          color: #fff;
+          margin-top: 15px;
+          font-size: 60px;        
+         }
+        .p3-col-wrapper-1
+        {
+         margin: 85px 120px;
+        }
+        .part-4
+        {
+           background-color: #EEEEEE;
+           padding:180px 60px;
+        }   
+        .part-4 .p4-col-wrapper
+        {
+         padding: 0px 80px;
+        } 
+
+.part-4 .overlay 
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 69.5%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fec503;
+  
+}
+
+.part-4 .cont:hover .overlay {
+  opacity: 0.9;
+}
+
+.part-4 .text {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.part-4 .cont
+{
+   cursor:pointer;
+}
+.part-4 .p4-col-wrapper
+{
+   margin-bottom: 30px;
+}
+.part-4 p
+{
+   font-size: 16px;
+   font-family:"Droid Serif",Helvetica,Arial,sans-serif; 
+   font-style: italic;
+   color: #777;
+   font-weight: 600;
+}
+.part-4 .card-title
+{
+   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: 900;
+   letter-spacing: 1;
 }
