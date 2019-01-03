@@ -350,3 +350,37 @@ h4
 {
     cursor:pointer;
 }
+.part-8
+        {
+         background-color: #222;
+         background-image: url(img/map-image.png);
+         background-repeat: no-repeat;
+         padding:150px 0;
+        }
+        .part-8 .p3-h2 h2
+        {
+           color:white;
+        }
+        .fc
+        {
+           padding:33px;
+        }
+        .last-bt
+        {
+           margin-right: 50px;
+        }
+        .fc1
+        {
+           padding:55px;
+        }
+        .part-8 textarea
+        {
+         padding-top: 10px;
+         padding-left: 15px;
+         padding-right: 60%;
+        }
+        .p8-form-content
+        {
+           padding-left: 50px;
+           margin-left: 50px;
+        }
