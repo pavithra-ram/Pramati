@@ -217,3 +217,136 @@ h4
    font-weight: 900;
    letter-spacing: 1;
 }
+.part-5
+{
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+.rds .p5 img
+{
+ width:170px;
+ height:170px;
+ border-radius:50%;
+ }
+ .rds .p5b
+ {  
+  border-radius:50%;
+  background-color: #fed136;
+  border:7px solid #f1f1f1;
+  display: inline-block;
+ }
+ .rds .p5b1
+ {
+ width:170px;
+ height:170px;
+ border-radius:50%; 
+ color:#f1f1f1;
+ margin: 0 auto; 
+ font-weight: 900;
+ }
+ .rds .p5-part-1-content p
+ {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.75;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 97%;   
+}
+ .rds .s1 .p5-part-1-content p
+ {
+    margin-left: 10px;
+ }
+ .rds .p5-part-1-header h4
+ {
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;   
+    margin-bottom: 10px;
+ }
+ .rds .border-vertical-line
+ {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .rds .bvl
+ {
+  border-left: 3px solid #f1f1f1;
+  height: 125px;
+ }
+ .rds .s1
+ {
+    margin-left: 75px;
+    padding-left: 70px;
+ }
+ .rds .s2
+ {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+    padding-right: 75px;
+ }
+.rds
+{
+  margin-top:50px;
+}
+.part-6
+{
+   background-color:#EEEEEE;
+   padding: 170px;
+}
+
+.p6b
+{  
+   border-radius:50%;
+   border:7px solid white;
+   display: inline-block;
+}
+.p6-content p
+{
+   color: #777;
+}
+.general-p-color
+{
+    color: #777;
+}
+.p-6-style
+{
+    font-size: 16px;
+}
+.p6dot 
+{
+   height: 45px;
+   width: 45px;
+   background-color: black;
+   border-radius: 50%;
+   display: inline-block;
+   cursor:pointer;
+   margin:5px;
+}
+.p6ic
+{
+   font-size:20px;
+   color:white;
+   margin-top: 12px;
+}
+.p6dot:hover
+{
+   background-color: #fed136;
+}
+.p6-content h4
+{
+   font-weight: bolder;
+   color: black;
+   font-size: 20px;
+}
+.part-7
+{
+   padding:60px 120px 60px 175px;
+}
+.part-7 img
+{
+    cursor:pointer;
+}
