@@ -1,0 +1,80 @@
+html title
+{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    font-size: 700;
+}
+body
+{
+    background-color: #030303;
+    /*background-color: pink;*/
+}
+.header-img
+{
+    width:50%;
+    margin-left: 50px;
+   
+}
+h1
+{
+    font-family: 'Baloo Thambi', cursive;
+    font-style: italic;
+    font-size: 80px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue,0 0 35px red;
+}
+label
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    color:white;
+    font-style: italic;
+    letter-spacing: 2;
+    text-shadow: 1px 1px 2px black, 0 0 5px red;
+}
+.full-container
+{
+    padding-top:25px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px; 
+}
+.name-space
+{
+   margin-right: 25px;
+}
+.pwr-space
+{
+    margin-right: 75px;
+}
+.image-content-part
+{
+    padding-top:10px;
+   
+    padding-left:40px;
+    padding-right:0px; 
+}
+.left-img
+{
+  width:100%;
+  height:80%;
+}
+.right-img
+{
+   width:84%;
+   height:80%;
+   margin-left: 95px;
+}
+.spacing
+{
+    margin-left: 50px;
+    margin-right: 95px;
+}
+.output 
+{
+    padding: 90px;
+    font-size: 20px;
+    background-color: aliceblue;
+    color:black;
+}
