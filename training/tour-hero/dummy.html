@@ -55,49 +55,12 @@
             </div>         
         </div>
     </div>
-    <div class="output" id="">
-            <table id="op">
-                    
-                  </table>
-        </div>
+    <div class="output" id="op">
+        <div id="opbt"></div>
+    </div>
 </body>
-    <script type="text/javascript">
-    
-          const name=document.getElementById("name");
-          const power=document.getElementById("power");
-          const st=document.getElementById("st");
-          const op=document.getElementById("op");           
-          st.onclick=function()
-          {
-                const key=name.value;
-                const value=power.value;
-                if(key && value)
-                {
-                    localStorage.setItem(key,value);
-                    
-                    location.reload();
-                }
-          };    
+    <script type="text/javascript" src="js/main.js">   
          
-         for (let i=0 ; i<localStorage.length ; i++)
-         {
-            const key=localStorage.key(i);
-            const value=localStorage.getItem(key);
-            
-            
-  var table = document.getElementById("op");
-  var row = table.insertRow(0);
-  var cell1 = row.insertCell(0);
-  var cell2 = row.insertCell(1);
-  var cell3 = row.insertCell(2);
-  cell1.innerHTML=i;
-  cell2.innerHTML = key;
-  cell3.innerHTML = value;
-         }
-
-
-
-}
     
     </script>
 

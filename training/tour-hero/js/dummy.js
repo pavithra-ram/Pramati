@@ -2,7 +2,7 @@ const name=document.getElementById("name");
 const power=document.getElementById("power");
 const st=document.getElementById("st");
 const op=document.getElementById("op");           
-
+const opbt=document.getElementById("opbt");
 
 st.onclick=function()
 {
@@ -15,6 +15,10 @@ st.onclick=function()
       }
 };    
 
+const id_arr=new Array();
+const name_arr=new Array();
+const power_arr=new Array();
+
 
 for (let i=0 ; i<localStorage.length ; i++)
 {
@@ -22,12 +26,11 @@ for (let i=0 ; i<localStorage.length ; i++)
   const value=localStorage.getItem(key); 
   const btn = document.createElement("BUTTON");
   btn.innerText = 'REMOVE';  
-  op.innerHTML += i+1 + "\t\t" + key +"\t:\t"+value+"\t\t";  
+  op.innerHTML += i+1 + "\t\t" + key +"\t:\t"+value+"\t\t";
   op.appendChild(btn);
-  op.innerHTML +="<br/><br/>";  
+  op.innerHTML +="<br/><br/>"
+  btn.onclick=console.log("hai");
 }
-  
-
 
 
 
