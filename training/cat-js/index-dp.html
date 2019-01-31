@@ -126,67 +126,80 @@
     
     //dynamic part
 
+  var add_cats=(function(){               //making private using closures
+        
     var _cat_count = 0;
     var temp;
-    function add_cats() {
+    var src;
+    return function()
+    {
+
         _cat_count++;
-        var src;
-        /*cat_count++;*/
+       
+       /*cat_count++;*/
 
-        /*creating cat img part */
+       /*creating cat img part */
 
-        var ci = document.createElement("img");
-        ci.src = "img/cat.jpg";
-        ci.classList.add("dynamic-img");
-        ci.id = "cat_" + _cat_count;
-        var src = document.getElementById("tot");
-        src.appendChild(ci);
-        console.log("cat id ", ci.id);
+       var ci = document.createElement("img");
+       ci.src = "img/cat.jpg";
+       ci.classList.add("dynamic-img");
+       ci.id = "cat_" + _cat_count;
+       var src = document.getElementById("tot");
+       src.appendChild(ci);
+       console.log("cat id ", ci.id);
 
-        /* div for value holding creation part */
+       /* div for value holding creation part */
 
-        var idiv = document.createElement("div");
-        idiv.id = "div_" + ci.id;
-        idiv.value = 0;
-        idiv.classList.add("dy-div");
-
-
-        console.log("div id ", idiv.id);
-
-        /*appending div to cat img */
-
-        var cat_id = document.getElementById(ci.id);
-        src.appendChild(idiv);
-
-       /*create button*/
-
-       var btn = document.createElement("BUTTON");
-            var t = document.createTextNode("reset");
-            btn.appendChild(t);
-            src.appendChild(btn);
-            btn.classList.add("dy-btn");
-
-        /*click part */
-        ci.addEventListener("click", function () {
-            idiv.value++;
-            // idiv.appendChild(idiv.value);      
-            document.getElementById(idiv.id).innerHTML = idiv.value;
-            // idiv.appendChild(document.createTextNode("haiii"));
-            console.log("cat no", ci.id, "idiv value ", idiv.value, "idiv id", idiv.id);
-            btn.style.display="block";
+       var idiv = document.createElement("div");
+       idiv.id = "div_" + ci.id;
+       idiv.value = 0;
+       idiv.classList.add("dy-div");
 
 
-        }
-        );     
-            btn.onclick=function()
-            {
-                idiv.value=0;
-                document.getElementById(idiv.id).innerHTML=" "; 
-                btn.style.display="none"; 
-            }
+       console.log("div id ", idiv.id);
+
+       /*appending div to cat img */
+
+       var cat_id = document.getElementById(ci.id);
+       src.appendChild(idiv);
+
+      /*create button*/
+
+      var btn = document.createElement("BUTTON");
+           var t = document.createTextNode("reset");
+           btn.appendChild(t);
+           src.appendChild(btn);
+           btn.classList.add("dy-btn");
+
+       /*click part */
+       ci.addEventListener("click", function () {
+           idiv.value++;
+           // idiv.appendChild(idiv.value);      
+           document.getElementById(idiv.id).innerHTML = idiv.value;
+           // idiv.appendChild(document.createTextNode("haiii"));
+           console.log("cat no", ci.id, "idiv value ", idiv.value, "idiv id", idiv.id);
+           btn.style.display="block";
+
+
+       }
+       );     
+           btn.onclick=function()
+           {
+               idiv.value=0;
+               document.getElementById(idiv.id).innerHTML=" "; 
+               btn.style.display="none"; 
+           }
 
 
     }
+
+  })();
+    
+    
+       
+
+
+    
 
 </script>
 
