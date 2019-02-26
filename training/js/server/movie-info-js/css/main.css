@@ -1,0 +1,38 @@
+body
+{
+    background-color: #131313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-left:50px;
+    padding-right: 50px;
+
+}
+.main-part
+{
+    background-color: #2F2C2A;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+.formatting
+{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.spacing
+{
+    margin-top: 60px;
+}
+.form-control
+{
+    background-color: #5E5957;
+}
+.btn-align
+{
+   text-align: center;
+   margin-top: 25px;
+}
