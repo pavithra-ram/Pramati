@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Sample Registration form</title>
+<style>
+   div {
+    
+    background-color: lightgray;
+   
+}
+</style>
+</head>
+<body style="background-color:darkgray">
+<form method="get" action="action.html">
+<pre>
+<table style="width:100%" align="center">  
+    <tr>      
+      <th colspan="2" rowspan="2"><img src="sp.jpg" alt="Registration page" style="width:300px;height:75px;"></th>
+     
+     </tr>
+</table>
+</pre>
+<pre>
+<fieldset>
+<legend> <strong>Personal Info</strong></legend>
+<div>
+	Firstname   : <input type="text" name="firstname" id="firstname" required/><br>
+
+	Lastname    : <input type="text" name="lastname" id="lastname" required/><br>
+
+	DateOfBirth : <select name="Day" id="day">
+<option value="1">1</option>
+<option value="2">2</option> 
+<option value="3">3</option> 
+<option value="4">4</option> 
+<option value="5">5</option> 
+<option value="6">6</option> 
+<option value="7">7</option>
+<option value="8">8</option> 
+<option value="9">9</option> 
+<option value="10">10</option> 
+<option value="11">11</option> 
+<option value="12">12</option></select> <select name="Month" id="month">
+<option value="Jan">January</option>
+<option value="Feb">February</option> 
+<option value="Mar">March</option> 
+<option value="Apr">April</option> 
+<option value="May">May</option> 
+<option value="June">June</option> 
+<option value="July">July</option>
+<option value="August">August</option> 
+<option value="Sep">September</option> 
+<option value="Oct">October</option> 
+<option value="Nov">November</option> 
+<option value="Dec">December</option></select> <select name="Year" id="year">
+<option value="1995">1995</option>
+<option value="1996">1996</option> 
+<option value="1997">1997</option> 
+<option value="1998">1998</option> 
+<option value="1999">1999</option> 
+<option value="2000">2000</option> 
+<option value="2001">2001</option>
+<option value="2002">2002</option> 
+<option value="2003">2003</option> 
+<option value="2004">2004</option> 
+<option value="2005">2005</option> 
+</select><br>
+
+	Gender      : <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="other"> Other<br>  
+
+	Marital sts : <select name="sts" id="sts">
+<option value="single">Single</option>
+<option value="Married">Married</option>
+</select><br>  
+</div> 
+</fieldset>
+</pre>
+<pre>
+<fieldset>
+<legend><strong>Contact Info</strong></legend>
+<div>
+	Permanent Address : <textarea rows = "3" cols = "25" name = "addr-l1" id="al1"required></textarea>	Contact Address : <textarea rows = "3" cols = "25" name = "addr-l2" id="al2"required></textarea>
+
+	City          	  : <input type="text" name="city" id="city"required/>				 
+
+	State             : <input type="text" name="state" id="state"required/> 
+	
+	Mail-id           : <input type="email" name="mail" id="mail"required/>
+
+	Mobile-no         : <input type="number" name="mob" id="mob"required/>
+
+</div>
+</fieldset>
+</pre>
+<pre>
+<fieldset>
+<legend align="center"><strong>QUESTION!!!</strong></legend>
+<div>
+                 <i>Which is your favourite animation movie ? 
+						             <i>Select here ,</i> 
+								                 <select name="movie" id="movie">
+<option value="Rapunzel">Rapunzel</option>
+<option value="PeterPan">Peter Pan</option>
+<option value="Tinker Bell">Tinker Bell</option>
+<option value="Elsa">Elsa</option>
+<option value="Elsa">none !</option>
+</select>
+
+</div>
+</fieldset>
+</pre>
+<pre>
+                                                                              <input type="submit" value="submit" onclick="action.html"/>
+</pre>
+</form>
+</body>
+</html>

@@ -1,0 +1,167 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1d1c1b;
+    color: #ddd;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+.white
+{
+    color: #ddd;
+}
+.black
+{
+    color: #1d1c1b;
+}
+.gray
+{
+    color: darkgrey;
+}
+.text-content-part
+{
+    padding-top:25px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:15px;
+
+}
+.words-space
+{
+    margin-right: 10px;
+}
+label
+{
+ margin-right: 15px;
+ margin-left: 15px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+ letter-spacing: 1.5px;
+ font-size: 13px;
+ margin-top: 6px;
+}
+.hand
+{
+    cursor:pointer;
+}
+.form-control
+{
+    height: 30px;
+    padding: 0; 
+}
+.btnn-size
+{
+    padding: 5px 45px;
+    background-color:lightgrey;
+    border-color: black;
+    margin-right: 15px;
+}
+.btnn-size :hover
+{
+    border-color: #f6bf01;;  
+}
+.val-space
+{
+    margin-top: 7px;   
+}
+.slidecontainer {
+    width:100%;
+    margin-top: 5px;
+  }  
+  .slider {
+ 
+    width: 90%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  .part-2-btn
+  {
+    padding: 3px 30px;
+    color: #fff;
+    background-color: #fed136;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+  }
+  .part-2-btn:hover
+  {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-right: 0px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .sliders {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .sliders:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;   
+    transition: .4s;
+  }
+  
+  input:checked + .sliders {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .sliders {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .sliders:before {
+   
+    transform: translateX(26px);
+  }
+  
+  .space
+  {
+      margin-right: 35px;
+  }
+  /* Rounded sliders */
+  .sliders.round {
+    border-radius: 34px;
+  }
+  
+  .sliders.round:before {
+    border-radius: 50%;
+  }
+ 

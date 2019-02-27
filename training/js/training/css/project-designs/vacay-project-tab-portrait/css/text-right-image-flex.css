@@ -1,0 +1,41 @@
+           
+            
+.texcontainer-1{
+
+display:flex;
+
+}
+.texcontainer-1 div
+{
+ border:1px solid red;
+}
+.texa:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.texa:hover {
+    background-color: hotpink;
+}
+
+.texi:hover
+{
+ color: hotpink;
+ cursor:pointer;
+}
+.teximage
+{
+    width: 524px;
+    padding-left: 40px;
+}
+.texcontent
+{
+    padding-left: 40;
+    width: 545px;
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+flex-container::before {
+  content: "";
+}
+
+flex-container::after {
+  content: "";
+}
+
+/* non-essential decorative styles */
+flex-container {
+  padding: 5px 0;
+  background-color: lightyellow;
+  border: 1px solid #aaa;
+}
+flex-item {
+  height: 50px;
+  width: 75px;
+  background-color: lightgreen;
+}
+            </style>
+    </head>
+    <body>
+            <flex-container>
+                    <flex-item><img src=""></flex-item>
+                    <flex-item></flex-item>
+                    <flex-item></flex-item>
+                    <flex-item></flex-item>
+                  </flex-container>
+    </body>
+</html>

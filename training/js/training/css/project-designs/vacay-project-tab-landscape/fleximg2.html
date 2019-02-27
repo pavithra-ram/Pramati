@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <style>
+            * {box-sizing: border-box;}
+             .cximage
+            {
+                
+                width:301px;
+                height:299px;
+
+            }
+            .cximg-container{
+                display:block;
+                /*flex-direction: column;*/
+                justify-content: space-around;
+                align-content: center;
+                margin-top:100px;
+                
+            }
+            
+            .cxoverlay {
+                position: absolute;
+    /* bottom: 50px; */
+    top: 244px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #c01313;
+    width: 100%;
+
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 301px;
+   margin-left: -301px;
+}
+
+
+
+ .cximg-container:hover .cxoverlay {
+  opacity: 1;
+}
+
+        </style>
+    </head>
+    <body>
+    
+    <div class="">
+        <div> 
+            <img src="images/image1.jpg" alt="images" class="cximage">
+        
+            <span class="cxoverlay">My Name is John</span> 
+        </div>
+         </div>
+        </body>
+        </html>

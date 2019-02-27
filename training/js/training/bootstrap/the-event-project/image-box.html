@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style>
+.content-icons
+ {
+  color:white;
+  height: 30px;
+  cursor:pointer;
+  letter-spacing:1px;
+ }
+ 
+ .content-icons:hover
+ {
+  color:#F82249;
+  
+ }
+.content-container {
+  position: relative;
+  width: 50%;
+}
+
+.content-image {
+  display: block;
+  width: 350px;
+  height: 265px;
+
+}
+
+.content-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(6, 12, 34, 0.76);
+  overflow: hidden;
+  width: 350px;
+  height: 73px;
+  transition: .5s ease;
+}
+
+.content-container:hover .content-overlay {
+  height: 135px;
+}
+
+.content-text {
+  color: white;
+  /*font-size: 20px;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content-h3
+{
+    line-height: 1.2;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+    padding-bottom: -65px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.content-h3:hover
+{
+    color:#F82249;
+}
+.content-i
+{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+    padding: 0;
+    /* margin: -57px 0 10px 0; */
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: -4px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="content-container">
+  <img src="image/branden.jpg" alt="Avatar" class="content-image">
+  <div class="content-overlay">
+    <div class="content-text">
+        <h3 class="content-h3">Brenden Legros</h3>
+        <p class="content-i">Quas alias incidunt</p>
+       
+<i class="fa fa-twitter content-icons "></i>
+<i class="fa fa-facebook content-icons"></i>
+<i class="fa fa-google-plus content-icons"></i>
+<i class="fa fa-linkedin content-icons"></i>
+
+    </div>
+</div>
+</div>
+
+</body>
+</html>

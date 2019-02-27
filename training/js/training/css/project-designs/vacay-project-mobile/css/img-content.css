@@ -1,0 +1,128 @@
+.ittable
+            {
+                width:80%;
+                display:table
+            }
+            
+            .itimgs{
+                width:225px;
+                height:200px;
+                display:table-cell
+            }
+            .ita:link {
+    background-color:white;
+    color: black;
+    border:1px solid black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.ita:hover {
+    background-color: hotpink;
+}
+* {
+    box-sizing: border-box;
+}
+
+.itbody {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Create three unequal columns that floats next to each other */
+.itcolumn {
+    float: left;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.itside {
+    width: 50%;
+}
+
+/* Middle column */
+.itmiddle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.itrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.itstyle
+{
+    display: table-row;
+}
+.itstyle2
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.itstyle3
+{
+    sdisplay: table-cell; 
+    vertical-align: middle;
+}
+.itstyle4
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.itstyle5
+{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.bt2b1
+{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    height:80px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: 25px 25px -35px;
+    border-radius:6%;    
+}
+.bt2b2
+{
+    background-color: red;
+    color:white;
+    width: 1200px;
+    height:40px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px 25px -10px;
+    border-radius:6%;    
+}
+
+.bt2img {
+  border-radius: 50%;
+  margin-top:-40px;
+  margin-left:20px;
+  width:75px;
+  height:75px;
+  padding-bottom:5px;
+}
+.bt2h2
+{
+   color:white;
+   margin-left:120px;
+   margin-top:-70px;
+}
+.bt2h4
+{
+  position: absolute;
+  margin-top:-10px;
+  margin-left:155px;
+}
+.bt2table
+{
+  margin-top:150px;
+}
+
+

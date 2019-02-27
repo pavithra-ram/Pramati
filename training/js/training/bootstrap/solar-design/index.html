@@ -1,0 +1,119 @@
+<html>
+    <head>
+       <title>SOLAR PROJECT</title> 
+       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,900" rel="stylesheet">   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+       <link href="css/reset.css" rel="stylesheet">
+       <link href="css/main.css" rel="stylesheet">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+       <div class="text-content-part">
+              <div class="d-flex justify-content-between">                     
+                    <div class="d-flex">
+                            <div> <label>ALGORITHM&nbsp;:</label></div>
+                            <div class="dropdown">
+                             <button type="button" class="btn btnn-size" data-toggle="dropdown">
+                                  <i> Select Here</i>
+                             </button>
+                              <div class="dropdown-menu dropdown-menu-right">
+                             <a class="dropdown-item hand">STC</a>
+                             <a class="dropdown-item hand">LINGO</a>
+                             <a class="dropdown-item hand">KMEANS</a>
+                              </div>
+                              </div>          
+                     </div>   
+
+                    <div class="d-flex"> 
+                            <div><label>MaxCluster</label></div>
+                            <div class="slidecontainer">
+                                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+                           <div class="val-space"><p><span id="demo"></span></p></div>
+                    </div>
+                    
+                        <form action="">
+                           <div class="form-group d-flex">
+                                <div><label for="">PAT_IDS&nbsp;:</label></div>
+                                 <div><input type="text" class="form-control" id="" name=""></div>
+                               </div>  
+                        </form>
+                        <form action="">
+                                <div class="form-group d-flex">
+                                     <div><label for="">PORTFOLIO_IDS&nbsp;:</label></div>
+                                      <div><input type="text" class="form-control" id="" name=""></div>
+                                    </div>  
+                             </form>
+                    
+                    
+      </div>
+
+     
+      <div class="">
+            <form action="">
+                <div class="d-flex justify-content-between">                       
+                      <div class="form-group d-flex">                    
+                             <div><label for=""> QUERY&nbsp;:</label></div>
+                              <div><input type="text" class="form-control" id="" name="" size=60></div>
+                       </div>
+                  <div class="form-group d-flex">
+                   <div><label for="">SNIPPET&nbsp;:</label></div>
+                    <div><input type="text" class="form-control" id="" name="" size=60></div>
+                  </div>   
+                </div>   
+            </form>      
+       </div>          
+
+      <div class="d-flex  justify-content-between ">
+            <div class="d-flex">
+                    <div><label>FOAM TREE : </label></div>
+                    <div>   
+                        <label class="switch">                      
+                           <input type="checkbox" checked>
+                                  <span class="sliders round"></span>
+                        </label>
+                    </div>
+                  </div>
+            <div>   
+            <form action="">
+               
+                         <div class="form-check">
+                                 <label class="form-check-label" for="">
+                                   <input type="checkbox" class="form-check-input" id="" name="" value="something" checked> Include Abstract
+                                 </label>
+                         </div>
+             </form>
+             </div>
+             <div>
+             <form action="">
+             <div class="form-group d-flex">                    
+                            <div><label for="">Max words per label : </label></div>
+                             <div><input type="text" class="form-control" id="" name="" size=5></div>
+                 </div>                                
+               </form>
+             </div>
+             <form action="">
+                    <div class="form-group d-flex">
+                            <div><label for="">ROW&nbsp;:</label></div>
+                             <div><input type="text" class="form-control" id="" name="" size=6></div>
+                           </div>
+                        </form>
+             <div> <button type="button" class="btn part-2-btn mb-5">VISUALIZE</button> </div>
+      </div>
+
+         
+      </div>
+      <script>
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+      
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      }
+      </script>
+    </body>
+</html>

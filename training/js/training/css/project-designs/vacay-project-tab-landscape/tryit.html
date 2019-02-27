@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+.ttmaincontainer
+{
+  display:flex;
+  justify-content:space-evenly;
+}
+.ttcontainer {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.ttimage {
+    display: block;
+    width: 300px;
+    height: 298px;
+    opacity:1;
+}
+.ttcontainer:hover .ttimage {
+  opacity: 0.2;
+}
+.ttoverlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.ttcontainer:hover .ttoverlay {
+  opacity: 1;
+}
+.tticoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  
+}
+
+.ttcontainer:hover .tticoverlay {
+  opacity: 1;
+}
+
+.tticon {
+  color: rgba(2, 2, 2, 0.5);
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   cursor:pointer;
+  text-align: center;
+  
+}
+</style>
+</head>
+<body>
+<div class="ttmaincontainer">
+<div class="ttcontainer">
+  <img src="images/image33.jpg" alt="Avatar" class="ttimage">
+  <div class="ttoverlay">WORKOUT</div>
+  <span class="tticoverlay">
+  <i class="fa fa-search tticon"></i></span>
+</div>
+<div class="ttcontainer">
+    <img src="images/image11.jpg" alt="Avatar" class="ttimage">
+    <div class="ttoverlay">SITE</div>
+    <span class="tticoverlay">
+    <i class="fa fa-search tticon"></i></span>
+  </div>
+  <div class="ttcontainer">
+      <img src="images/image22.jpeg" alt="Avatar" class="ttimage">
+      <div class="ttoverlay">DINING</div>
+      <span class="tticoverlay">
+      <i class="fa fa-search tticon"></i></span>
+    </div>
+    <div class="ttcontainer">
+        <img src="images/image44.jpg" alt="Avatar" class="ttimage">
+        <div class="ttoverlay">FOOD</div>
+        <span class="tticoverlay">
+        <i class="fa fa-search tticon"></i></span>
+      </div>
+    </div>
+</body>
+</html>
